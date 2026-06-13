@@ -6,6 +6,15 @@ This document list all patchs from previous sets added to this repository. For p
 ## List of all patchs added from previous sets
 The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Here's a list of all patchs included in this repository so far (current set excluded) :
 
+- (June 13th, 2026) 16.8
+- (June 13th, 2026) 16.7
+- (June 13th, 2026) 16.6
+- (June 13th, 2026) 16.5
+- (June 13th, 2026) 16.4
+- (June 13th, 2026) 16.3
+- (June 13th, 2026) 16.2
+- (June 13th, 2026) 16.1 - Set 16 (Lore & Legends)
+
 - (June 13th, 2026) 15.23
 - (June 13th, 2026) 15.22
 - (June 13th, 2026) 15.21
