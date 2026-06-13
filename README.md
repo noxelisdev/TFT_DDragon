@@ -15,12 +15,19 @@ This repository contains some additional files, not included in Data Dragon :
 - Icons of all turbo badges (used for _Hyper Roll_ game mode)
 - Icons of all _Double Up_ badges (used for _Double Up_ game mode)
 
-## Patchs added to this repository for the current season
-This list contains patchs from actual season. For all previous patchs of all previous seasons, you can check [OLDPATCHS.md](OLDPATCHS.md).
+## Patchs added to this repository for the current set
+This list contains patchs from actual set. For all previous patchs of all previous sets, you can check [OLDPATCHS.md](OLDPATCHS.md).
 
-The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Corresponding sets releases will be explicitly written next to the patch number. Here's a list of all patchs of current seasons included in this repository :
+The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Corresponding sets releases will be explicitly written next to the patch number. Here's a list of all patchs of current sets included in this repository :
 
+- (June 13th, 2026) 13.3
 - (June 13th, 2026) 13.1
+
+## Missing patchs for the current set
+Some patchs wasn't added to this repository, during this set, for various reasons :
+
+- 13.2 : this patch was replaced by a hotfix (13.1B) after Riot hack, and don't exist at all
+- 13.1B : _Data Dragon_ never released by Riot Games for this patch
 
 ## Note about Sets 6 and 7
 Set 6 has been added with some assets available on the [Set 6 Promo Assets Page](https://express.adobe.com/page/ficXgtBZ0f3xd/) (published by _Riot Games_) or/and on [_CommunityDragon_](https://raw.communitydragon.org/latest/cdragon/tft/). Set 7 used the same process, but only with _CommunityDragon_.
