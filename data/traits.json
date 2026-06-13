@@ -1,671 +1,353 @@
-[
-    {
-        "key": "Set7_Cannoneer",
-        "name": "Cannoneer",
-        "description": "Every 5th attack fires a cannon shot that explodes for physical damage around the target.\u003Cbr\u003E\u003Cbr\u003E\u003CexpandRow\u003E(@MinUnits@) @AttackPercent*100@% Attack Damage\u003C\/expandRow\u003E",
-        "type": "class",
-        "sets": [
-            {
-                "style": "bronze",
-                "min": 2,
-                "max": 2
-            },
-            {
-                "style": "silver",
-                "min": 3,
-                "max": 3
-            },
-            {
-                "style": "gold",
-                "min": 4,
-                "max": 4
-            },
-            {
-                "style": "chromatic",
-                "min": 5,
-                "max": 25000
-            }
-        ]
-    },
-    {
-        "key": "Set7_Tempest",
-        "name": "Tempest",
-        "description": "After @DelayTime@ seconds, lightning strikes the battlefield. Enemies are stunned for @StunDuration@ second and take a percent of their maximum Health as true damage. Then, Tempest champions gain Attack Speed.\u003Cbr\u003E\u003Cbr\u003E\u003CexpandRow\u003E(@MinUnits@) @PercentHealthDamage@% damage, @AttackSpeed*100@% Attack Speed\u003C\/expandRow\u003E",
-        "type": "origin",
-        "sets": [
-            {
-                "style": "bronze",
-                "min": 2,
-                "max": 3
-            },
-            {
-                "style": "silver",
-                "min": 4,
-                "max": 5
-            },
-            {
-                "style": "gold",
-                "min": 6,
-                "max": 7
-            },
-            {
-                "style": "chromatic",
-                "min": 8,
-                "max": 25000
-            }
-        ]
-    },
-    {
-        "key": "Set7_Assassin",
-        "name": "Assassin",
-        "description": "Innate: Leap to the enemy backline when combat starts.\u003Cbr\u003E\u003Cbr\u003EAssassins\u0027 Abilities can critically strike and they gain bonus Critical Strike Chance and bonus Critical Strike Damage.\u003Cbr\u003E\u003Cbr\u003E\u003CexpandRow\u003E(@MinUnits@) +@CritChanceAmpPercent@% Crit Chance and +@CritAmpPercent@% Crit Damage\u003C\/expandRow\u003E",
-        "type": "class",
-        "sets": [
-            {
-                "style": "bronze",
-                "min": 2,
-                "max": 3
-            },
-            {
-                "style": "gold",
-                "min": 4,
-                "max": 5
-            },
-            {
-                "style": "chromatic",
-                "min": 6,
-                "max": 25000
-            }
-        ]
-    },
-    {
-        "key": "Set7_Dragon",
-        "name": "Dragon",
-        "description": "Innate: Require 2 team slots. \u003Cbr\u003E\u003Cbr\u003E(@MinUnits@) Dragons provide +3 to the marked trait, and gain @BonusHealth@ bonus Health. This is only active with exactly 1 Dragon champion.",
-        "type": "origin",
-        "sets": [
-            {
-                "style": "gold",
-                "min": 1,
-                "max": 1
-            },
-            {
-                "style": "chromatic",
-                "min": 1,
-                "max": 25000
-            }
-        ]
-    },
-    {
-        "key": "Set7_Ragewing",
-        "name": "Ragewing",
-        "description": "Innate: Convert Mana to Rage; attacks generate 15 Rage. After casting an Ability, enrage for 4 seconds: +25% Attack Speed but can\u0027t gain Rage.\u003Cbr\u003E\u003Cbr\u003EGain bonus stats when enraged:\u003Cbr\u003E\u003Cbr\u003E\u003Crow\u003E(@MinUnits@) +@AttackSpeedPercent@% Attack Speed and +@Omnivamp@% Omnivamp (healing for a percentage of damage dealt)\u003C\/row\u003E\u003Cbr\u003E\u003Crow\u003E(@MinUnits@) +@AttackSpeedPercent@% Attack Speed and +@Omnivamp@% Omnivamp\u003C\/row\u003E\u003Cbr\u003E\u003Crow\u003E(@MinUnits@) +@AttackSpeedPercent@% Attack Speed and +@Omnivamp@% Omnivamp\u003C\/row\u003E",
-        "type": "origin",
-        "sets": [
-            {
-                "style": "bronze",
-                "min": 3,
-                "max": 5
-            },
-            {
-                "style": "silver",
-                "min": 6,
-                "max": 8
-            },
-            {
-                "style": "gold",
-                "min": 9,
-                "max": 25000
-            }
-        ]
-    },
-    {
-        "key": "Set7_Guild",
-        "name": "Guild",
-        "description": "Grant a unique bonus to your team; Guild members gain double the amount. Increases for each Guild member in play!\u003Cbr\u003E\u003Cbr\u003E\u003CTFTGuildActive enabled=TFT7_Trait_Guild_ActiveSejuani alternate=TFTGuildInactive\u003ESejuani: +@SejuaniBonus@ Health\u003C\/TFTGuildActive\u003E\u003Cbr\u003E\u003CTFTGuildActive enabled=TFT7_Trait_Guild_ActiveTwitch alternate=TFTGuildInactive\u003ETwitch: +@TwitchBonus*100@% Attack Speed\u003C\/TFTGuildActive\u003E\u003Cbr\u003E\u003CTFTGuildActive enabled=TFT7_Trait_Guild_ActiveRyze alternate=TFTGuildInactive\u003ERyze: +@RyzeBonus@ Ability Power\u003C\/TFTGuildActive\u003E\u003Cbr\u003E\u003CTFTGuildActive enabled=TFT7_Trait_Guild_ActiveTalon alternate=TFTGuildInactive\u003ETalon: +@TalonBonus@ Attack Damage\u003C\/TFTGuildActive\u003E\u003Cbr\u003E\u003CTFTGuildActive enabled=TFT7_Trait_Guild_ActiveBard alternate=TFTGuildInactive\u003EBard: +@BardBonus@ Mana per attack\u003C\/TFTGuildActive\u003E\u003Cbr\u003E\u003CTFTGuildActive enabled=TFT7_Trait_Guild_ActiveEmblem alternate=TFTGuildInactive\u003EEmblem: +@EmblemBonus*100@% Omnivamp\u003C\/TFTGuildActive\u003E\u003Cbr\u003E\u003Cbr\u003E\u003CexpandRow\u003E(@MinUnits@) @TooltipMultiplier@% Guild bonus\u003C\/expandRow\u003E",
-        "type": "origin",
-        "sets": [
-            {
-                "style": "bronze",
-                "min": 1,
-                "max": 1
-            },
-            {
-                "style": "bronze",
-                "min": 2,
-                "max": 2
-            },
-            {
-                "style": "silver",
-                "min": 3,
-                "max": 3
-            },
-            {
-                "style": "silver",
-                "min": 4,
-                "max": 4
-            },
-            {
-                "style": "gold",
-                "min": 5,
-                "max": 5
-            },
-            {
-                "style": "chromatic",
-                "min": 6,
-                "max": 6
-            },
-            {
-                "style": "chromatic",
-                "min": 7,
-                "max": 25000
-            }
-        ]
-    },
-    {
-        "key": "Set7_Cavalier",
-        "name": "Cavalier",
-        "description": "Innate: Charge quickly towards their target whenever they move.\u003Cbr\u003E\u003Cbr\u003ECavaliers gain Armor and Magic Resist. At the start of combat and after each charge, gain @ChargeIncreasePct@% the amount for @Duration@ seconds. \u003Cbr\u003E\u003Cbr\u003E\u003CexpandRow\u003E(@MinUnits@) @Armor@ Armor, @MagicResist@ Magic Resist\u003C\/expandRow\u003E",
-        "type": "class",
-        "sets": [
-            {
-                "style": "bronze",
-                "min": 2,
-                "max": 2
-            },
-            {
-                "style": "silver",
-                "min": 3,
-                "max": 3
-            },
-            {
-                "style": "gold",
-                "min": 4,
-                "max": 4
-            },
-            {
-                "style": "chromatic",
-                "min": 5,
-                "max": 25000
-            }
-        ]
-    },
-    {
-        "key": "Set7_Mage",
-        "name": "Mage",
-        "description": "Mages cast twice and have modified total Ability Power.\u003Cbr\u003E\u003Cbr\u003E\u003CexpandRow\u003E(@MinUnits@) @APMultiplier*100@% Ability Power\u003C\/expandRow\u003E",
-        "type": "class",
-        "sets": [
-            {
-                "style": "bronze",
-                "min": 3,
-                "max": 4
-            },
-            {
-                "style": "silver",
-                "min": 5,
-                "max": 6
-            },
-            {
-                "style": "gold",
-                "min": 7,
-                "max": 8
-            },
-            {
-                "style": "chromatic",
-                "min": 9,
-                "max": 25000
-            }
-        ]
-    },
-    {
-        "key": "Set7_Evoker",
-        "name": "Evoker",
-        "description": "Evokers gain Mana whenever an ally or enemy casts an Ability.\u003Cbr\u003E\u003Cbr\u003E\u003CexpandRow\u003E(@MinUnits@) @ManaAmount@ Mana\u003C\/expandRow\u003E",
-        "type": "class",
-        "sets": [
-            {
-                "style": "bronze",
-                "min": 2,
-                "max": 3
-            },
-            {
-                "style": "gold",
-                "min": 4,
-                "max": 5
-            },
-            {
-                "style": "chromatic",
-                "min": 6,
-                "max": 25000
-            }
-        ]
-    },
-    {
-        "key": "Set7_Shimmerscale",
-        "name": "Shimmerscale",
-        "description": "Grant exclusive random Shimmerscale items.\u003Cbr\u003E\u003Cbr\u003E\u003Crow\u003E(@MinUnits@) @NumItems@ unique item\u003C\/row\u003E\u003Cbr\u003E\u003Crow\u003E(@MinUnits@) @NumItems@ unique items\u003C\/row\u003E\u003Cbr\u003E\u003Crow\u003E(@MinUnits@) @NumItems@ unique items\u003C\/row\u003E\u003Cbr\u003E\u003Crow\u003E(@MinUnits@) @NumItems@ unique items, which includes Crown of Champions\u003C\/row\u003E\u003Cbr\u003E\u003Cbr\u003E\u003Ctftitemrules\u003EYou can remove Shimmerscale items by benching the holder.\u003C\/tftitemrules\u003E",
-        "type": "origin",
-        "sets": [
-            {
-                "style": "bronze",
-                "min": 3,
-                "max": 4
-            },
-            {
-                "style": "silver",
-                "min": 5,
-                "max": 6
-            },
-            {
-                "style": "gold",
-                "min": 7,
-                "max": 8
-            },
-            {
-                "style": "chromatic",
-                "min": 9,
-                "max": 25000
-            }
-        ]
-    },
-    {
-        "key": "Set7_Dragonmancer",
-        "name": "Dragonmancer",
-        "description": "Use the Dragonmancer Blessing item to choose a Hero. The Hero gains massively increased Health and Ability Power, which increases by @StatIncreasePercent@% per star level of your Dragonmancers.\u003Cbr\u003E\u003Cbr\u003E\u003CexpandRow\u003E(@MinUnits@) +@BonusHealth@ Health, +@BonusAP@ Ability Power \u003C\/expandRow\u003E",
-        "type": "class",
-        "sets": [
-            {
-                "style": "bronze",
-                "min": 3,
-                "max": 5
-            },
-            {
-                "style": "gold",
-                "min": 6,
-                "max": 8
-            },
-            {
-                "style": "chromatic",
-                "min": 9,
-                "max": 25000
-            }
-        ]
-    },
-    {
-        "key": "Set7_Scalescorn",
-        "name": "Scalescorn",
-        "description": "Scalescorns take @PercentDamageReduction@% reduced damage from enemies with more than @HealthThreshold@ Health. If you don\u0027t have a Dragon on your team, they also deal a percent of their damage as additional magic damage.\u003Cbr\u003E\u003Cbr\u003E\u003CexpandRow\u003E(@MinUnits@) @PercentBonusDamage@% magic damage\u003C\/expandRow\u003E",
-        "type": "origin",
-        "sets": [
-            {
-                "style": "bronze",
-                "min": 2,
-                "max": 3
-            },
-            {
-                "style": "gold",
-                "min": 4,
-                "max": 5
-            },
-            {
-                "style": "chromatic",
-                "min": 6,
-                "max": 25000
-            }
-        ]
-    },
-    {
-        "key": "Set7_Whispers",
-        "name": "Whispers",
-        "description": "Whispers damage shrinks enemies, reducing their Armor and Magic Resist by 40% for @Duration@ seconds.\u003Cbr\u003EWhen they damage a shrunken enemy, Whispers gain stacking bonuses:\u003Cbr\u003E\u003Cbr\u003E\u003CexpandRow\u003E(@MinUnits@) +@ADandAP@ Attack Damage and Ability Power\u003C\/expandRow\u003E",
-        "type": "origin",
-        "sets": [
-            {
-                "style": "bronze",
-                "min": 2,
-                "max": 3
-            },
-            {
-                "style": "silver",
-                "min": 4,
-                "max": 5
-            },
-            {
-                "style": "gold",
-                "min": 6,
-                "max": 7
-            },
-            {
-                "style": "chromatic",
-                "min": 8,
-                "max": 25000
-            }
-        ]
-    },
-    {
-        "key": "Set7_Revel",
-        "name": "Revel",
-        "description": "After dealing damage with an Ability, launch a firecracker that deals magic damage to a random enemy.\u003Cbr\u003E\u003Cbr\u003E\u003CexpandRow\u003E(@MinUnits@) @MagicDamage@ magic damage\u003C\/expandRow\u003E",
-        "type": "origin",
-        "sets": [
-            {
-                "style": "bronze",
-                "min": 2,
-                "max": 2
-            },
-            {
-                "style": "silver",
-                "min": 3,
-                "max": 3
-            },
-            {
-                "style": "gold",
-                "min": 4,
-                "max": 4
-            },
-            {
-                "style": "chromatic",
-                "min": 5,
-                "max": 25000
-            }
-        ]
-    },
-    {
-        "key": "Set7_Mirage",
-        "name": "Mirage",
-        "description": "Mirage champions gain a different Trait bonus from game to game.",
-        "type": "origin",
-        "sets": [
-            {
-                "style": "bronze",
-                "min": 2,
-                "max": 3
-            },
-            {
-                "style": "silver",
-                "min": 4,
-                "max": 5
-            },
-            {
-                "style": "gold",
-                "min": 6,
-                "max": 7
-            },
-            {
-                "style": "chromatic",
-                "min": 8,
-                "max": 25000
-            }
-        ]
-    },
-    {
-        "key": "Set7_Trainer",
-        "name": "Trainer",
-        "description": "After combat, each Trainer feeds 1 Snax per star level to Nomsy, adding Health and Ability Power. Nomsy\u0027s star level increases every 25 Snax!\u003Cbr\u003E\u003Cbr\u003E\u003Crow\u003E(@MinUnits@) Summon Nomsy!\u003C\/row\u003E\u003Cbr\u003E\u003Crow\u003E(@MinUnits@) Nomsy\u0027s Ability deals 100% more damage\u003C\/row\u003E",
-        "type": "origin",
-        "sets": [
-            {
-                "style": "bronze",
-                "min": 2,
-                "max": 2
-            },
-            {
-                "style": "gold",
-                "min": 3,
-                "max": 25000
-            }
-        ]
-    },
-    {
-        "key": "Set7_Mystic",
-        "name": "Mystic",
-        "description": "Your team gains Magic Resist. \u003Cbr\u003E\u003Cbr\u003E\u003CexpandRow\u003E(@MinUnits@) @MagicResist@ Magic Resist\u003C\/expandRow\u003E",
-        "type": "class",
-        "sets": [
-            {
-                "style": "bronze",
-                "min": 2,
-                "max": 2
-            },
-            {
-                "style": "silver",
-                "min": 3,
-                "max": 3
-            },
-            {
-                "style": "gold",
-                "min": 4,
-                "max": 4
-            },
-            {
-                "style": "chromatic",
-                "min": 5,
-                "max": 25000
-            }
-        ]
-    },
-    {
-        "key": "Set7_Legend",
-        "name": "Legend",
-        "description": "(3) Each combat: An adjacent ally champion sacrifices their life to the Legend, which gains @StatPercent@% of their Health, Armor, and Magic Resistance, plus @APPercent@% of their Ability Power.",
-        "type": "class",
-        "sets": [
-            {
-                "style": "gold",
-                "min": 3,
-                "max": 25000
-            }
-        ]
-    },
-    {
-        "key": "Set7_Guardian",
-        "name": "Guardian",
-        "description": "Once per combat at @HealthThreshold@% Health, Guardians shield themselves and their closest ally for a percent of their maximum Health. Shields stack!\u003Cbr\u003E\u003Cbr\u003E\u003CexpandRow\u003E (@MinUnits@) @ShieldPercentAmount@% of max health shield\u003C\/expandRow\u003E",
-        "type": "class",
-        "sets": [
-            {
-                "style": "bronze",
-                "min": 2,
-                "max": 3
-            },
-            {
-                "style": "gold",
-                "min": 4,
-                "max": 5
-            },
-            {
-                "style": "chromatic",
-                "min": 6,
-                "max": 25000
-            }
-        ]
-    },
-    {
-        "key": "Set7_Starcaller",
-        "name": "Starcaller",
-        "description": "(@MinUnits@) The first Starcaller to cast their Ability during player combat heals you for (@Tier1Heal@\/@Tier2Heal@\/@Tier3Heal@), depending on their star level. Excess healing disintegrates an enemy champion.",
-        "type": "origin",
-        "sets": [
-            {
-                "style": "gold",
-                "min": 1,
-                "max": 25000
-            }
-        ]
-    },
-    {
-        "key": "Set7_SpellThief",
-        "name": "Spell Thief",
-        "description": "(@MinUnits@) Zoe nabs a new Ability after each cast and at the start of every round.",
-        "type": "origin",
-        "sets": [
-            {
-                "style": "gold",
-                "min": 1,
-                "max": 25000
-            }
-        ]
-    },
-    {
-        "key": "Set7_Warrior",
-        "name": "Warrior",
-        "description": "Warrior attacks have a @ProcChance@% chance to increase the damage of their next attack.\u003Cbr\u003E\u003Cbr\u003E\u003CexpandRow\u003E(@MinUnits@) +@PercentDamage@% damage\u003C\/expandRow\u003E",
-        "type": "class",
-        "sets": [
-            {
-                "style": "bronze",
-                "min": 2,
-                "max": 3
-            },
-            {
-                "style": "gold",
-                "min": 4,
-                "max": 5
-            },
-            {
-                "style": "chromatic",
-                "min": 6,
-                "max": 25000
-            }
-        ]
-    },
-    {
-        "key": "Set7_Jade",
-        "name": "Jade",
-        "description": "Summon movable Jade Statues that grow in power. \u003Cbr\u003E\u003Cbr\u003EEach combat, allies who start combat adjacent to a statue gain maximum Health healing every @Interval@ seconds and bonus Attack Speed. When a statue is destroyed, it deals @PercentHealth@% of its Health as magic damage to nearby enemies.\u003Cbr\u003E\u003Cbr\u003E\u003Crow\u003E(@MinUnits@) 1 statue, +@HealthRegen@% healing, +@AttackSpeed*100@% Attack Speed\u003C\/row\u003E\u003Cbr\u003E\u003Crow\u003E(@MinUnits@) 2 statues, +@HealthRegen@% healing, +@AttackSpeed*100@% Attack Speed\u003C\/row\u003E\u003Cbr\u003E\u003Crow\u003E(@MinUnits@) 3 statues, +@HealthRegen@% healing, +@AttackSpeed*100@% Attack Speed\u003C\/row\u003E\u003Cbr\u003E\u003Crow\u003E(@MinUnits@) 4 statues, +@HealthRegen@% healing, +@AttackSpeed*100@% Attack Speed\u003C\/row\u003E",
-        "type": "origin",
-        "sets": [
-            {
-                "style": "bronze",
-                "min": 3,
-                "max": 5
-            },
-            {
-                "style": "silver",
-                "min": 6,
-                "max": 8
-            },
-            {
-                "style": "gold",
-                "min": 9,
-                "max": 11
-            },
-            {
-                "style": "chromatic",
-                "min": 12,
-                "max": 25000
-            }
-        ]
-    },
-    {
-        "key": "Set7_Astral",
-        "name": "Astral",
-        "description": "After you\u0027ve fielded an Astral team, every 5th shop has increased odds to show Astral champions, and grants a bonus Astral Orb. The orb\u0027s value comes from the Astral Trait tier you last fielded.\u003Cbr\u003EYour team gains bonus Ability Power. \u003Cbr\u003E\u003Cbr\u003E\u003Crow\u003E(@MinUnits@) @AbilityPower@ Ability Power\u003C\/row\u003E\u003Cbr\u003E\u003Crow\u003E(@MinUnits@) @AbilityPower@ Ability Power; orb value increases\u003C\/row\u003E\u003Cbr\u003E\u003Crow\u003E(@MinUnits@) @AbilityPower@ Ability Power; orbs may contain components\u003C\/row\u003E",
-        "type": "origin",
-        "sets": [
-            {
-                "style": "bronze",
-                "min": 3,
-                "max": 5
-            },
-            {
-                "style": "silver",
-                "min": 6,
-                "max": 8
-            },
-            {
-                "style": "gold",
-                "min": 9,
-                "max": 25000
-            }
-        ]
-    },
-    {
-        "key": "Set7_Swiftshot",
-        "name": "Swiftshot",
-        "description": "Innate: gain 2 hex Attack Range.\u003Cbr\u003E\u003Cbr\u003ESwiftshots gain Attack Speed for each hex between themselves and their target.\u003Cbr\u003E\u003Cbr\u003E\u003CexpandRow\u003E(@MinUnits@) @BonusAS@% Attack Speed\u003C\/expandRow\u003E",
-        "type": "class",
-        "sets": [
-            {
-                "style": "bronze",
-                "min": 2,
-                "max": 3
-            },
-            {
-                "style": "gold",
-                "min": 4,
-                "max": 5
-            },
-            {
-                "style": "chromatic",
-                "min": 6,
-                "max": 999
-            }
-        ]
-    },
-    {
-        "key": "Set7_Bard",
-        "name": "Bard",
-        "description": "(@MinUnits@) Allies that survive player combat have a @DropChancePercent@% chance to create a Doot. Bard always creates a Doot when dancing.\u003Cbr\u003E\u003Cbr\u003EEach Doot you collect increases your Shop odds for higher-tier champions by 1%. ",
-        "type": "class",
-        "sets": [
-            {
-                "style": "gold",
-                "min": 1,
-                "max": 25000
-            }
-        ]
-    },
-    {
-        "key": "Set7_Bruiser",
-        "name": "Bruiser",
-        "description": "Your team gains bonus maximum Health. Bruisers gain double this bonus.\u003Cbr\u003E\u003Cbr\u003E\u003CexpandRow\u003E(@MinUnits@) @BonusHealth@ Health\u003C\/expandRow\u003E",
-        "type": "class",
-        "sets": [
-            {
-                "style": "bronze",
-                "min": 2,
-                "max": 3
-            },
-            {
-                "style": "silver",
-                "min": 4,
-                "max": 5
-            },
-            {
-                "style": "silver",
-                "min": 6,
-                "max": 7
-            },
-            {
-                "style": "gold",
-                "min": 8,
-                "max": 25000
-            }
-        ]
-    },
-    {
-        "key": "Set7_Shapeshifter",
-        "name": "Shapeshifter",
-        "description": "Transforming grants bonus maximum Health.\u003Cbr\u003E\u003Cbr\u003E\u003CexpandRow\u003E(@MinUnits@) @HPPercent@% bonus Health\u003C\/expandRow\u003E",
-        "type": "class",
-        "sets": [
-            {
-                "style": "bronze",
-                "min": 2,
-                "max": 3
-            },
-            {
-                "style": "silver",
-                "min": 4,
-                "max": 5
-            },
-            {
-                "style": "gold",
-                "min": 6,
-                "max": 25000
-            }
-        ]
-    }
-]
+{
+	"Set8_Ace": {
+		"id": "Set8_Ace",
+		"name": "Ace",
+		"image": {
+			"full": "Trait_Icon_8_Ace.png",
+			"sprite": "tft-trait0.png",
+			"group": "tft-trait",
+			"x": 0,
+			"y": 0,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"Set8_Admin": {
+		"id": "Set8_Admin",
+		"name": "A.D.M.I.N.",
+		"image": {
+			"full": "Trait_Icon_8_ADMIN.png",
+			"sprite": "tft-trait0.png",
+			"group": "tft-trait",
+			"x": 48,
+			"y": 0,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"Set8_Aegis": {
+		"id": "Set8_Aegis",
+		"name": "Aegis",
+		"image": {
+			"full": "Trait_Icon_8_Aegis.png",
+			"sprite": "tft-trait0.png",
+			"group": "tft-trait",
+			"x": 288,
+			"y": 96,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"Set8_AnimaSquad": {
+		"id": "Set8_AnimaSquad",
+		"name": "Anima Squad",
+		"image": {
+			"full": "Trait_Icon_8_AnimaSquad.png",
+			"sprite": "tft-trait0.png",
+			"group": "tft-trait",
+			"x": 96,
+			"y": 0,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"Set8_Arsenal": {
+		"id": "Set8_Arsenal",
+		"name": "Arsenal",
+		"image": {
+			"full": "Trait_Icon_8_Arsenal.png",
+			"sprite": "tft-trait0.png",
+			"group": "tft-trait",
+			"x": 240,
+			"y": 96,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"Set8_Brawler": {
+		"id": "Set8_Brawler",
+		"name": "Brawler",
+		"image": {
+			"full": "Trait_Icon_3_Brawler.png",
+			"sprite": "tft-trait0.png",
+			"group": "tft-trait",
+			"x": 288,
+			"y": 48,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"Set8_Channeler": {
+		"id": "Set8_Channeler",
+		"name": "Spellslinger",
+		"image": {
+			"full": "Trait_Icon_8_Spellslinger.png",
+			"sprite": "tft-trait0.png",
+			"group": "tft-trait",
+			"x": 144,
+			"y": 48,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"Set8_Civilian": {
+		"id": "Set8_Civilian",
+		"name": "Civilian",
+		"image": {
+			"full": "Trait_Icon_8_Civilian.png",
+			"sprite": "tft-trait0.png",
+			"group": "tft-trait",
+			"x": 192,
+			"y": 0,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"Set8_Corrupted": {
+		"id": "Set8_Corrupted",
+		"name": "Corrupted",
+		"image": {
+			"full": "Trait_Icon_8_Corrupted.png",
+			"sprite": "tft-trait0.png",
+			"group": "tft-trait",
+			"x": 240,
+			"y": 0,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"Set8_Deadeye": {
+		"id": "Set8_Deadeye",
+		"name": "Sureshot",
+		"image": {
+			"full": "Trait_Icon_8_Sureshot.png",
+			"sprite": "tft-trait0.png",
+			"group": "tft-trait",
+			"x": 0,
+			"y": 48,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"Set8_Defender": {
+		"id": "Set8_Defender",
+		"name": "Defender",
+		"image": {
+			"full": "Trait_Icon_8_Defender.png",
+			"sprite": "tft-trait0.png",
+			"group": "tft-trait",
+			"x": 288,
+			"y": 0,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"Set8_Duelist": {
+		"id": "Set8_Duelist",
+		"name": "Duelist",
+		"image": {
+			"full": "Trait_Icon_4_Duelist.png",
+			"sprite": "tft-trait0.png",
+			"group": "tft-trait",
+			"x": 144,
+			"y": 0,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"Set8_ExoPrime": {
+		"id": "Set8_ExoPrime",
+		"name": "Mecha:PRIME",
+		"image": {
+			"full": "Trait_Icon_8_MechaPrime.png",
+			"sprite": "tft-trait0.png",
+			"group": "tft-trait",
+			"x": 336,
+			"y": 0,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"Set8_Forecaster": {
+		"id": "Set8_Forecaster",
+		"name": "Forecaster",
+		"image": {
+			"full": "Trait_Icon_8_Forecaster.png",
+			"sprite": "tft-trait0.png",
+			"group": "tft-trait",
+			"x": 384,
+			"y": 0,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"Set8_GenAE": {
+		"id": "Set8_GenAE",
+		"name": "Gadgeteen",
+		"image": {
+			"full": "Trait_Icon_8_Gadgeteens.png",
+			"sprite": "tft-trait0.png",
+			"group": "tft-trait",
+			"x": 432,
+			"y": 0,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"Set8_Hacker": {
+		"id": "Set8_Hacker",
+		"name": "Hacker",
+		"image": {
+			"full": "Trait_Icon_8_Hacker.png",
+			"sprite": "tft-trait0.png",
+			"group": "tft-trait",
+			"x": 48,
+			"y": 48,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"Set8_Heart": {
+		"id": "Set8_Heart",
+		"name": "Heart",
+		"image": {
+			"full": "Trait_Icon_8_Heart.png",
+			"sprite": "tft-trait0.png",
+			"group": "tft-trait",
+			"x": 96,
+			"y": 48,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"Set8_Mascot": {
+		"id": "Set8_Mascot",
+		"name": "Mascot",
+		"image": {
+			"full": "Trait_Icon_8_Mascot.png",
+			"sprite": "tft-trait0.png",
+			"group": "tft-trait",
+			"x": 192,
+			"y": 48,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"Set8_OxForce": {
+		"id": "Set8_OxForce",
+		"name": "Ox Force",
+		"image": {
+			"full": "Trait_Icon_8_OxForce.png",
+			"sprite": "tft-trait0.png",
+			"group": "tft-trait",
+			"x": 240,
+			"y": 48,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"Set8_Prankster": {
+		"id": "Set8_Prankster",
+		"name": "Prankster",
+		"image": {
+			"full": "Trait_Icon_8_Prankster.png",
+			"sprite": "tft-trait0.png",
+			"group": "tft-trait",
+			"x": 336,
+			"y": 48,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"Set8_Recon": {
+		"id": "Set8_Recon",
+		"name": "Recon",
+		"image": {
+			"full": "Trait_Icon_8_Recon.png",
+			"sprite": "tft-trait0.png",
+			"group": "tft-trait",
+			"x": 384,
+			"y": 48,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"Set8_Renegade": {
+		"id": "Set8_Renegade",
+		"name": "Renegade",
+		"image": {
+			"full": "Trait_Icon_8_Renegade.png",
+			"sprite": "tft-trait0.png",
+			"group": "tft-trait",
+			"x": 432,
+			"y": 48,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"Set8_SpaceCorps": {
+		"id": "Set8_SpaceCorps",
+		"name": "LaserCorps",
+		"image": {
+			"full": "Trait_Icon_8_Lasercorps.png",
+			"sprite": "tft-trait0.png",
+			"group": "tft-trait",
+			"x": 0,
+			"y": 96,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"Set8_StarGuardian": {
+		"id": "Set8_StarGuardian",
+		"name": "Star Guardian",
+		"image": {
+			"full": "Trait_Icon_3_StarGuardian.png",
+			"sprite": "tft-trait0.png",
+			"group": "tft-trait",
+			"x": 48,
+			"y": 96,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"Set8_Supers": {
+		"id": "Set8_Supers",
+		"name": "Supers",
+		"image": {
+			"full": "Trait_Icon_8_Supers.png",
+			"sprite": "tft-trait0.png",
+			"group": "tft-trait",
+			"x": 96,
+			"y": 96,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"Set8_Threat": {
+		"id": "Set8_Threat",
+		"name": "Threat",
+		"image": {
+			"full": "Trait_Icon_8_Threat.png",
+			"sprite": "tft-trait0.png",
+			"group": "tft-trait",
+			"x": 144,
+			"y": 96,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"Set8_UndergroundThe": {
+		"id": "Set8_UndergroundThe",
+		"name": "Underground",
+		"image": {
+			"full": "Trait_Icon_8_Underground.png",
+			"sprite": "tft-trait0.png",
+			"group": "tft-trait",
+			"x": 192,
+			"y": 96,
+			"w": 48,
+			"h": 48
+		}
+	}
+}

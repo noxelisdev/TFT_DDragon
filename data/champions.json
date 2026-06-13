@@ -1,586 +1,828 @@
-[
-    {
-        "name": "Voidspawn",
-        "championId": "TFT_VoidSpawn",
-        "cost": 1,
-        "traits": []
-    },
-    {
-        "name": "Target Dummy",
-        "championId": "TFT_TrainingDummy",
-        "cost": 1,
-        "traits": []
-    },
-    {
-        "name": "Tome of Traits",
-        "championId": "TFT5_EmblemArmoryKey",
-        "cost": 7,
-        "traits": []
-    },
-    {
-        "name": "Vladimir",
-        "championId": "TFT7_Vladimir",
-        "cost": 1,
-        "traits": [
-            "Astral",
-            "Mage"
-        ]
-    },
-    {
-        "name": "Nidalee",
-        "championId": "TFT7_Nidalee",
-        "cost": 1,
-        "traits": [
-            "Astral",
-            "Shapeshifter"
-        ]
-    },
-    {
-        "name": "Senna",
-        "championId": "TFT7_Senna",
-        "cost": 1,
-        "traits": [
-            "Ragewing",
-            "Cannoneer"
-        ]
-    },
-    {
-        "name": "Sett",
-        "championId": "TFT7_Sett",
-        "cost": 1,
-        "traits": [
-            "Ragewing",
-            "Dragonmancer"
-        ]
-    },
-    {
-        "name": "Gnar",
-        "championId": "TFT7_Gnar",
-        "cost": 2,
-        "traits": [
-            "Jade",
-            "Shapeshifter"
-        ]
-    },
-    {
-        "name": "Aatrox",
-        "championId": "TFT7_Aatrox",
-        "cost": 1,
-        "traits": [
-            "Shimmerscale",
-            "Warrior"
-        ]
-    },
-    {
-        "name": "Diana",
-        "championId": "TFT7_Diana",
-        "cost": 3,
-        "traits": [
-            "Scalescorn",
-            "Assassin"
-        ]
-    },
-    {
-        "name": "Sejuani",
-        "championId": "TFT7_Sejuani",
-        "cost": 1,
-        "traits": [
-            "Guild",
-            "Cavalier"
-        ]
-    },
-    {
-        "name": "Ezreal",
-        "championId": "TFT7_Ezreal",
-        "cost": 1,
-        "traits": [
-            "Tempest",
-            "Swiftshot"
-        ]
-    },
-    {
-        "name": "Nami",
-        "championId": "TFT7_Nami",
-        "cost": 2,
-        "traits": [
-            "Astral",
-            "Mage",
-            "Mystic"
-        ]
-    },
-    {
-        "name": "Skarner",
-        "championId": "TFT7_Skarner",
-        "cost": 1,
-        "traits": [
-            "Astral",
-            "Bruiser"
-        ]
-    },
-    {
-        "name": "Swain",
-        "championId": "TFT7_Swain",
-        "cost": 3,
-        "traits": [
-            "Ragewing",
-            "Dragonmancer",
-            "Shapeshifter"
-        ]
-    },
-    {
-        "name": "Thresh",
-        "championId": "TFT7_Thresh",
-        "cost": 2,
-        "traits": [
-            "Whispers",
-            "Guardian"
-        ]
-    },
-    {
-        "name": "Ashe",
-        "championId": "TFT7_Ashe",
-        "cost": 2,
-        "traits": [
-            "Jade",
-            "Dragonmancer",
-            "Swiftshot"
-        ]
-    },
-    {
-        "name": "Yone",
-        "championId": "TFT7_Yone",
-        "cost": 2,
-        "traits": [
-            "Mirage",
-            "Warrior"
-        ]
-    },
-    {
-        "name": "Lillia",
-        "championId": "TFT7_Lillia",
-        "cost": 2,
-        "traits": [
-            "Scalescorn",
-            "Cavalier",
-            "Mage"
-        ]
-    },
-    {
-        "name": "Varus",
-        "championId": "TFT7_Varus",
-        "cost": 3,
-        "traits": [
-            "Astral",
-            "Swiftshot"
-        ]
-    },
-    {
-        "name": "Lee Sin",
-        "championId": "TFT7_LeeSin",
-        "cost": 3,
-        "traits": [
-            "Tempest",
-            "Dragonmancer"
-        ]
-    },
-    {
-        "name": "Shen",
-        "championId": "TFT7_Shen",
-        "cost": 2,
-        "traits": [
-            "Ragewing",
-            "Bruiser",
-            "Warrior"
-        ]
-    },
-    {
-        "name": "Elise",
-        "championId": "TFT7_Elise",
-        "cost": 3,
-        "traits": [
-            "Whispers",
-            "Shapeshifter"
-        ]
-    },
-    {
-        "name": "Volibear",
-        "championId": "TFT7_Volibear",
-        "cost": 3,
-        "traits": [
-            "Shimmerscale",
-            "Dragonmancer",
-            "Legend"
-        ]
-    },
-    {
-        "name": "Olaf",
-        "championId": "TFT7_Olaf",
-        "cost": 3,
-        "traits": [
-            "Scalescorn",
-            "Bruiser",
-            "Warrior"
-        ]
-    },
-    {
-        "name": "Ryze",
-        "championId": "TFT7_Ryze",
-        "cost": 3,
-        "traits": [
-            "Guild",
-            "Mage"
-        ]
-    },
-    {
-        "name": "Lulu",
-        "championId": "TFT7_Lulu",
-        "cost": 3,
-        "traits": [
-            "Trainer",
-            "Mystic",
-            "Evoker"
-        ]
-    },
-    {
-        "name": "Ornn",
-        "championId": "TFT7_Ornn",
-        "cost": 4,
-        "traits": [
-            "Tempest",
-            "Bruiser",
-            "Legend"
-        ]
-    },
-    {
-        "name": "Shyvana",
-        "championId": "TFT7_Shyvana",
-        "cost": 5,
-        "traits": [
-            "Ragewing",
-            "Shapeshifter",
-            "Dragon"
-        ]
-    },
-    {
-        "name": "Hecarim",
-        "championId": "TFT7_Hecarim",
-        "cost": 4,
-        "traits": [
-            "Ragewing",
-            "Cavalier"
-        ]
-    },
-    {
-        "name": "Soraka",
-        "championId": "TFT7_Soraka",
-        "cost": 5,
-        "traits": [
-            "Jade",
-            "Starcaller"
-        ]
-    },
-    {
-        "name": "Karma",
-        "championId": "TFT7_Karma",
-        "cost": 1,
-        "traits": [
-            "Jade",
-            "Dragonmancer"
-        ]
-    },
-    {
-        "name": "Heimerdinger",
-        "championId": "TFT7_Heimerdinger",
-        "cost": 1,
-        "traits": [
-            "Trainer",
-            "Mage"
-        ]
-    },
-    {
-        "name": "Tristana",
-        "championId": "TFT7_Tristana",
-        "cost": 2,
-        "traits": [
-            "Trainer",
-            "Cannoneer"
-        ]
-    },
-    {
-        "name": "Anivia",
-        "championId": "TFT7_Anivia",
-        "cost": 3,
-        "traits": [
-            "Jade",
-            "Evoker",
-            "Legend"
-        ]
-    },
-    {
-        "name": "Talon",
-        "championId": "TFT7_Talon",
-        "cost": 4,
-        "traits": [
-            "Guild",
-            "Assassin"
-        ]
-    },
-    {
-        "name": "Illaoi",
-        "championId": "TFT7_Illaoi",
-        "cost": 3,
-        "traits": [
-            "Astral",
-            "Bruiser"
-        ]
-    },
-    {
-        "name": "Neeko",
-        "championId": "TFT7_Neeko",
-        "cost": 4,
-        "traits": [
-            "Jade",
-            "Shapeshifter"
-        ]
-    },
-    {
-        "name": "Zoe",
-        "championId": "TFT7_Zoe",
-        "cost": 5,
-        "traits": [
-            "Shimmerscale",
-            "Spell Thief",
-            "Mage"
-        ]
-    },
-    {
-        "name": "Yasuo",
-        "championId": "TFT7_Yasuo",
-        "cost": 5,
-        "traits": [
-            "Mirage",
-            "Dragonmancer",
-            "Warrior"
-        ]
-    },
-    {
-        "name": "Corki",
-        "championId": "TFT7_Corki",
-        "cost": 4,
-        "traits": [
-            "Revel",
-            "Cannoneer"
-        ]
-    },
-    {
-        "name": "Nunu & Willump",
-        "championId": "TFT7_Nunu",
-        "cost": 3,
-        "traits": [
-            "Mirage",
-            "Cavalier"
-        ]
-    },
-    {
-        "name": "Bard",
-        "championId": "TFT7_Bard",
-        "cost": 5,
-        "traits": [
-            "Guild",
-            "Mystic",
-            "Bard"
-        ]
-    },
-    {
-        "name": "Zoe's Daisy",
-        "championId": "TFT7_IvernMinion",
-        "cost": 10,
-        "traits": []
-    },
-    {
-        "name": "Jinx",
-        "championId": "TFT7_Jinx",
-        "cost": 2,
-        "traits": [
-            "Revel",
-            "Cannoneer"
-        ]
-    },
-    {
-        "name": "Kayn",
-        "championId": "TFT7_Kayn",
-        "cost": 2,
-        "traits": [
-            "Ragewing",
-            "Shimmerscale",
-            "Assassin"
-        ]
-    },
-    {
-        "name": "Xayah",
-        "championId": "TFT7_Xayah",
-        "cost": 4,
-        "traits": [
-            "Ragewing",
-            "Swiftshot"
-        ]
-    },
-    {
-        "name": "Qiyana",
-        "championId": "TFT7_Qiyana",
-        "cost": 2,
-        "traits": [
-            "Tempest",
-            "Assassin"
-        ]
-    },
-    {
-        "name": "Braum",
-        "championId": "TFT7_Braum",
-        "cost": 2,
-        "traits": [
-            "Scalescorn",
-            "Guardian"
-        ]
-    },
-    {
-        "name": "Sylas",
-        "championId": "TFT7_Sylas",
-        "cost": 3,
-        "traits": [
-            "Whispers",
-            "Mage",
-            "Bruiser"
-        ]
-    },
-    {
-        "name": "Taric",
-        "championId": "TFT7_Taric",
-        "cost": 1,
-        "traits": [
-            "Jade",
-            "Guardian"
-        ]
-    },
-    {
-        "name": "Leona",
-        "championId": "TFT7_Leona",
-        "cost": 1,
-        "traits": [
-            "Mirage",
-            "Guardian"
-        ]
-    },
-    {
-        "name": "Twitch",
-        "championId": "TFT7_Twitch",
-        "cost": 2,
-        "traits": [
-            "Guild",
-            "Swiftshot"
-        ]
-    },
-    {
-        "name": "The Golden Egg",
-        "championId": "TFT6_TheGoldenEgg",
-        "cost": 7,
-        "traits": []
-    },
-    {
-        "name": "Ao Shin",
-        "championId": "TFT7_AoShin",
-        "cost": 5,
-        "traits": [
-            "Tempest",
-            "Dragon"
-        ]
-    },
-    {
-        "name": "Sy'fen",
-        "championId": "TFT7_DragonPurple",
-        "cost": 4,
-        "traits": [
-            "Whispers",
-            "Bruiser",
-            "Dragon"
-        ]
-    },
-    {
-        "name": "Shi Oh Yu",
-        "championId": "TFT7_DragonGreen",
-        "cost": 4,
-        "traits": [
-            "Jade",
-            "Mystic",
-            "Dragon"
-        ]
-    },
-    {
-        "name": "Idas",
-        "championId": "TFT7_DragonGold",
-        "cost": 4,
-        "traits": [
-            "Shimmerscale",
-            "Dragon",
-            "Guardian"
-        ]
-    },
-    {
-        "name": "Daeja",
-        "championId": "TFT7_DragonBlue",
-        "cost": 4,
-        "traits": [
-            "Mirage",
-            "Dragon"
-        ]
-    },
-    {
-        "name": "Sona",
-        "championId": "TFT7_Sona",
-        "cost": 4,
-        "traits": [
-            "Revel",
-            "Evoker"
-        ]
-    },
-    {
-        "name": "Nomsy",
-        "championId": "TFT7_TrainerDragon",
-        "cost": 10,
-        "traits": []
-    },
-    {
-        "name": "Jade Statue",
-        "championId": "TFT7_JadeStatue",
-        "cost": 10,
-        "traits": []
-    },
-    {
-        "name": "Pyke",
-        "championId": "TFT7_Pyke",
-        "cost": 5,
-        "traits": [
-            "Whispers",
-            "Assassin"
-        ]
-    },
-    {
-        "name": "Tahm Kench",
-        "championId": "TFT7_TahmKench",
-        "cost": 1,
-        "traits": [
-            "Revel",
-            "Bruiser"
-        ]
-    },
-    {
-        "name": "Aurelion Sol",
-        "championId": "TFT7_AurelionSol",
-        "cost": 5,
-        "traits": [
-            "Astral",
-            "Evoker",
-            "Dragon"
-        ]
-    }
-]
+{
+	"TFT8_Alistar": {
+		"id": "TFT8_Alistar",
+		"name": "Alistar",
+		"tier": 3,
+		"image": {
+			"full": "TFT8_Alistar.TFT_Set8.png",
+			"sprite": "tft-champion0.png",
+			"group": "tft-champion",
+			"x": 336,
+			"y": 96,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Annie": {
+		"id": "TFT8_Annie",
+		"name": "Annie",
+		"tier": 2,
+		"image": {
+			"full": "TFT8_Annie.TFT_Set8.png",
+			"sprite": "tft-champion0.png",
+			"group": "tft-champion",
+			"x": 240,
+			"y": 96,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Aphelios": {
+		"id": "TFT8_Aphelios",
+		"name": "Aphelios",
+		"tier": 5,
+		"image": {
+			"full": "TFT8_Aphelios.TFT_Set8.png",
+			"sprite": "tft-champion0.png",
+			"group": "tft-champion",
+			"x": 384,
+			"y": 96,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Ashe": {
+		"id": "TFT8_Ashe",
+		"name": "Ashe",
+		"tier": 1,
+		"image": {
+			"full": "TFT8_Ashe.TFT_Set8.png",
+			"sprite": "tft-champion0.png",
+			"group": "tft-champion",
+			"x": 48,
+			"y": 96,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_AurelionSol": {
+		"id": "TFT8_AurelionSol",
+		"name": "Aurelion Sol",
+		"tier": 4,
+		"image": {
+			"full": "TFT8_AurelionSol.TFT_Set8.png",
+			"sprite": "tft-champion1.png",
+			"group": "tft-champion",
+			"x": 192,
+			"y": 48,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_BelVeth": {
+		"id": "TFT8_BelVeth",
+		"name": "Bel'Veth",
+		"tier": 4,
+		"image": {
+			"full": "TFT8_BelVeth.TFT_Set8.png",
+			"sprite": "tft-champion1.png",
+			"group": "tft-champion",
+			"x": 288,
+			"y": 48,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Blitzcrank": {
+		"id": "TFT8_Blitzcrank",
+		"name": "Blitzcrank",
+		"tier": 1,
+		"image": {
+			"full": "TFT8_Blitzcrank.TFT_Set8.png",
+			"sprite": "tft-champion1.png",
+			"group": "tft-champion",
+			"x": 336,
+			"y": 0,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Camille": {
+		"id": "TFT8_Camille",
+		"name": "Camille",
+		"tier": 2,
+		"image": {
+			"full": "TFT8_Camille.TFT_Set8.png",
+			"sprite": "tft-champion1.png",
+			"group": "tft-champion",
+			"x": 384,
+			"y": 0,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Chogath": {
+		"id": "TFT8_Chogath",
+		"name": "Cho'Gath",
+		"tier": 3,
+		"image": {
+			"full": "TFT8_Chogath.TFT_Set8.png",
+			"sprite": "tft-champion1.png",
+			"group": "tft-champion",
+			"x": 144,
+			"y": 48,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Draven": {
+		"id": "TFT8_Draven",
+		"name": "Draven",
+		"tier": 2,
+		"image": {
+			"full": "TFT8_Draven.TFT_Set8.png",
+			"sprite": "tft-champion0.png",
+			"group": "tft-champion",
+			"x": 336,
+			"y": 48,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Ekko": {
+		"id": "TFT8_Ekko",
+		"name": "Ekko",
+		"tier": 4,
+		"image": {
+			"full": "TFT8_Ekko.TFT_Set8.png",
+			"sprite": "tft-champion0.png",
+			"group": "tft-champion",
+			"x": 192,
+			"y": 48,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Ezreal": {
+		"id": "TFT8_Ezreal",
+		"name": "Ezreal",
+		"tier": 2,
+		"image": {
+			"full": "TFT8_Ezreal.TFT_Set8.png",
+			"sprite": "tft-champion1.png",
+			"group": "tft-champion",
+			"x": 288,
+			"y": 96,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Fiddlesticks": {
+		"id": "TFT8_Fiddlesticks",
+		"name": "Fiddlesticks",
+		"tier": 5,
+		"image": {
+			"full": "TFT8_Fiddlesticks.TFT_Set8.png",
+			"sprite": "tft-champion1.png",
+			"group": "tft-champion",
+			"x": 432,
+			"y": 48,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Fiora": {
+		"id": "TFT8_Fiora",
+		"name": "Fiora",
+		"tier": 2,
+		"image": {
+			"full": "TFT8_Fiora.TFT_Set8.png",
+			"sprite": "tft-champion0.png",
+			"group": "tft-champion",
+			"x": 288,
+			"y": 96,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Galio": {
+		"id": "TFT8_Galio",
+		"name": "Galio",
+		"tier": 1,
+		"image": {
+			"full": "TFT8_Galio.TFT_Set8.png",
+			"sprite": "tft-champion0.png",
+			"group": "tft-champion",
+			"x": 288,
+			"y": 0,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Gangplank": {
+		"id": "TFT8_Gangplank",
+		"name": "Gangplank",
+		"tier": 1,
+		"image": {
+			"full": "TFT8_Gangplank.TFT_Set8.png",
+			"sprite": "tft-champion1.png",
+			"group": "tft-champion",
+			"x": 432,
+			"y": 0,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Janna": {
+		"id": "TFT8_Janna",
+		"name": "Janna",
+		"tier": 5,
+		"image": {
+			"full": "TFT8_Janna.TFT_Set8.png",
+			"sprite": "tft-champion0.png",
+			"group": "tft-champion",
+			"x": 384,
+			"y": 0,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Jax": {
+		"id": "TFT8_Jax",
+		"name": "Jax",
+		"tier": 3,
+		"image": {
+			"full": "TFT8_Jax.TFT_Set8.png",
+			"sprite": "tft-champion0.png",
+			"group": "tft-champion",
+			"x": 432,
+			"y": 48,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Jinx": {
+		"id": "TFT8_Jinx",
+		"name": "Jinx",
+		"tier": 2,
+		"image": {
+			"full": "TFT8_Jinx.TFT_Set8.png",
+			"sprite": "tft-champion0.png",
+			"group": "tft-champion",
+			"x": 96,
+			"y": 0,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Kaisa": {
+		"id": "TFT8_Kaisa",
+		"name": "Kai'Sa",
+		"tier": 3,
+		"image": {
+			"full": "TFT8_Kaisa.TFT_Set8.png",
+			"sprite": "tft-champion0.png",
+			"group": "tft-champion",
+			"x": 96,
+			"y": 48,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Kayle": {
+		"id": "TFT8_Kayle",
+		"name": "Kayle",
+		"tier": 1,
+		"image": {
+			"full": "TFT8_Kayle.TFT_Set8.png",
+			"sprite": "tft-champion1.png",
+			"group": "tft-champion",
+			"x": 0,
+			"y": 0,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Leblanc": {
+		"id": "TFT8_Leblanc",
+		"name": "LeBlanc",
+		"tier": 3,
+		"image": {
+			"full": "TFT8_Leblanc.TFT_Set8.png",
+			"sprite": "tft-champion1.png",
+			"group": "tft-champion",
+			"x": 384,
+			"y": 96,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_LeeSin": {
+		"id": "TFT8_LeeSin",
+		"name": "Lee Sin",
+		"tier": 2,
+		"image": {
+			"full": "TFT8_LeeSin.TFT_Set8.png",
+			"sprite": "tft-champion1.png",
+			"group": "tft-champion",
+			"x": 0,
+			"y": 48,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Leona": {
+		"id": "TFT8_Leona",
+		"name": "Leona",
+		"tier": 5,
+		"image": {
+			"full": "TFT8_Leona.TFT_Set8.png",
+			"sprite": "tft-champion0.png",
+			"group": "tft-champion",
+			"x": 384,
+			"y": 48,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Lulu": {
+		"id": "TFT8_Lulu",
+		"name": "Lulu",
+		"tier": 1,
+		"image": {
+			"full": "TFT8_Lulu.TFT_Set8.png",
+			"sprite": "tft-champion1.png",
+			"group": "tft-champion",
+			"x": 192,
+			"y": 0,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Lux": {
+		"id": "TFT8_Lux",
+		"name": "Lux",
+		"tier": 1,
+		"image": {
+			"full": "TFT8_Lux.TFT_Set8.png",
+			"sprite": "tft-champion0.png",
+			"group": "tft-champion",
+			"x": 0,
+			"y": 48,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Malphite": {
+		"id": "TFT8_Malphite",
+		"name": "Malphite",
+		"tier": 2,
+		"image": {
+			"full": "TFT8_Malphite.TFT_Set8.png",
+			"sprite": "tft-champion1.png",
+			"group": "tft-champion",
+			"x": 48,
+			"y": 48,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_MissFortune": {
+		"id": "TFT8_MissFortune",
+		"name": "Miss Fortune",
+		"tier": 4,
+		"image": {
+			"full": "TFT8_MissFortune.TFT_Set8.png",
+			"sprite": "tft-champion0.png",
+			"group": "tft-champion",
+			"x": 240,
+			"y": 0,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Mordekaiser": {
+		"id": "TFT8_Mordekaiser",
+		"name": "Mordekaiser",
+		"tier": 5,
+		"image": {
+			"full": "TFT8_Mordekaiser.TFT_Set8.png",
+			"sprite": "tft-champion0.png",
+			"group": "tft-champion",
+			"x": 192,
+			"y": 96,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Nasus": {
+		"id": "TFT8_Nasus",
+		"name": "Nasus",
+		"tier": 1,
+		"image": {
+			"full": "TFT8_Nasus.TFT_Set8.png",
+			"sprite": "tft-champion0.png",
+			"group": "tft-champion",
+			"x": 48,
+			"y": 0,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Nilah": {
+		"id": "TFT8_Nilah",
+		"name": "Nilah",
+		"tier": 3,
+		"image": {
+			"full": "TFT8_Nilah.TFT_Set8.png",
+			"sprite": "tft-champion0.png",
+			"group": "tft-champion",
+			"x": 48,
+			"y": 48,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Nunu": {
+		"id": "TFT8_Nunu",
+		"name": "Nunu & Willump",
+		"tier": 5,
+		"image": {
+			"full": "TFT8_Nunu.TFT_Set8.png",
+			"sprite": "tft-champion1.png",
+			"group": "tft-champion",
+			"x": 288,
+			"y": 0,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Poppy": {
+		"id": "TFT8_Poppy",
+		"name": "Poppy",
+		"tier": 1,
+		"image": {
+			"full": "TFT8_Poppy.TFT_Set8.png",
+			"sprite": "tft-champion1.png",
+			"group": "tft-champion",
+			"x": 96,
+			"y": 96,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Rammus": {
+		"id": "TFT8_Rammus",
+		"name": "Rammus",
+		"tier": 3,
+		"image": {
+			"full": "TFT8_Rammus.TFT_Set8.png",
+			"sprite": "tft-champion1.png",
+			"group": "tft-champion",
+			"x": 240,
+			"y": 48,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Rell": {
+		"id": "TFT8_Rell",
+		"name": "Rell",
+		"tier": 2,
+		"image": {
+			"full": "TFT8_Rell.TFT_Set8.png",
+			"sprite": "tft-champion0.png",
+			"group": "tft-champion",
+			"x": 144,
+			"y": 48,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Renekton": {
+		"id": "TFT8_Renekton",
+		"name": "Renekton",
+		"tier": 1,
+		"image": {
+			"full": "TFT8_Renekton.TFT_Set8.png",
+			"sprite": "tft-champion1.png",
+			"group": "tft-champion",
+			"x": 192,
+			"y": 96,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Riven": {
+		"id": "TFT8_Riven",
+		"name": "Riven",
+		"tier": 3,
+		"image": {
+			"full": "TFT8_Riven.TFT_Set8.png",
+			"sprite": "tft-champion0.png",
+			"group": "tft-champion",
+			"x": 192,
+			"y": 0,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Samira": {
+		"id": "TFT8_Samira",
+		"name": "Samira",
+		"tier": 4,
+		"image": {
+			"full": "TFT8_Samira.TFT_Set8.png",
+			"sprite": "tft-champion1.png",
+			"group": "tft-champion",
+			"x": 96,
+			"y": 0,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Sejuani": {
+		"id": "TFT8_Sejuani",
+		"name": "Sejuani",
+		"tier": 4,
+		"image": {
+			"full": "TFT8_Sejuani.TFT_Set8.png",
+			"sprite": "tft-champion0.png",
+			"group": "tft-champion",
+			"x": 0,
+			"y": 96,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Senna": {
+		"id": "TFT8_Senna",
+		"name": "Senna",
+		"tier": 3,
+		"image": {
+			"full": "TFT8_Senna.TFT_Set8.png",
+			"sprite": "tft-champion0.png",
+			"group": "tft-champion",
+			"x": 96,
+			"y": 96,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Sett": {
+		"id": "TFT8_Sett",
+		"name": "Sett",
+		"tier": 4,
+		"image": {
+			"full": "TFT8_Sett.TFT_Set8.png",
+			"sprite": "tft-champion0.png",
+			"group": "tft-champion",
+			"x": 288,
+			"y": 48,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Sivir": {
+		"id": "TFT8_Sivir",
+		"name": "Sivir",
+		"tier": 2,
+		"image": {
+			"full": "TFT8_Sivir.TFT_Set8.png",
+			"sprite": "tft-champion0.png",
+			"group": "tft-champion",
+			"x": 336,
+			"y": 0,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Sona": {
+		"id": "TFT8_Sona",
+		"name": "Sona",
+		"tier": 3,
+		"image": {
+			"full": "TFT8_Sona.TFT_Set8.png",
+			"sprite": "tft-champion1.png",
+			"group": "tft-champion",
+			"x": 144,
+			"y": 0,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Soraka": {
+		"id": "TFT8_Soraka",
+		"name": "Soraka",
+		"tier": 4,
+		"image": {
+			"full": "TFT8_Soraka.TFT_Set8.png",
+			"sprite": "tft-champion1.png",
+			"group": "tft-champion",
+			"x": 336,
+			"y": 96,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Sylas": {
+		"id": "TFT8_Sylas",
+		"name": "Sylas",
+		"tier": 1,
+		"image": {
+			"full": "TFT8_Sylas.TFT_Set8.png",
+			"sprite": "tft-champion0.png",
+			"group": "tft-champion",
+			"x": 0,
+			"y": 0,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Syndra": {
+		"id": "TFT8_Syndra",
+		"name": "Syndra",
+		"tier": 5,
+		"image": {
+			"full": "TFT8_Syndra.TFT_Set8.png",
+			"sprite": "tft-champion0.png",
+			"group": "tft-champion",
+			"x": 240,
+			"y": 48,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Taliyah": {
+		"id": "TFT8_Taliyah",
+		"name": "Taliyah",
+		"tier": 4,
+		"image": {
+			"full": "TFT8_Taliyah.TFT_Set8.png",
+			"sprite": "tft-champion0.png",
+			"group": "tft-champion",
+			"x": 432,
+			"y": 0,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Talon": {
+		"id": "TFT8_Talon",
+		"name": "Talon",
+		"tier": 1,
+		"image": {
+			"full": "TFT8_Talon.TFT_Set8.png",
+			"sprite": "tft-champion1.png",
+			"group": "tft-champion",
+			"x": 144,
+			"y": 96,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Urgot": {
+		"id": "TFT8_Urgot",
+		"name": "Urgot",
+		"tier": 5,
+		"image": {
+			"full": "TFT8_Urgot.TFT_Set8.png",
+			"sprite": "tft-champion1.png",
+			"group": "tft-champion",
+			"x": 384,
+			"y": 48,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Vayne": {
+		"id": "TFT8_Vayne",
+		"name": "Vayne",
+		"tier": 3,
+		"image": {
+			"full": "TFT8_Vayne.TFT_Set8.png",
+			"sprite": "tft-champion0.png",
+			"group": "tft-champion",
+			"x": 144,
+			"y": 0,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Velkoz": {
+		"id": "TFT8_Velkoz",
+		"name": "Vel'Koz",
+		"tier": 3,
+		"image": {
+			"full": "TFT8_Velkoz.TFT_Set8.png",
+			"sprite": "tft-champion1.png",
+			"group": "tft-champion",
+			"x": 96,
+			"y": 48,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Vi": {
+		"id": "TFT8_Vi",
+		"name": "Vi",
+		"tier": 2,
+		"image": {
+			"full": "TFT8_Vi.TFT_Set8.png",
+			"sprite": "tft-champion1.png",
+			"group": "tft-champion",
+			"x": 48,
+			"y": 0,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Viego": {
+		"id": "TFT8_Viego",
+		"name": "Viego",
+		"tier": 4,
+		"image": {
+			"full": "TFT8_Viego.TFT_Set8.png",
+			"sprite": "tft-champion0.png",
+			"group": "tft-champion",
+			"x": 432,
+			"y": 96,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_WuKong": {
+		"id": "TFT8_WuKong",
+		"name": "Wukong",
+		"tier": 1,
+		"image": {
+			"full": "TFT8_WuKong.TFT_Set8.png",
+			"sprite": "tft-champion1.png",
+			"group": "tft-champion",
+			"x": 240,
+			"y": 96,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Yasuo": {
+		"id": "TFT8_Yasuo",
+		"name": "Yasuo",
+		"tier": 2,
+		"image": {
+			"full": "TFT8_Yasuo.TFT_Set8.png",
+			"sprite": "tft-champion1.png",
+			"group": "tft-champion",
+			"x": 48,
+			"y": 96,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Yuumi": {
+		"id": "TFT8_Yuumi",
+		"name": "Yuumi",
+		"tier": 2,
+		"image": {
+			"full": "TFT8_Yuumi.TFT_Set8.png",
+			"sprite": "tft-champion1.png",
+			"group": "tft-champion",
+			"x": 0,
+			"y": 96,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Zac": {
+		"id": "TFT8_Zac",
+		"name": "Zac",
+		"tier": 4,
+		"image": {
+			"full": "TFT8_Zac.TFT_Set8.png",
+			"sprite": "tft-champion1.png",
+			"group": "tft-champion",
+			"x": 336,
+			"y": 48,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Zed": {
+		"id": "TFT8_Zed",
+		"name": "Zed",
+		"tier": 4,
+		"image": {
+			"full": "TFT8_Zed.TFT_Set8.png",
+			"sprite": "tft-champion0.png",
+			"group": "tft-champion",
+			"x": 144,
+			"y": 96,
+			"w": 48,
+			"h": 48
+		}
+	},
+	"TFT8_Zoe": {
+		"id": "TFT8_Zoe",
+		"name": "Zoe",
+		"tier": 3,
+		"image": {
+			"full": "TFT8_Zoe.TFT_Set8.png",
+			"sprite": "tft-champion1.png",
+			"group": "tft-champion",
+			"x": 240,
+			"y": 0,
+			"w": 48,
+			"h": 48
+		}
+	}
+}
