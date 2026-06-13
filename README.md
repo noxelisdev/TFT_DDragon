@@ -20,23 +20,10 @@ This list contains patchs from actual set. For all previous patchs of all previo
 
 The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Corresponding sets releases will be explicitly written next to the patch number. Here's a list of all patchs of current sets included in this repository :
 
-- (June 13th, 2026) 13.11
-- (June 13th, 2026) 13.10
-- (June 13th, 2026) 13.9
-- (June 13th, 2026) 13.8
-- (June 13th, 2026) 13.7
-- (June 13th, 2026) 13.6 - Set 8 mid-set (Monsters Attack: Glitched Out)
-- (June 13th, 2026) 13.5
-- (June 13th, 2026) 13.4
-- (June 13th, 2026) 13.3
-- (June 13th, 2026) 13.1
-- (January 11th, 2023) 12.23 - Set 8 (Monsters Attack)
+- (June 13th, 2026) 13.12 - Set 9 (Reforged)
 
 ## Missing patchs for the current set
-Some patchs wasn't added to this repository, during this set, for various reasons :
-
-- 13.2 : this patch was replaced by a hotfix (13.1B) after Riot hack, and don't exist at all
-- 13.1B : _Data Dragon_ never released by Riot Games for this patch
+There is currently no missing patch for the current set.
 
 ## Note about Sets 6 and 7
 Set 6 has been added with some assets available on the [Set 6 Promo Assets Page](https://express.adobe.com/page/ficXgtBZ0f3xd/) (published by _Riot Games_) or/and on [_CommunityDragon_](https://raw.communitydragon.org/latest/cdragon/tft/). Set 7 used the same process, but only with _CommunityDragon_.
