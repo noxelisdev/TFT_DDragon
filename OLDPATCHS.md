@@ -6,6 +6,18 @@ This document list all patchs from previous sets added to this repository. For p
 ## List of all patchs added from previous sets
 The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Here's a list of all patchs included in this repository so far (current set excluded) :
 
+- (June 13th, 2026) 13.22
+- (June 13th, 2026) 13.21
+- (June 13th, 2026) 13.20
+- (June 13th, 2026) 13.19
+- (June 13th, 2026) 13.18 - Set 9 mid-set (Reforged: Horizonbound)
+- (June 13th, 2026) 13.17
+- (June 13th, 2026) 13.16
+- (June 13th, 2026) 13.15
+- (June 13th, 2026) 13.14
+- (June 13th, 2026) 13.13
+- (June 13th, 2026) 13.12 - Set 9 (Reforged)
+
 - (June 13th, 2026) 13.11
 - (June 13th, 2026) 13.10
 - (June 13th, 2026) 13.9
