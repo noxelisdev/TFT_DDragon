@@ -1,531 +1,588 @@
 [
-  {
-    "name": "Target Dummy",
-    "championId": "TFT_TrainingDummy",
-    "cost": 2,
-    "traits": []
-  },
-  {
-    "name": "Aatrox",
-    "championId": "TFT5_Aatrox",
-    "cost": 1,
-    "traits": [
-      "Set5_Redeemed",
-      "Set5_Legionnaire"
-    ]
-  },
-  {
-    "name": "Akshan",
-    "championId": "TFT5_Akshan",
-    "cost": 5,
-    "traits": [
-      "Set5_Sentinel",
-      "Set5_Ranger"
-    ]
-  },
-  {
-    "name": "Aphelios",
-    "championId": "TFT5_Aphelios",
-    "cost": 4,
-    "traits": [
-      "Set5_Nightbringer",
-      "Set5_Ranger"
-    ]
-  },
-  {
-    "name": "Ashe",
-    "championId": "TFT5_Ashe",
-    "cost": 3,
-    "traits": [
-      "Set5_Draconic",
-      "Set5_Ranger"
-    ]
-  },
-  {
-    "name": "Brand",
-    "championId": "TFT5_Brand",
-    "cost": 2,
-    "traits": [
-      "Set5_Abomination",
-      "Set5_Spellweaver"
-    ]
-  },
-  {
-    "name": "Diana",
-    "championId": "TFT5_Diana",
-    "cost": 4,
-    "traits": [
-      "Set5_Nightbringer",
-      "Set5_Assassin"
-    ]
-  },
-  {
-    "name": "Draven",
-    "championId": "TFT5_Draven",
-    "cost": 4,
-    "traits": [
-      "Set5_Forgotten",
-      "Set5_Legionnaire"
-    ]
-  },
-  {
-    "name": "Fiddlesticks",
-    "championId": "TFT5_Fiddlesticks",
-    "cost": 4,
-    "traits": [
-      "Set5_Abomination",
-      "Set5_Revenant",
-      "Set5_Mystic"
-    ]
-  },
-  {
-    "name": "Galio",
-    "championId": "TFT5_Galio",
-    "cost": 4,
-    "traits": [
-      "Set5_Draconic",
-      "Set5_Sentinel",
-      "Set5_Knight"
-    ]
-  },
-  {
-    "name": "Garen",
-    "championId": "TFT5_Garen",
-    "cost": 5,
-    "traits": [
-      "Set5_Victorious",
-      "Set5_Dawnbringer",
-      "Set5_Knight"
-    ]
-  },
-  {
-    "name": "Gragas",
-    "championId": "TFT5_Gragas",
-    "cost": 1,
-    "traits": [
-      "Set5_Dawnbringer",
-      "Set5_Brawler"
-    ]
-  },
-  {
-    "name": "Gwen",
-    "championId": "TFT5_Gwen",
-    "cost": 5,
-    "traits": [
-      "Set5_Inanimate",
-      "Set5_Mystic"
-    ]
-  },
-  {
-    "name": "Hecarim",
-    "championId": "TFT5_Hecarim",
-    "cost": 2,
-    "traits": [
-      "Set5_Forgotten",
-      "Set5_Cavalier"
-    ]
-  },
-  {
-    "name": "Heimerdinger",
-    "championId": "TFT5_Heimerdinger",
-    "cost": 5,
-    "traits": [
-      "Set5_Draconic",
-      "Set5_Renewer",
-      "Set5_Caretaker"
-    ]
-  },
-  {
-    "name": "Ivern",
-    "championId": "TFT5_Ivern",
-    "cost": 4,
-    "traits": [
-      "Set5_Revenant",
-      "Set5_Invoker",
-      "Set5_Renewer"
-    ]
-  },
-  {
-    "name": "Irelia",
-    "championId": "TFT5_Irelia",
-    "cost": 2,
-    "traits": [
-      "Set5_Sentinel",
-      "Set5_Skirmisher",
-      "Set5_Legionnaire"
-    ]
-  },
-  {
-    "name": "Jax",
-    "championId": "TFT5_Jax",
-    "cost": 4,
-    "traits": [
-      "Set5_Ironclad",
-      "Set5_Skirmisher"
-    ]
-  },
-  {
-    "name": "Kalista",
-    "championId": "TFT5_Kalista",
-    "cost": 1,
-    "traits": [
-      "Set5_Abomination",
-      "Set5_Legionnaire"
-    ]
-  },
-  {
-    "name": "Karma",
-    "championId": "TFT5_Karma",
-    "cost": 4,
-    "traits": [
-      "Set5_Dawnbringer",
-      "Set5_Invoker"
-    ]
-  },
-  {
-    "name": "Kayle",
-    "championId": "TFT5_Kayle",
-    "cost": 5,
-    "traits": [
-      "Set5_Redeemed",
-      "Set5_Legionnaire"
-    ]
-  },
-  {
-    "name": "Kennen",
-    "championId": "TFT5_Kennen",
-    "cost": 2,
-    "traits": [
-      "Set5_Hellion",
-      "Set5_Skirmisher"
-    ]
-  },
-  {
-    "name": "Kha'Zix",
-    "championId": "TFT5_Khazix",
-    "cost": 1,
-    "traits": [
-      "Set5_Dawnbringer",
-      "Set5_Assassin"
-    ]
-  },
-  {
-    "name": "Kled",
-    "championId": "TFT5_Kled",
-    "cost": 1,
-    "traits": [
-      "Set5_Hellion",
-      "Set5_Cavalier"
-    ]
-  },
-  {
-    "name": "Lee Sin",
-    "championId": "TFT5_LeeSin",
-    "cost": 3,
-    "traits": [
-      "Set5_Nightbringer",
-      "Set5_Skirmisher"
-    ]
-  },
-  {
-    "name": "Leona",
-    "championId": "TFT5_Leona",
-    "cost": 1,
-    "traits": [
-      "Set5_Redeemed",
-      "Set5_Knight"
-    ]
-  },
-  {
-    "name": "Lucian",
-    "championId": "TFT5_Lucian",
-    "cost": 4,
-    "traits": [
-      "Set5_Sentinel",
-      "Set5_Cannoneer"
-    ]
-  },
-  {
-    "name": "Lulu",
-    "championId": "TFT5_Lulu",
-    "cost": 3,
-    "traits": [
-      "Set5_Hellion",
-      "Set5_Mystic"
-    ]
-  },
-  {
-    "name": "Lux",
-    "championId": "TFT5_Lux",
-    "cost": 3,
-    "traits": [
-      "Set5_Redeemed",
-      "Set5_Mystic"
-    ]
-  },
-  {
-    "name": "Miss Fortune",
-    "championId": "TFT5_MissFortune",
-    "cost": 3,
-    "traits": [
-      "Set5_Forgotten",
-      "Set5_Cannoneer"
-    ]
-  },
-  {
-    "name": "Nautilus",
-    "championId": "TFT5_Nautilus",
-    "cost": 2,
-    "traits": [
-      "Set5_Ironclad",
-      "Set5_Knight"
-    ]
-  },
-  {
-    "name": "Nidalee",
-    "championId": "TFT5_Nidalee",
-    "cost": 3,
-    "traits": [
-      "Set5_Dawnbringer",
-      "Set5_Skirmisher"
-    ]
-  },
-  {
-    "name": "Nocturne",
-    "championId": "TFT5_Nocturne",
-    "cost": 3,
-    "traits": [
-      "Set5_Revenant",
-      "Set5_Assassin"
-    ]
-  },
-  {
-    "name": "Nunu",
-    "championId": "TFT5_Nunu",
-    "cost": 3,
-    "traits": [
-      "Set5_Abomination",
-      "Set5_Brawler"
-    ]
-  },
-  {
-    "name": "Olaf",
-    "championId": "TFT5_Olaf",
-    "cost": 1,
-    "traits": [
-      "Set5_Sentinel",
-      "Set5_Skirmisher"
-    ]
-  },
-  {
-    "name": "Poppy",
-    "championId": "TFT5_Poppy",
-    "cost": 1,
-    "traits": [
-      "Set5_Hellion",
-      "Set5_Knight"
-    ]
-  },
-  {
-    "name": "Pyke",
-    "championId": "TFT5_Pyke",
-    "cost": 2,
-    "traits": [
-      "Set5_Sentinel",
-      "Set5_Assassin"
-    ]
-  },
-  {
-    "name": "Rakan",
-    "championId": "TFT5_Rakan",
-    "cost": 3,
-    "traits": [
-      "Set5_Sentinel",
-      "Set5_Renewer"
-    ]
-  },
-  {
-    "name": "Rell",
-    "championId": "TFT5_Rell",
-    "cost": 4,
-    "traits": [
-      "Set5_Redeemed",
-      "Set5_Ironclad",
-      "Set5_Cavalier"
-    ]
-  },
-  {
-    "name": "Riven",
-    "championId": "TFT5_Riven",
-    "cost": 3,
-    "traits": [
-      "Set5_Dawnbringer",
-      "Set5_Legionnaire"
-    ]
-  },
-  {
-    "name": "Sejuani",
-    "championId": "TFT5_Sejuani",
-    "cost": 2,
-    "traits": [
-      "Set5_Brawler",
-      "Set5_Nightbringer",
-      "Set5_Cavalier"
-    ]
-  },
-  {
-    "name": "Senna",
-    "championId": "TFT5_Senna",
-    "cost": 1,
-    "traits": [
-      "Set5_Sentinel",
-      "Set5_Cannoneer"
-    ]
-  },
-  {
-    "name": "Sett",
-    "championId": "TFT5_Sett",
-    "cost": 2,
-    "traits": [
-      "Set5_Draconic",
-      "Set5_Brawler"
-    ]
-  },
-  {
-    "name": "Soraka",
-    "championId": "TFT5_Soraka",
-    "cost": 2,
-    "traits": [
-      "Set5_Dawnbringer",
-      "Set5_Renewer"
-    ]
-  },
-  {
-    "name": "Syndra",
-    "championId": "TFT5_Syndra",
-    "cost": 2,
-    "traits": [
-      "Set5_Redeemed",
-      "Set5_Invoker"
-    ]
-  },
-  {
-    "name": "Teemo",
-    "championId": "TFT5_Teemo",
-    "cost": 5,
-    "traits": [
-      "Set5_Cruel",
-      "Set5_Hellion",
-      "Set5_Invoker"
-    ]
-  },
-  {
-    "name": "Thresh",
-    "championId": "TFT5_Thresh",
-    "cost": 2,
-    "traits": [
-      "Set5_Forgotten",
-      "Set5_Knight"
-    ]
-  },
-  {
-    "name": "Tristana",
-    "championId": "TFT5_Tristana",
-    "cost": 2,
-    "traits": [
-      "Set5_Hellion",
-      "Set5_Cannoneer"
-    ]
-  },
-  {
-    "name": "Udyr",
-    "championId": "TFT5_Udyr",
-    "cost": 1,
-    "traits": [
-      "Set5_Draconic",
-      "Set5_Skirmisher"
-    ]
-  },
-  {
-    "name": "Varus",
-    "championId": "TFT5_Varus",
-    "cost": 2,
-    "traits": [
-      "Set5_Redeemed",
-      "Set5_Ranger"
-    ]
-  },
-  {
-    "name": "Vayne",
-    "championId": "TFT5_Vayne",
-    "cost": 1,
-    "traits": [
-      "Set5_Forgotten",
-      "Set5_Ranger"
-    ]
-  },
-  {
-    "name": "Vel'Koz",
-    "championId": "TFT5_Velkoz",
-    "cost": 4,
-    "traits": [
-      "Set5_Redeemed",
-      "Set5_Spellweaver"
-    ]
-  },
-  {
-    "name": "Viego",
-    "championId": "TFT5_Viego",
-    "cost": 5,
-    "traits": [
-      "Set5_Forgotten",
-      "Set5_Skirmisher",
-      "Set5_Assassin"
-    ]
-  },
-  {
-    "name": "Vladimir",
-    "championId": "TFT5_Vladimir",
-    "cost": 1,
-    "traits": [
-      "Set5_Nightbringer",
-      "Set5_Renewer"
-    ]
-  },
-  {
-    "name": "Volibear",
-    "championId": "TFT5_Volibear",
-    "cost": 5,
-    "traits": [
-      "Set5_Revenant",
-      "Set5_Brawler"
-    ]
-  },
-  {
-    "name": "Yasuo",
-    "championId": "TFT5_Yasuo",
-    "cost": 3,
-    "traits": [
-      "Set5_Nightbringer",
-      "Set5_Legionnaire"
-    ]
-  },
-  {
-    "name": "Ziggs",
-    "championId": "TFT5_Ziggs",
-    "cost": 1,
-    "traits": [
-      "Set5_Hellion",
-      "Set5_Spellweaver"
-    ]
-  },
-  {
-    "name": "Zyra",
-    "championId": "TFT5_Zyra",
-    "cost": 3,
-    "traits": [
-      "Set5_Draconic",
-      "Set5_Spellweaver"
-    ]
-  }
+    {
+      "championId": "TFT_VoidSpawn",
+      "cost": 1,
+      "name": "Voidspawn",
+      "traits": []
+    },
+    {
+      "championId": "TFT_TrainingDummy",
+      "cost": 1,
+      "name": "Target Dummy",
+      "traits": []
+    },
+    {
+      "championId": "TFT5_EmblemArmoryKey",
+      "cost": 5,
+      "name": "Tome of Traits",
+      "traits": []
+    },
+    {
+      "championId": "TFT6_Graves",
+      "cost": 1,
+      "name": "Graves",
+      "traits": [
+        "Academy ",
+        "Twinshot"
+      ]
+    },
+    {
+      "championId": "TFT6_Katarina",
+      "cost": 2,
+      "name": "Katarina",
+      "traits": [
+        "Academy ",
+        "Assassin"
+      ]
+    },
+    {
+      "championId": "TFT6_Leona",
+      "cost": 3,
+      "name": "Leona",
+      "traits": [
+        "Academy ",
+        "Bodyguard"
+      ]
+    },
+    {
+      "championId": "TFT6_Lux",
+      "cost": 4,
+      "name": "Lux",
+      "traits": [
+        "Academy ",
+        "Arcanist"
+      ]
+    },
+    {
+      "championId": "TFT6_Yone",
+      "cost": 4,
+      "name": "Yone",
+      "traits": [
+        "Academy ",
+        "Challenger"
+      ]
+    },
+    {
+      "championId": "TFT6_Yuumi",
+      "cost": 5,
+      "name": "Yuumi",
+      "traits": [
+        "Cuddly",
+        "Academy ",
+        "Scholar"
+      ]
+    },
+    {
+      "championId": "TFT6_Singed",
+      "cost": 1,
+      "name": "Singed",
+      "traits": [
+        "Chemtech",
+        "Innovator"
+      ]
+    },
+    {
+      "championId": "TFT6_Twitch",
+      "cost": 1,
+      "name": "Twitch",
+      "traits": [
+        "Chemtech",
+        "Assassin"
+      ]
+    },
+    {
+      "championId": "TFT6_Lissandra",
+      "cost": 3,
+      "name": "Lissandra",
+      "traits": [
+        "Chemtech",
+        "Scholar"
+      ]
+    },
+    {
+      "championId": "TFT6_Warwick",
+      "cost": 2,
+      "name": "Warwick",
+      "traits": [
+        "Chemtech",
+        "Challenger"
+      ]
+    },
+    {
+      "championId": "TFT6_Zac",
+      "cost": 3,
+      "name": "Zac",
+      "traits": [
+        "Chemtech",
+        "Bruiser"
+      ]
+    },
+    {
+      "championId": "TFT6_DrMundo",
+      "cost": 4,
+      "name": "Dr. Mundo",
+      "traits": [
+        "Chemtech",
+        "Mutant",
+        "Bruiser"
+      ]
+    },
+    {
+      "championId": "TFT6_Viktor",
+      "cost": 5,
+      "name": "Viktor",
+      "traits": [
+        "Chemtech",
+        "Arcanist"
+      ]
+    },
+    {
+      "championId": "TFT6_Camille",
+      "cost": 1,
+      "name": "Camille",
+      "traits": [
+        "Clockwork",
+        "Challenger"
+      ]
+    },
+    {
+      "championId": "TFT6_Zilean",
+      "cost": 2,
+      "name": "Zilean",
+      "traits": [
+        "Clockwork",
+        "Innovator"
+      ]
+    },
+    {
+      "championId": "TFT6_Orianna",
+      "cost": 4,
+      "name": "Orianna",
+      "traits": [
+        "Clockwork",
+        "Enchanter"
+      ]
+    },
+    {
+      "championId": "TFT6_Jhin",
+      "cost": 4,
+      "name": "Jhin",
+      "traits": [
+        "Clockwork",
+        "Sniper"
+      ]
+    },
+    {
+      "championId": "TFT6_MissFortune",
+      "cost": 3,
+      "name": "Miss Fortune",
+      "traits": [
+        "Mercenary",
+        "Sniper"
+      ]
+    },
+    {
+      "championId": "TFT6_Illaoi",
+      "cost": 1,
+      "name": "Illaoi",
+      "traits": [
+        "Mercenary",
+        "Bruiser"
+      ]
+    },
+    {
+      "championId": "TFT6_TwistedFate",
+      "cost": 1,
+      "name": "Twisted Fate",
+      "traits": [
+        "Syndicate",
+        "Arcanist"
+      ]
+    },
+    {
+      "championId": "TFT6_Gangplank",
+      "cost": 3,
+      "name": "Gangplank",
+      "traits": [
+        "Mercenary",
+        "Twinshot"
+      ]
+    },
+    {
+      "championId": "TFT6_TahmKench",
+      "cost": 5,
+      "name": "Tahm Kench",
+      "traits": [
+        "Mercenary",
+        "Bruiser",
+        "Glutton"
+      ]
+    },
+    {
+      "championId": "TFT6_Seraphine",
+      "cost": 4,
+      "name": "Seraphine",
+      "traits": [
+        "Socialite",
+        "Innovator"
+      ]
+    },
+    {
+      "championId": "TFT6_Zyra",
+      "cost": 2,
+      "name": "Zyra",
+      "traits": [
+        "Syndicate",
+        "Scholar"
+      ]
+    },
+    {
+      "championId": "TFT6_Darius",
+      "cost": 1,
+      "name": "Darius",
+      "traits": [
+        "Syndicate",
+        "Bodyguard"
+      ]
+    },
+    {
+      "championId": "TFT6_Swain",
+      "cost": 2,
+      "name": "Swain",
+      "traits": [
+        "Imperial",
+        "Arcanist"
+      ]
+    },
+    {
+      "championId": "TFT6_Samira",
+      "cost": 3,
+      "name": "Samira",
+      "traits": [
+        "Imperial",
+        "Challenger"
+      ]
+    },
+    {
+      "championId": "TFT6_Vi",
+      "cost": 2,
+      "name": "Vi",
+      "traits": [
+        "Enforcer",
+        "Sister",
+        "Bruiser"
+      ]
+    },
+    {
+      "championId": "TFT6_Caitlyn",
+      "cost": 1,
+      "name": "Caitlyn",
+      "traits": [
+        "Enforcer",
+        "Sniper"
+      ]
+    },
+    {
+      "championId": "TFT6_Jayce",
+      "cost": 5,
+      "name": "Jayce",
+      "traits": [
+        "Enforcer",
+        "Innovator",
+        "Transformer"
+      ]
+    },
+    {
+      "championId": "TFT6_Malzahar",
+      "cost": 3,
+      "name": "Malzahar",
+      "traits": [
+        "Mutant",
+        "Arcanist"
+      ]
+    },
+    {
+      "championId": "TFT6_KogMaw",
+      "cost": 2,
+      "name": "Kog'Maw",
+      "traits": [
+        "Mutant",
+        "Sniper",
+        "Twinshot"
+      ]
+    },
+    {
+      "championId": "TFT6_ChoGath",
+      "cost": 3,
+      "name": "Cho'Gath",
+      "traits": [
+        "Mutant",
+        "Bruiser",
+        "Colossus"
+      ]
+    },
+    {
+      "championId": "TFT6_Sion",
+      "cost": 4,
+      "name": "Sion",
+      "traits": [
+        "Imperial",
+        "Protector",
+        "Colossus"
+      ]
+    },
+    {
+      "championId": "TFT6_Garen",
+      "cost": 1,
+      "name": "Garen",
+      "traits": [
+        "Academy ",
+        "Protector"
+      ]
+    },
+    {
+      "championId": "TFT6_Galio",
+      "cost": 5,
+      "name": "Galio",
+      "traits": [
+        "Socialite",
+        "Bodyguard",
+        "Colossus"
+      ]
+    },
+    {
+      "championId": "TFT6_Ezreal",
+      "cost": 1,
+      "name": "Ezreal",
+      "traits": [
+        "Scrap",
+        "Innovator"
+      ]
+    },
+    {
+      "championId": "TFT6_Blitzcrank",
+      "cost": 2,
+      "name": "Blitzcrank",
+      "traits": [
+        "Scrap",
+        "Protector",
+        "Bodyguard"
+      ]
+    },
+    {
+      "championId": "TFT6_Trundle",
+      "cost": 2,
+      "name": "Trundle",
+      "traits": [
+        "Scrap",
+        "Bruiser"
+      ]
+    },
+    {
+      "championId": "TFT6_Ekko",
+      "cost": 3,
+      "name": "Ekko",
+      "traits": [
+        "Scrap",
+        "Assassin"
+      ]
+    },
+    {
+      "championId": "TFT6_Ziggs",
+      "cost": 1,
+      "name": "Ziggs",
+      "traits": [
+        "Scrap",
+        "Yordle",
+        "Arcanist"
+      ]
+    },
+    {
+      "championId": "TFT6_Jinx",
+      "cost": 5,
+      "name": "Jinx",
+      "traits": [
+        "Scrap",
+        "Sister",
+        "Twinshot"
+      ]
+    },
+    {
+      "championId": "TFT6_Fiora",
+      "cost": 4,
+      "name": "Fiora",
+      "traits": [
+        "Enforcer",
+        "Challenger"
+      ]
+    },
+    {
+      "championId": "TFT6_Poppy",
+      "cost": 1,
+      "name": "Poppy",
+      "traits": [
+        "Yordle",
+        "Bodyguard"
+      ]
+    },
+    {
+      "championId": "TFT6_Lulu",
+      "cost": 2,
+      "name": "Lulu",
+      "traits": [
+        "Yordle",
+        "Enchanter"
+      ]
+    },
+    {
+      "championId": "TFT6_Vex",
+      "cost": 3,
+      "name": "Vex",
+      "traits": [
+        "Yordle",
+        "Arcanist"
+      ]
+    },
+    {
+      "championId": "TFT6_Heimerdinger",
+      "cost": 3,
+      "name": "Heimerdinger",
+      "traits": [
+        "Yordle",
+        "Innovator",
+        "Scholar"
+      ]
+    },
+    {
+      "championId": "TFT6_Tristana",
+      "cost": 2,
+      "name": "Tristana",
+      "traits": [
+        "Yordle",
+        "Sniper"
+      ]
+    },
+    {
+      "championId": "TFT6_Janna",
+      "cost": 4,
+      "name": "Janna",
+      "traits": [
+        "Scrap",
+        "Enchanter",
+        "Scholar"
+      ]
+    },
+    {
+      "championId": "TFT6_Kassadin",
+      "cost": 1,
+      "name": "Kassadin",
+      "traits": [
+        "Mutant",
+        "Protector"
+      ]
+    },
+    {
+      "championId": "TFT6_Tibbers",
+      "cost": 5,
+      "name": "Mechanical Bear",
+      "traits": []
+    },
+    {
+      "championId": "TFT6_Urgot",
+      "cost": 4,
+      "name": "Urgot",
+      "traits": [
+        "Chemtech",
+        "Twinshot"
+      ]
+    },
+    {
+      "championId": "TFT6_Quinn",
+      "cost": 2,
+      "name": "Quinn",
+      "traits": [
+        "Mercenary",
+        "Challenger"
+      ]
+    },
+    {
+      "championId": "TFT6_Taric",
+      "cost": 3,
+      "name": "Taric",
+      "traits": [
+        "Socialite",
+        "Enchanter"
+      ]
+    },
+    {
+      "championId": "TFT6_Talon",
+      "cost": 2,
+      "name": "Talon",
+      "traits": [
+        "Imperial",
+        "Assassin"
+      ]
+    },
+    {
+      "championId": "TFT6_Kaisa",
+      "cost": 5,
+      "name": "Kai'Sa",
+      "traits": [
+        "Mutant",
+        "Challenger"
+      ]
+    },
+    {
+      "championId": "TFT6_Braum",
+      "cost": 4,
+      "name": "Braum",
+      "traits": [
+        "Syndicate",
+        "Bodyguard"
+      ]
+    },
+    {
+      "championId": "TFT6_Shaco",
+      "cost": 3,
+      "name": "Shaco",
+      "traits": [
+        "Syndicate",
+        "Assassin"
+      ]
+    },
+    {
+      "championId": "TFT6_Akali",
+      "cost": 5,
+      "name": "Akali",
+      "traits": [
+        "Syndicate",
+        "Assassin"
+      ]
+    },
+    {
+      "championId": "TFT6_MalzaharVoidling",
+      "cost": 8,
+      "name": "Mechanical Scarab",
+      "traits": []
+    },
+    {
+      "championId": "TFT6_MercenaryChest",
+      "cost": 8,
+      "name": "Mercenary Chest",
+      "traits": []
+    },
+    {
+      "championId": "TFT6_Veigar",
+      "cost": 5,
+      "name": "Veigar",
+      "traits": [
+        "Yordle-Lord"
+      ]
+    },
+    {
+      "championId": "TFT6_HexTechDragon",
+      "cost": 5,
+      "name": "Mechanical Dragon",
+      "traits": []
+    }
 ]

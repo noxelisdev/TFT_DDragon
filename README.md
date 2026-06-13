@@ -19,6 +19,7 @@ This list contains patchs from actual season. For all previous patchs of all pre
 
 The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Corresponding sets releases will be explicitly written next to the patch number. Here's a list of all patchs of current seasons included in this repository :
 
+- (February 10th, 2022) 11.22 - Set 6 (Gizmos & Gadgets)
 - (August 1st, 2021) 11.15 - Set 5 mid-set (Reckoning: Dawn of Heroes)
 - (May 1th, 2021) 11.9 - Set 5 (Reckoning)
 - (January 21th, 2021) 11.2 - Set 4 mid-set (Fates: Festival of Beasts)
@@ -26,3 +27,19 @@ The date in front of each patch represents the date when the patch was pushed to
 - (December 9th, 2020) 10.12 - Set 3 mid-set (Galaxies: Return to the Stars)
 - (December 9th, 2020) 10.6 - Set 3 (Galaxies)
 - (December 9th, 2020) 9.22 - Set 2 (Rise of the Elements)
+
+## Note about Set 6
+Set 6 has been added with some assets available on the [Set 6 Promo Assets Page](https://express.adobe.com/page/ficXgtBZ0f3xd/) (published by _Riot Games_) or/and on [_CommunityDragon_](https://raw.communitydragon.org/latest/cdragon/tft/).
+
+This was needed because _Riot Games_ didn't release at all an official version of _Data Dragon_ for this set of _Teamfight Tactics_. Keep in mind that it is partially complete, and it can contains some mistakes. Feel free to help me to improve these sets if you can (issues are open if you want to)!
+
+Due to what I said just above, keep in mind that `items.json`, `champions.json` and `traits.json` files can contains some elements from previous sets, which are not used anymore. Some items pictures can be missing or incorrect too.
+
+There is also some differences between official _Data Dragon_ files and the temporary reconstructed folder:
+- In `traits.json`, `type` doesn't exist.
+- In `traits.json`, `style` (in `sets` array) is a number (like 1), and not a string (like `silver`).
+- In `traits.json`, the `description` contains some variables strings (like `@Duration@`), which are not included.
+- In `items.json`, the `description` contains some variables strings (like `@Duration@`), which are not included.
+- In `items.json`, `isElusive` and `isRadiant` doesn't exists.
+
+Set 6 have been recreated, but this corresponding mid-sets will not be available in this repository.

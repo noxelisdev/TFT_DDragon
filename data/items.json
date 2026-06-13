@@ -1,856 +1,3290 @@
 [
-  {
-    "id": 1,
-    "name": "B.F. Sword",
-    "description": "Gain Attack Damage.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 2,
-    "name": "Recurve Bow",
-    "description": "Gain Attack Speed.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 3,
-    "name": "Needlessly Large Rod",
-    "description": "Gain Ability Power.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 4,
-    "name": "Tear of the Goddess",
-    "description": "Gain Mana.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 5,
-    "name": "Chain Vest",
-    "description": "Gain Armor.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 6,
-    "name": "Negatron Cloak",
-    "description": "Gain Magic Resist.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 7,
-    "name": "Giant's Belt",
-    "description": "Gain Health.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 8,
-    "name": "Spatula",
-    "description": "It must do something...",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 9,
-    "name": "Sparring Gloves",
-    "description": "Gain Critical Strike Chance and Dodge Chance.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 11,
-    "name": "Deathblade",
-    "description": "Contributing to a kill grants the holder additional Attack Damage for the rest of combat. This effect can stack any number of times.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 12,
-    "name": "Giant Slayer",
-    "description": "The holder's Abilities and attacks do bonus damage. If the target has more health, the bonus damage increases.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 13,
-    "name": "Hextech Gunblade",
-    "description": "The holder's magic and true damage from Abilities heal them for a percentage of the damage dealt. Excess healing fuels a shield that protects the holder.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 14,
-    "name": "Spear of Shojin",
-    "description": "The holder's Basic Attacks restore additional Mana.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 15,
-    "name": "Guardian Angel",
-    "description": "Prevents the holder's first death, placing them in stasis instead. After a short delay, they return with restored Health and shed all negative effects.",
-    "isUnique": true,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 16,
-    "name": "Bloodthirster",
-    "description": "Physical damage heals the holder for a percentage of the damage dealt. Upon falling below a percentage Health, the holder gains a shield based on their max Health that lasts several seconds.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 17,
-    "name": "Zeke's Herald",
-    "description": "When combat begins, the holder and all nearby allies in the same row gain Attack Speed for the rest of combat.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 18,
-    "name": "Skirmisher Emblem",
-    "description": "The holder gains the Skirmisher trait.",
-    "isUnique": true,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 19,
-    "name": "Infinity Edge",
-    "description": "Grants Critical Strike Chance (including components) and Critical Strike damage. Each point of Critical Strike Chance above 100% becomes bonus Critical Strike Damage.",
-    "isUnique": true,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 22,
-    "name": "Rapid Firecannon",
-    "description": "Increases the holder's Attack Range and grants bonus Attack Speed (including components). The holder's attacks can no longer miss.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 23,
-    "name": "Guinsoo's Rageblade",
-    "description": "Attacks grant bonus Attack Speed for the rest of combat. This bonus Attack Speed can stack any number of times.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 24,
-    "name": "Statikk Shiv",
-    "description": "Every third attack from the holder unleashes a chain lightning that bounces to nearby enemies, dealing magic damage and reducing their Magic Resist for several seconds.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 25,
-    "name": "Titan's Resolve",
-    "description": "When the holder takes damage or inflicts a critical strike, they gain a stacking Attack Damage and Ability Power bonus.  This stacks up to a limit, at which point the holder gains Armor and Magic Resistance.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 26,
-    "name": "Runaan's Hurricane",
-    "description": "The holder's attacks fire a bolt at another nearby enemy, dealing a percentage of the holder's Attack Damage and applying on-hit effects. These bolts can critically strike.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 27,
-    "name": "Zz'Rot Portal",
-    "description": "At the start of combat, the holder taunts nearby enemies. When the holder dies, a Voidspawn arises taunting nearby enemies. Voidspawns that arise from summoned units are only partially effective.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 28,
-    "name": "Legionnaire Emblem",
-    "description": "The holder gains the Legionnaire trait.",
-    "isUnique": true,
-    "isElusive": true,
-    "isRadiant": false
-  },
-  {
-    "id": 29,
-    "name": "Last Whisper",
-    "description": "When the holder inflicts a critical hit, the target's Armor is reduced for several seconds. This effect does not stack.",
-    "isUnique": true,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 33,
-    "name": "Rabadon's Deathcap",
-    "description": "Grants bonus Ability Power (including components).",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 34,
-    "name": "Archangel's Staff",
-    "description": "Each time the holder casts their Ability, they gain Ability Power equal to a percentage of their maximum Mana (this bonus applies to that Ability cast).",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 35,
-    "name": "Locket of the Iron Solari",
-    "description": "When combat begins, the holder and nearby allies in the same row gain a shield that blocks damage for several seconds.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 36,
-    "name": "Ionic Spark",
-    "description": "Nearby enemies have their Magic Resist reduced (does not stack). When they cast a spell, they are zapped taking magic damage equal to a percentage of their max Mana.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 37,
-    "name": "Morellonomicon",
-    "description": "When the holder deals magic or true damage with their Ability, they burn the target, dealing a percentage of the target's maximum Health as true damage over several seconds, and reducing healing for the duration of the burn.",
-    "isUnique": true,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 38,
-    "name": "Spellweaver Emblem",
-    "description": "The holder gains the Spellweaver trait.",
-    "isUnique": true,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 39,
-    "name": "Jeweled Gauntlet",
-    "description": "The holder's magic and true damage from their Ability can critically strike. The holder gains bonus Critical Strike Damage.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 44,
-    "name": "Blue Buff",
-    "description": "After casting their Ability, the holder gains Mana.",
-    "isUnique": true,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 45,
-    "name": "Frozen Heart",
-    "description": "Reduces the Attack Speed of nearby enemies.",
-    "isUnique": true,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 46,
-    "name": "Chalice of Power",
-    "description": "When combat begins, the holder and all nearby allies in the same row gain Ability Power for the rest of combat.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 47,
-    "name": "Redemption",
-    "description": "Periodically, the holder radiates an aura to nearby allies, healing them a percentage of their missing Health. Affected allies take reduced damage from multi-target abilities and attacks for several seconds.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 48,
-    "name": "Renewer Emblem",
-    "description": "The holder gains the Renewer trait.",
-    "isUnique": true,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 49,
-    "name": "Hand Of Justice",
-    "description": "At the beginning of each planning phase, the holder's basic attacks and spells deal additional damage and heal for a percentage of damage dealt. At the beginning of each planning phase, one of these buffs is increased.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 55,
-    "name": "Bramble Vest",
-    "description": "Negates bonus damage from incoming critical hits. On being hit by a Basic Attack, deal magic damage to all nearby enemies every couple seconds.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 56,
-    "name": "Gargoyle Stoneplate",
-    "description": "The holder gains Armor and Magic Resist for each enemy targeting them.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 57,
-    "name": "Sunfire Cape",
-    "description": "Periodically, a random nearby enemy is burned a percentage of their maximum Health over several seconds. Any healing they receive is reduced.",
-    "isUnique": true,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 58,
-    "name": "Ironclad Emblem",
-    "description": "The holder gains the Ironclad trait.",
-    "isUnique": true,
-    "isElusive": true,
-    "isRadiant": false
-  },
-  {
-    "id": 59,
-    "name": "Shroud of Stillness",
-    "description": "When combat begins, the holder shoots a beam straight ahead that delays affected enemies' first spellcast, increasing their max Mana until they cast.",
-    "isUnique": true,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 66,
-    "name": "Dragon's Claw",
-    "description": "Grants bonus Magic Resist (including components). On being hit by magic or true damage from an Ability, launch a fireball at the Ability's caster that deals magic damage equal to a percentage of their max Health.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 67,
-    "name": "Zephyr",
-    "description": "When combat begins, the holder summons a whirlwind on the opposite side of the arena that removes the closest enemy from combat for several seconds. Ignores CC immunity.",
-    "isUnique": true,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 68,
-    "name": "Redeemed Emblem",
-    "description": "The holder gains the Redeemed trait.",
-    "isUnique": true,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 69,
-    "name": "Quicksilver",
-    "description": "The holder gains immunity to crowd control in combat for several seconds.",
-    "isUnique": true,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 77,
-    "name": "Warmog's Armor",
-    "description": "Grants bonus Health (including components).",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 78,
-    "name": "Dawnbringer Emblem",
-    "description": "The holder gains the Dawnbringer trait.",
-    "isUnique": true,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 79,
-    "name": "Banshee's Claw",
-    "description": "When combat begins, the holder and all nearby allies in the same row gain a shield that blocks the first enemy Ability.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 88,
-    "name": "Force of Nature",
-    "description": "The holder's maximum team size is incrased.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 89,
-    "name": "Assassin Emblem",
-    "description": "The holder gains the Assassin trait.",
-    "isUnique": true,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 99,
-    "name": "Thief's Gloves",
-    "description": "At the beginning of each planning phase, the holder equips 2 temporary items. Temporary items increase in power based on your player level. [Consumes Three Item Slots]",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 1118,
-    "name": "Forgotten Emblem",
-    "description": "The holder gains the Forgotten trait.",
-    "isUnique": true,
-    "isElusive": true,
-    "isRadiant": false
-  },
-  {
-    "id": 1128,
-    "name": "Hellion Emblem",
-    "description": "The holder gains the Hellion trait.",
-    "isUnique": true,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 1158,
-    "name": "Cavalier Emblem",
-    "description": "The holder gains the Cavalier trait.",
-    "isUnique": true,
-    "isElusive": false,
-    "isRadiant": false
-  },
-  {
-    "id": 1168,
-    "name": " Revenant Emblem",
-    "description": "The holder gains the Revenant trait.",
-    "isUnique": true,
-    "isElusive": true,
-    "isRadiant": false
-  },
-  {
-    "id": 1178,
-    "name": "Nightbringer Emblem",
-    "description": "The holder gains the Nightbringer trait.",
-    "isUnique": true,
-    "isElusive": true,
-    "isRadiant": false
-  },
-  {
-    "id": 1189,
-    "name": "Abomination Emblem",
-    "description": "The holder gains the Abomination trait.",
-    "isUnique": true,
-    "isElusive": true,
-    "isRadiant": false
-  },
-  {
-    "id": 1190,
-    "name": "Ranger Emblem",
-    "description": "The holder gains the Ranger trait.",
-    "isUnique": true,
-    "isElusive": true,
-    "isRadiant": false
-  },
-  {
-    "id": 1191,
-    "name": "Draconic Emblem",
-    "description": "The holder gains the Draconic trait.",
-    "isUnique": true,
-    "isElusive": true,
-    "isRadiant": false
-  },
-  {
-    "id": 1192,
-    "name": "Invoker Emblem",
-    "description": "The holder gains the Invoker trait.",
-    "isUnique": true,
-    "isElusive": true,
-    "isRadiant": false
-  },
-  {
-    "id": 1193,
-    "name": "Brawler Emblem",
-    "description": "The holder gains the Brawler trait.",
-    "isUnique": true,
-    "isElusive": true,
-    "isRadiant": false
-  },
-  {
-    "id": 1194,
-    "name": "Sentinel Emblem",
-    "description": "The holder gains the Sentinel trait.",
-    "isUnique": true,
-    "isElusive": true,
-    "isRadiant": false
-  },
-  {
-    "id": 1195,
-    "name": "Cannoneer Emblem",
-    "description": "The holder gains the Cannoneer trait.",
-    "isUnique": true,
-    "isElusive": true,
-    "isRadiant": false
-  },
-  {
-    "id": 1196,
-    "name": "Knight Emblem",
-    "description": "The holder gains the Knight trait.",
-    "isUnique": true,
-    "isElusive": true,
-    "isRadiant": false
-  },
-  {
-    "id": 1197,
-    "name": "Mystic Emblem",
-    "description": "The holder gains the Mystic trait.",
-    "isUnique": true,
-    "isElusive": true,
-    "isRadiant": false
-  },
-  {
-    "id": 2034,
-    "name": "Urf-Angel's Staff",
-    "description": "Each time the holder casts their Ability, they gain Ability Power equal to a percentage of their maximum Mana (this bonus applies to that Ability cast).",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": true,
-    "radiantBonus": "Starting Mana"
-  },
-  {
-    "id": 2016,
-    "name": "Blessed Bloodthirster",
-    "description": "Physical damage heals the holder for a percentage of the damage dealt. Upon falling below a percentage Health, the holder gains a shield based on their max Health that lasts several seconds.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": true,
-    "radiantBonus": "Attack Damage"
-  },
-  {
-    "id": 2044,
-    "name": "Blue Blessing",
-    "description": "After casting their Ability, the holder gains Mana.",
-    "isUnique": true,
-    "isElusive": false,
-    "isRadiant": true,
-    "radiantBonus": "Ability Power"
-  },
-  {
-    "id": 2055,
-    "name": "Rosethorn Vest",
-    "description": "Negates bonus damage from incoming critical hits. On being hit by a Basic Attack, deal magic damage to all nearby enemies every couple seconds.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": true,
-    "radiantBonus": "Regenerate percentage max Health per second"
-  },
-  {
-    "id": 2046,
-    "name": "Chalice of Charity",
-    "description": "When combat begins, the holder and all nearby allies in the same row gain Ability Power and Spellvamp for the rest of combat.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": true
-  },
-  {
-    "id": 2011,
-    "name": "Luminous Deathblade",
-    "description": "Contributing to a kill grants the holder additional Attack Damage for the rest of combat. This effect can stack any number of times.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": true
-  },
-  {
-    "id": 2066,
-    "name": "Dragon's Will",
-    "description": "Grants bonus Magic Resist (including components). On being hit by magic or true damage from an Ability, launch a fireball at the Ability's caster that deals magic damage equal to a percentage of their max Health.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": true,
-    "radiantBonus": "Regenerate percentage max Health per second"
-  },
-  {
-    "id": 2045,
-    "name": "Frozen Heart of Gold",
-    "description": "Reduces the Attack Speed of nearby enemies.",
-    "isUnique": true,
-    "isElusive": false,
-    "isRadiant": true,
-    "radiantBonus": "Starting Mana"
-  },
-  {
-    "id": 2056,
-    "name": "Dvarapala Stoneplate",
-    "description": "The holder gains Armor and Magic Resist for each enemy targeting them.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": true,
-    "radiantBonus": "Regenerate percentage max Health per second"
-  },
-  {
-    "id": 2012,
-    "name": "Demonslayer",
-    "description": "The holder's Abilities and attacks do bonus damage. If the target has more health, the bonus damage increases.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": true
-  },
-  {
-    "id": 2015,
-    "name": "Guardian Archangel",
-    "description": "Prevents the holder's first death, placing them in stasis instead. After a short delay, they return with restored Health and shed all negative effects.",
-    "isUnique": true,
-    "isElusive": false,
-    "isRadiant": true,
-    "radiantBonus": "Attack Speed"
-  },
-  {
-    "id": 2023,
-    "name": "Guinsoo's Reckoning",
-    "description": "Attacks grant bonus Attack Speed for the rest of combat. This bonus Attack Speed can stack any number of times.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": true
-  },
-  {
-    "id": 2049,
-    "name": "Fist of Fairness",
-    "description": "At the beginning of each planning phase, the holder's basic attacks and spells deal additional damage and heals for a percentage of damage dealt.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": true
-  },
-  {
-    "id": 2013,
-    "name": "Hextech Lifeblade",
-    "description": "The holder's magic and true damage from Abilities heal them for a percentage of the damage dealt. Excess healing fuels a shield that protects the holder.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": true,
-    "radiantBonus": "Ability Power"
-  },
-  {
-    "id": 2019,
-    "name": "Zenith Edge",
-    "description": "Grants Critical Strike Chance (including components) and Critical Strike damage. Each point of Critical Strike Chance above 100% becomes bonus Critical Strike Damage.",
-    "isUnique": true,
-    "isElusive": false,
-    "isRadiant": true,
-    "radiantBonus": "Critical Strike Damage"
-  },
-  {
-    "id": 2036,
-    "name": "Covalent Spark",
-    "description": "Nearby enemies have their Magic Resist reduced (does not stack). When they cast a spell, they are zapped taking magic damage equal to a percentage of their max Mana.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": true,
-    "radiantBonus": "Regenerate percentage max Health per second"
-  },
-  {
-    "id": 2039,
-    "name": "Glamorous Gauntlet",
-    "description": "The holder's magic and true damage from their Ability can critically strike. The holder gains bonus Critical Strike Damage.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": true
-  },
-  {
-    "id": 2029,
-    "name": "Eternal Whisper",
-    "description": "When the holder inflicts a critical hit, the target's Armor is reduced for several seconds. This effect does not stack.",
-    "isUnique": true,
-    "isElusive": false,
-    "isRadiant": true,
-    "radiantBonus": "Critical Strike Chance"
-  },
-  {
-    "id": 2035,
-    "name": "Locket of the Targon Prime",
-    "description": "When combat begins, the holder and nearby allies in the same row gain a shield that blocks damage for several seconds.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": true
-  },
-  {
-    "id": 2037,
-    "name": "More More-ellonomicon",
-    "description": "When the holder deals magic or true damage with their Ability, they burn the target, dealing a percentage of the target's maximum Health as true damage over several seconds, and reducing healing for the duration of the burn.",
-    "isUnique": true,
-    "isElusive": false,
-    "isRadiant": true,
-    "radiantBonus": "Starting Mana"
-  },
-  {
-    "id": 2069,
-    "name": "Quickestsilver",
-    "description": "The holder gains immunity to crowd control in combat for several seconds.",
-    "isUnique": true,
-    "isElusive": false,
-    "isRadiant": true,
-    "radiantBonus": "Attack Speed"
-  },
-  {
-    "id": 2033,
-    "name": "Rabadon's Ascended Deathcap",
-    "description": "Grants bonus Ability Power (including components).",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": true
-  },
-  {
-    "id": 2022,
-    "name": "Rapid Lightcannon",
-    "description": "Increases the holder's Attack Range and grants bonus Attack Speed (including components). The holder's attacks can no longer miss.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": true,
-    "radiantBonus": "Attack Speed"
-  },
-  {
-    "id": 2047,
-    "name": "Radiant Redemption",
-    "description": "Periodically, the holder radiates an aura to nearby allies, healing them a percentage of their missing Health. Affected allies take reduced damage from multi-target abilities and attacks for several seconds.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": true,
-    "radiantBonus": "Health"
-  },
-  {
-    "id": 2026,
-    "name": "Runaan's Tempest",
-    "description": "The holder's attacks fire a bolt at another nearby enemy, dealing a percentage of the holder's Attack Damage and applying on-hit effects. These bolts can critically strike.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": true,
-    "radiantBonus": "Attack Speed"
-  },
-  {
-    "id": 2059,
-    "name": "Shroud of Reverence",
-    "description": "When combat begins, the holder shoots a beam straight ahead that delays affected enemies' first spellcast, increasing their max Mana until they cast.",
-    "isUnique": true,
-    "isElusive": false,
-    "isRadiant": true,
-    "radiantBonus": "Starting Mana for all allies at the start of combat"
-  },
-  {
-    "id": 2014,
-    "name": "Spear of Hirana",
-    "description": "The holder's Basic Attacks restore additional Mana.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": true
-  },
-  {
-    "id": 2024,
-    "name": "Statikk Favor",
-    "description": "Every third attack from the holder unleashes a chain lightning that bounces to nearby enemies, dealing magic damage and reducing their Magic Resist for several seconds.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": true
-  },
-  {
-    "id": 2057,
-    "name": "Sunlight Cape",
-    "description": "Periodically, a random nearby enemy is burned a percentage of their maximum Health over several seconds. Any healing they receive is reduced.",
-    "isUnique": true,
-    "isElusive": false,
-    "isRadiant": true,
-    "radiantBonus": "Regenerate percentage max Health per second"
-  },
-  {
-    "id": 2099,
-    "name": "Rascal's Gloves",
-    "description": "At the beginning of each planning phase, the holder equips 2 temporary Radiant items. [Consumes Three Item Slots]",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": true
-  },
-  {
-    "id": 2025,
-    "name": "Titan's Vow",
-    "description": "When the holder takes damage or inflicts a critical strike, they gain a stacking Attack Damage and Ability Power bonus.  This stacks up to a limit, at which point the holder gains Armor and Magic Resistance.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": true
-  },
-  {
-    "id": 2079,
-    "name": "Banshee's Silence",
-    "description": "When combat begins, the holder and all nearby allies in the same row gain a shield that blocks the first enemy Ability.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": true,
-    "radiantBonus": "Health for all allies at the start of combat"
-  },
-  {
-    "id": 2077,
-    "name": "Warmog's Pride",
-    "description": "Grants bonus Health (including components).",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": true,
-    "radiantBonus": "Regenerate percentage max Health per second"
-  },
-  {
-    "id": 2017,
-    "name": "Zeke's Harmony",
-    "description": "When combat begins, the holder and all nearby allies in the same row gain Attack Speed and Lifesteal for the rest of combat.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": true
-  },
-  {
-    "id": 2067,
-    "name": "Mistral",
-    "description": "When combat begins, the holder summons a whirlwind on the opposite side of the arena that removes the closest enemy from combat for several seconds. Ignores CC immunity.",
-    "isUnique": true,
-    "isElusive": false,
-    "isRadiant": true,
-    "radiantBonus": "Attack Speed for all allies at the start of combat"
-  },
-  {
-    "id": 2027,
-    "name": "Zz'Rot Invitation",
-    "description": "At the start of combat, a Radiant Voidmother with bonus Health and Attack Damage aries and taunts nearby enemies. Radiant Voidmothers that arise from summoned units are only partially effective.",
-    "isUnique": false,
-    "isElusive": false,
-    "isRadiant": true
-  }
-]
+    {
+      "description": "When combat begins, all of the holder's allies within @HexRange@ hex in the same row gain %i:scaleAP% <TFTShadowItemBonus>@BonusAP@ Ability Power</TFTShadowItemBonus> for the rest of combat. <TFTShadowItemPenalty>The holder loses %i:scaleAP% @APLost@ Ability Power instead of gaining any.</TFTShadowItemPenalty>",
+      "id": 1046,
+      "name": "Chalice of Malice",
+      "isUnique": false
+    },
+    {
+      "description": "The holder's attacks restore %i:scaleMana% <TFTShadowItemBonus>@FlatManaRestore@ additional Mana.</TFTShadowItemBonus>",
+      "id": 1014,
+      "name": "Spectral Spear of Shojin",
+      "isUnique": false
+    },
+    {
+      "description": "After casting their Ability, the holder gains %i:scaleMana% <TFTShadowItemBonus>@PostCastMana@</TFTShadowItemBonus> Mana.<br><br><tftitemrules>[Unique - only one per champion]</tftitemrules>",
+      "id": 1044,
+      "name": "Very Dark Blue Buff",
+      "isUnique": true
+    },
+    {
+      "description": "When combat begins, the holder <TFTShadowItemPenalty>reduces the Attack Speed of all allies within @HexRange@ hexes in the same row by %i:scaleAS% @AttackSpeedReduction@%.</TFTShadowItemPenalty> <TFTShadowItemBonus>The holder then gains %i:scaleAS% @AttackSpeed@% Attack Speed for each affected ally.</TFTShadowItemBonus>",
+      "id": 1017,
+      "name": "Zeke's Bleak Herald",
+      "isUnique": false
+    },
+    {
+      "description": "The holder heals themself for @HealingPerEnemy@ Health every @SecondsBetweenHeals@ seconds for each unit targeting them.",
+      "id": 1056,
+      "name": "Gargoyle Stoneplate Of Immortality",
+      "isUnique": false
+    },
+    {
+      "description": "Grants %i:scaleArmor% @TooltipDisplayArmor@ bonus Armor (including components).",
+      "id": 1055,
+      "name": "Refracted Bramble Vest",
+      "isUnique": false
+    },
+    {
+      "description": "Grants %i:scaleAP% <TFTShadowItemBonus>@TooltipDisplayAP@</TFTShadowItemBonus> bonus Ability Power (including components). ",
+      "id": 1033,
+      "name": "Rabadon's Caustic Deathcap",
+      "isUnique": false
+    },
+    {
+      "description": "It must do <i>something <TFTShadowItemBonus>evil</TFTShadowItemBonus></i>...",
+      "id": 1008,
+      "name": "Shadow Spatula",
+      "isUnique": false
+    },
+    {
+      "description": "%i:scaleMR% +@MagicResist@ Magic Resist",
+      "id": 1006,
+      "name": "Shadow Cloak",
+      "isUnique": false
+    },
+    {
+      "description": "<TFTShadowItemBonus>Every other</TFTShadowItemBonus> attack from the holder unleashes chain lightning that strikes @1StarBounces@ enemies, dealing @Damage@ magic damage and reducing their Magic Resist by @MRShred@% for @MRShredDuration@ seconds. ",
+      "id": 1024,
+      "name": "Statikk Stiletto",
+      "isUnique": false
+    },
+    {
+      "description": "The holder radiates an aura to <TFTShadowItemBonus>all allies on the board</TFTShadowItemBonus> except themself, and heals them for <TFTShadowItemPenalty>@MissingHealthHeal@%</TFTShadowItemPenalty> of their missing Health every @HealTickRate@ seconds.",
+      "id": 1047,
+      "name": "Sacrificial Redemption",
+      "isUnique": false
+    },
+    {
+      "description": "The holder gains immunity to crowd control <TFTShadowItemBonus>for the entirety of combat</TFTShadowItemBonus>.<br><br><tftitemrules>[Unique - only one per champion]</tftitemrules>",
+      "id": 1069,
+      "name": "Caustic Quicksilver",
+      "isUnique": true
+    },
+    {
+      "description": "%i:scaleAS% +@AS@ Attack Speed",
+      "id": 1002,
+      "name": "Shadow Bow",
+      "isUnique": false
+    },
+    {
+      "description": "When combat begins, the holder and all allies within @HexRange@ hexes in the same row gain <TFTShadowItemBonus>@BonusDefenses@ bonus Armor and Magic Resist</TFTShadowItemBonus>.",
+      "id": 1035,
+      "name": "Locket of the Silver Lunari",
+      "isUnique": false
+    },
+    {
+      "description": "<TFTShadowItemBonus>At the beginning of combat, the holder gains both of the following:</TFTShadowItemBonus><li>+@BonusAD@ Attack Damage and +@BonusSP@ Ability Power.</li> <li>Attacks and Abilities heal for @TraitMultiplier@% of damage dealt.</li><br><TFTShadowItemPenalty>These bonuses expire after each takedown, and renew on the next.</TFTShadowItemPenalty>",
+      "id": 1049,
+      "name": "Hand of Vengeance",
+      "isUnique": false
+    },
+    {
+      "description": "When combat begins, the holder summons a whirlwind on the opposite side of the arena that removes the closest enemy from combat for <TFTShadowItemBonus>@BanishDuration@ seconds.</TFTShadowItemBonus><br><br><tftitemrules>[Unique - only one per champion]</tftitemrules>",
+      "id": 1067,
+      "name": "Turbulent Zephyr",
+      "isUnique": true
+    },
+    {
+      "description": "Grants @CritChance@% Critical Strike Chance (including components). Each point of Critical Strike Chance above 100% becomes +@BonusCritDmgPerCritAbove100@% Critical Strike Damage. <br><br><TFTShadowItemBonus>The holder also gains @BonusCritDamage@% Critical Strike Damage.</TFTShadowItemBonus><br><br><tftitemrules>[Unique - only one per champion]</tftitemrules>",
+      "id": 1019,
+      "name": "Sacrificial Infinity Edge",
+      "isUnique": true
+    },
+    {
+      "description": "Reduces incoming magic damage by @MagicReduction@%.<br><br><TFTShadowItemBonus>Negates bonus damage from incoming critical hits.</TFTShadowItemBonus>",
+      "id": 1066,
+      "name": "Refracted Dragon's Claw",
+      "isUnique": false
+    },
+    {
+      "description": "The holder's attacks and abilities reduce the target's Armor <TFTShadowItemBonus>and Magic Resist</TFTShadowItemBonus> by @ArmorMRReductionPercent@% for the rest of combat.<br><br><br><tftitemrules>[Unique - only one per champion]</tftitemrules>",
+      "id": 1029,
+      "name": "Final Whisper",
+      "isUnique": true
+    },
+    {
+      "description": "Each time the holder casts their Ability, they gain empty maximum Health equal to @ManaRatio@% of their maximum Mana. The holder then heals for that amount.<br>",
+      "id": 1034,
+      "name": "Archdemon's Staff Of Immortality",
+      "isUnique": false
+    },
+    {
+      "description": "The holder gains @CritDamageAmp@% Critical Strike Damage, and magic and true damage from their Ability can critically strike. <br><br><TFTShadowItemBonus>The first time they cast their Ability each combat, they gain an additional @BonusCritChance@% Critical Strike Chance for the remainder of combat (applies to that Ability cast).</TFTShadowItemBonus>",
+      "id": 1039,
+      "name": "Sacrificial Gauntlet",
+      "isUnique": false
+    },
+    {
+      "description": "Physical damage heals the holder for @Lifesteal@% of the damage dealt. <TFTShadowItemBonus>Each time the holder heals to @HealthThresholdPercent@% Health, they gain @BonusAS@% Attack Speed for @BonusASDuration@ seconds.</TFTShadowItemBonus> <TFTShadowItemPenalty>The holder takes @HealthLossPercent@% of their maximum Health in true damage at the beginning of combat or upon being equipped.</TFTShadowItemPenalty>",
+      "id": 1016,
+      "name": "Riskthirster",
+      "isUnique": false
+    },
+    {
+      "description": "%i:scaleHealth% +@Health@ Health",
+      "id": 1007,
+      "name": "Shadow Belt",
+      "isUnique": false
+    },
+    {
+      "description": "Contributing to a kill grants the holder %i:scaleAD% <TFTShadowItemBonus>@ADPerStack@ Attack Damage</TFTShadowItemBonus> for the rest of combat. This effect can stack any number of times (starting at @StartingStacks@).",
+      "id": 1011,
+      "name": "Caustic Deathblade",
+      "isUnique": false
+    },
+    {
+      "description": "At the beginning of each planning phase, the holder equips 2 temporary items. These are always full shadow items.<br><br><tftitemrules>[Consumes Three Item Slots]</tftitemrules>",
+      "id": 1099,
+      "name": "Trickster's Gloves",
+      "isUnique": false
+    },
+    {
+      "description": "Increases the holder's Attack Range by @HexRangeIncrease@ hex. Additionally, the holder gains %i:scaleAS% <TFTShadowItemBonus>+@BonusAS@% bonus Attack Speed</TFTShadowItemBonus> <TFTShadowItemPenalty>when there are no enemies within @HexRequirement@ hex.</TFTShadowItemPenalty><br><br>The holder's attacks can no longer miss.<br><br>",
+      "id": 1022,
+      "name": "Rapid Deathcannon",
+      "isUnique": false
+    },
+    {
+      "description": "%i:scaleAP% +@AP@ Ability Power",
+      "id": 1003,
+      "name": "Shadow Rod",
+      "isUnique": false
+    },
+    {
+      "description": "@PercentDamage@% of incoming damage is stored. Every @SecondsBetweenProcs@ seconds, the holder's next attack unleashes this stored damage as true damage.",
+      "id": 1025,
+      "name": "Titan's Revenge",
+      "isUnique": false
+    },
+    {
+      "description": "Reduces the Attack Speed of all enemies within @HexRadius@ hexes by <TFTShadowItemBonus>@AttackSpeedSlow@%</TFTShadowItemBonus>.<br><br><tftitemrules>[Unique - only one per champion]</tftitemrules>",
+      "id": 1045,
+      "name": "Frozen Dark Heart",
+      "isUnique": true
+    },
+    {
+      "description": "Enemies within @HexRange@ hexes have their Magic Resist reduced by @MRShred@%. When they cast an Ability, they are zapped taking magic damage equal to @ManaRatio@% of their max Mana.",
+      "id": 1036,
+      "name": "Ionic Dark-Spark",
+      "isUnique": false
+    },
+    {
+      "description": "Every <TFTShadowItemBonus>@ICD@ second(s)</TFTShadowItemBonus>, a random enemy within <TFTShadowItemBonus>@HexRange@ hexes</TFTShadowItemBonus> is burned for @BurnPercent@% of their maximum Health as true damage over @BurnDuration@ seconds. Any healing they receive is reduced by @GrievousWoundsPercent@%.<br><br><tftitemrules>[Unique - only one per champion]</tftitemrules>",
+      "id": 1057,
+      "name": "Eclipse Cape",
+      "isUnique": true
+    },
+    {
+      "description": "When combat begins, the holder shoots a beam straight ahead <TFTShadowItemPenalty>and behind</TFTShadowItemPenalty> that delays affected enemies' first ability cast, increasing their maximum Mana by <TFTShadowItemBonus>@CostIncrease@%</TFTShadowItemBonus> until they cast.<br><br><tftitemrules>[Unique - only one per champion]</tftitemrules>",
+      "id": 1059,
+      "name": "Dark Shroud of Stillness",
+      "isUnique": true
+    },
+    {
+      "description": "The holder's attacks fire bolts at <TFTShadowItemBonus>@AdditionalTargets@ nearby enemies</TFTShadowItemBonus>, dealing <TFTShadowItemPenalty>@MultiplierForDamage@% of the holder's Attack Damage.</TFTShadowItemPenalty> These bolts can critically strike but do not apply on-hit effects. ",
+      "id": 1026,
+      "name": "Runaan's Untamed Hurricane ",
+      "isUnique": false
+    },
+    {
+      "description": "The holder's team gains <TFTShadowItemBonus>+@MaxArmySizeIncrease@</TFTShadowItemBonus> maximum team size, but <TFTShadowItemPenalty>the player's Little Legend takes +@PercentDamageIncrease@% damage after losing a battle</TFTShadowItemPenalty>.",
+      "id": 1088,
+      "name": "Force of Darkness",
+      "isUnique": false
+    },
+    {
+      "description": "Prevents the holder's first death, placing them in stasis instead. After @StasisDuration@ seconds, they return with <TFTShadowItemBonus>@HealthRestorePercent@% Health</TFTShadowItemBonus> and shed all negative effects.<br><br><tftitemrules>[Unique - only one per champion]</tftitemrules>",
+      "id": 1015,
+      "name": "Fallen Guardian Angel",
+      "isUnique": true
+    },
+    {
+      "description": "%i:scaleArmor% +@Armor@ Armor",
+      "id": 1005,
+      "name": "Shadow Vest",
+      "isUnique": false
+    },
+    {
+      "description": "%i:scaleMana% +@Mana@ Mana",
+      "id": 1004,
+      "name": "Shadow Tear",
+      "isUnique": false
+    },
+    {
+      "description": "+@CritChance@ Critical Strike Chance<br>+@DodgeChance@ Dodge Chance",
+      "id": 1009,
+      "name": "Shadow Gloves",
+      "isUnique": false
+    },
+    {
+      "description": "The holder's Abilities and attacks do @SmallBonusPct@% bonus damage. If the target has more than @HealthThreshold@ maximum Health, the bonus increases to @LargeBonusPct@%.",
+      "id": 1012,
+      "name": "Spectral Giantslayer",
+      "isUnique": false
+    },
+    {
+      "description": "At the start of combat, the holder taunts enemies within @HexRadius@ hexes.<br><br>When the holder dies, an Unstable Voidspawn with <TFTShadowItemPenalty>@ZombieHealth@ Health</TFTShadowItemPenalty> arises and taunts enemies again. When it dies <TFTShadowItemBonus>it deals @ExplosionDamage@ true damage to enemies within @ExplosionHexRange@ hex(es).</TFTShadowItemBonus><br><br>Voidspawns that arise from summoned units are @SummonedStatReduction@% effective.",
+      "id": 1027,
+      "name": "Unstable Zz'Rot Portal",
+      "isUnique": false
+    },
+    {
+      "description": "tft_item_description_RadiantSpatula",
+      "id": 555,
+      "name": "tft_item_name_RadiantSpatula",
+      "isUnique": false
+    },
+    {
+      "description": "Grants %i:scaleHealth% <TFTShadowItemBonus>@TooltipDisplayHealth@ bonus Health</TFTShadowItemBonus> (including components).",
+      "id": 1077,
+      "name": "Warmog's Sacrificial Armor",
+      "isUnique": false
+    },
+    {
+      "description": "The holder's magic and true damage from Abilities heals the ally with lowest percent Health for <TFTShadowItemBonus>@OmniVamp@% of the damage dealt.</TFTShadowItemBonus> <TFTShadowItemPenalty>This heal cannot affect the holder.</TFTShadowItemPenalty>",
+      "id": 1013,
+      "name": "Hextech Gunblade Of Immortality",
+      "isUnique": false
+    },
+    {
+      "description": "When combat begins, the holder and all allies within @HexRange@ hexes in the same row gain a shield that blocks the first enemy Ability.<br><br><tftitemrules>[Unique - only one per champion]</tftitemrules>",
+      "id": 1079,
+      "name": "Banshee's Claw",
+      "isUnique": true
+    },
+    {
+      "description": "Attacks grant <TFTShadowItemBonus>+@AttackSpeedPerStack@%</TFTShadowItemBonus> bonus Attack Speed for the rest of combat. The bonus Attack Speed can stack any number of times.",
+      "id": 1023,
+      "name": "Guinsoo's Sacrificial Rageblade",
+      "isUnique": false
+    },
+    {
+      "description": "When the holder deals magic or true damage with their Ability, they burn the target, dealing <TFTShadowItemBonus>@BurnPercent@% of the target's maximum Health</TFTShadowItemBonus> as true damage over @BurnDuration@ seconds, and reducing healing by @GrievousWoundsPercent@% for the duration of the burn.<br><br><tftitemrules>[Unique - only one per champion]</tftitemrules>",
+      "id": 1037,
+      "name": "Mor-evil-lonomicon",
+      "isUnique": true
+    },
+    {
+      "description": "%i:scaleAD% +@AD@ Attack Damage",
+      "id": 1001,
+      "name": "Shadow Sword",
+      "isUnique": false
+    },
+    {
+      "description": "The holder gains %i:scaleArmor% <TFTRadiantItemBonus>@ArmorPerEnemy@</TFTRadiantItemBonus> Armor and %i:scaleMR% <TFTRadiantItemBonus>@MRPerEnemy@</TFTRadiantItemBonus> Magic Resist for each enemy targeting them.<br><br><TFTRadiantItemBonus>Radiant Bonus: Regenerate @MaxHealthRegen@% max Health per second.</TFTRadiantItemBonus>",
+      "id": 2056,
+      "name": "Dvarapala Stoneplate",
+      "isUnique": false
+    },
+    {
+      "description": "When the holder attacks or takes damage, they gain <TFTRadiantItemBonus>@StackingAD@ Attack Damage and Ability Power</TFTRadiantItemBonus>.<br><br>This stacks up to @StackCap@ times, at which point the holder gains <TFTRadiantItemBonus>@BonusResistsAtStackCap@ Armor and Magic Resist</TFTRadiantItemBonus>.",
+      "id": 2025,
+      "name": "Titan's Vow",
+      "isUnique": false
+    },
+    {
+      "description": "When the holder deals magic or true damage with their Ability, they burn the target, dealing <TFTRadiantItemBonus>@BurnPercent@%</TFTRadiantItemBonus> of the target's maximum Health as true damage over <TFTRadiantItemBonus>@BurnDuration@</TFTRadiantItemBonus> seconds, and reducing healing by @GrievousWoundsPercent@% for the duration of the burn.<br><br><TFTRadiantItemBonus>Radiant Bonus: +@Mana@ Starting Mana.</TFTRadiantItemBonus><br><br><tftitemrules>[Unique - only one per champion]</tftitemrules>",
+      "id": 2037,
+      "name": "More More-ellonomicon",
+      "isUnique": true
+    },
+    {
+      "description": "Grants @CritChance@% Critical Strike Chance (including components) and @BonusCritDamage@% Critical Strike Damage. Each point of Critical Strike Chance above 100% becomes +@BonusCritDmgPerCritAbove100@% Critical Strike Damage.<br><br><TFTRadiantItemBonus>Radiant Bonus: +@RadiantBonusCritDamage@% Critical Strike Damage.</TFTRadiantItemBonus><br><br><tftitemrules>[Unique - only one per champion]</tftitemrules>",
+      "id": 2019,
+      "name": "Zenith Edge",
+      "isUnique": true
+    },
+    {
+      "description": "Every @HealTickRate@ seconds, the holder radiates an aura to allies within <TFTRadiantItemBonus>@HexRadius@</TFTRadiantItemBonus> hexes, healing them for <TFTRadiantItemBonus>@MissingHealthHeal@%</TFTRadiantItemBonus> of their missing Health. Affected allies take @AoEDamageReduction@% reduced damage from multi-target abilities and attacks for @HealTickRate@ seconds.<br><br><TFTRadiantItemBonus>Radiant Bonus: +@BonusHealth@ Health.</TFTRadiantItemBonus>",
+      "id": 2047,
+      "name": "Radiant Redemption",
+      "isUnique": false
+    },
+    {
+      "description": "After casting their Ability, the holder gains %i:scaleMana% <TFTRadiantItemBonus>@ManaRestore@</TFTRadiantItemBonus> mana.<br><br><TFTRadiantItemBonus>Radiant Bonus: +@AP@ Ability Power. </TFTRadiantItemBonus><br><br><tftitemrules>[Unique - only one per champion]</tftitemrules>",
+      "id": 2044,
+      "name": "Blue Blessing",
+      "isUnique": true
+    },
+    {
+      "description": "Prevents the holder's first death, placing them in stasis instead. After @StasisDuration@ seconds, they return with <TFTRadiantItemBonus>@HealthRestorePercent@%</TFTRadiantItemBonus> Health and shed all negative effects.<br><br><TFTRadiantItemBonus>Radiant Bonus: +@AS@% Attack Speed.</TFTRadiantItemBonus><br><br><tftitemrules>[Unique - only one per champion]</tftitemrules>",
+      "id": 2015,
+      "name": "Guardian Archangel",
+      "isUnique": true
+    },
+    {
+      "description": "The holder's attacks restore %i:scaleMana% <TFTRadiantItemBonus>@FlatManaRestore@</TFTRadiantItemBonus> additional Mana.<br><br><TFTRadiantItemBonus>Radiant Bonus: +@AP@ Ability Power. </TFTRadiantItemBonus>",
+      "id": 2014,
+      "name": "Spear of Hirana",
+      "isUnique": false
+    },
+    {
+      "description": "Grants %i:scaleHealth% <TFTRadiantItemBonus>@Health@</TFTRadiantItemBonus> bonus Health (including components).<br><br><TFTRadiantItemBonus>Radiant Bonus: Regenerate @MaxHealthRegen@% max Health per second.</TFTRadiantItemBonus>",
+      "id": 2077,
+      "name": "Warmog's Pride",
+      "isUnique": false
+    },
+    {
+      "description": "Negates bonus damage from incoming critical strikes. On being hit by an attack, deal <TFTRadiantItemBonus>@1StarAoEDamage@/@2StarAoEDamage@/@3StarAoEDamage@</TFTRadiantItemBonus> %i:star% magic damage to all nearby enemies (once every @ICD@ seconds).<br><br><TFTRadiantItemBonus>Radiant Bonus: Regenerate @MaxHealthRegen@% max Health per second.</TFTRadiantItemBonus>",
+      "id": 2055,
+      "name": "Rosethorn Vest",
+      "isUnique": false
+    },
+    {
+      "description": "When combat begins, the holder <TFTRadiantItemBonus>and all allies </TFTRadiantItemBonus> gain a shield that blocks the first enemy Ability.<br><br><TFTRadiantItemBonus>Radiant Bonus: +@BonusAllyHealth@ Health for all allies</TFTRadiantItemBonus> at the start of combat.",
+      "id": 2079,
+      "name": "Banshee's Silence",
+      "isUnique": false
+    },
+    {
+      "description": "The holder's attacks fire a bolt at another nearby enemy, dealing <TFTRadiantItemBonus>@MultiplierForDamage@%</TFTRadiantItemBonus> of the holder's Attack Damage and applying on-hit effects. These bolts can critically strike.<br><br><TFTRadiantItemBonus>Radiant Bonus: +@BonusAS@% Attack Speed.</TFTRadiantItemBonus>",
+      "id": 2026,
+      "name": "Runaan's Tempest",
+      "isUnique": false
+    },
+    {
+      "description": "Every <TFTRadiantItemBonus>@ICD@</TFTRadiantItemBonus> seconds, a random enemy within <TFTRadiantItemBonus>@HexRange@</TFTRadiantItemBonus> hexes is burned for <TFTRadiantItemBonus>@BurnPercent@% of their maximum Health as true damage over @BurnDuration@ seconds</TFTRadiantItemBonus>. Any healing they receive is reduced by @GrievousWoundsPercent@%.<br><br><TFTRadiantItemBonus>Radiant Bonus: Regenerate @MaxHealthRegen@% max Health per second.</TFTRadiantItemBonus><br><br><tftitemrules>[Unique - only one per champion]</tftitemrules>",
+      "id": 2057,
+      "name": "Sunlight Cape",
+      "isUnique": true
+    },
+    {
+      "description": "Physical damage heals the holder for <TFTRadiantItemBonus>@Lifesteal@%</TFTRadiantItemBonus> of the damage dealt. Upon falling below @HealthThreshold@% Health, the holder gains a <TFTRadiantItemBonus>@ShieldHealthPercent@%</TFTRadiantItemBonus> max Health shield that lasts up to @ShieldDuration@ seconds.<br><br><TFTRadiantItemBonus>Radiant Bonus: +@BonusAD@ Attack Damage.</TFTRadiantItemBonus>",
+      "id": 2016,
+      "name": "Blessed Bloodthirster",
+      "isUnique": false
+    },
+    {
+      "description": "When combat begins, the holder shoots a <TFTRadiantItemBonus>wider beam</TFTRadiantItemBonus> straight ahead that delays affected enemies' first spellcast, increasing their max Mana by <TFTRadiantItemBonus>@CostIncrease@%</TFTRadiantItemBonus> until they cast.<br><br><TFTRadiantItemBonus>Radiant Bonus: +@AllyBonusMana@ Starting Mana for all allies</TFTRadiantItemBonus> at the start of combat.<br><br><tftitemrules>[Unique - only one per champion]</tftitemrules>",
+      "id": 2059,
+      "name": "Shroud of Reverence",
+      "isUnique": true
+    },
+    {
+      "description": "The holder gains immunity to crowd control in combat for <TFTRadiantItemBonus>@SpellShieldDuration@</TFTRadiantItemBonus> seconds.<br><br><TFTRadiantItemBonus>Radiant Bonus: +@AS@% Attack Speed.</TFTRadiantItemBonus><br><br><tftitemrules>[Unique - only one per champion]</tftitemrules>",
+      "id": 2069,
+      "name": "Quickestsilver",
+      "isUnique": true
+    },
+    {
+      "description": "Enemies within <TFTRadiantItemBonus>@HexRange@</TFTRadiantItemBonus> hexes have their Magic Resist reduced by @MRShred@%. When they cast an Ability, they are zapped taking magic damage equal to <TFTRadiantItemBonus>@ManaRatio@%</TFTRadiantItemBonus> of their max Mana.<br><br><TFTRadiantItemBonus>Radiant Bonus: Regenerate @MaxHealthRegen@% max Health per second.</TFTRadiantItemBonus><br>",
+      "id": 2036,
+      "name": "Covalent Spark",
+      "isUnique": false
+    },
+    {
+      "description": "The holder's magic and true damage from Abilities heal them for <TFTRadiantItemBonus>@OmniVamp@%</TFTRadiantItemBonus> of the damage dealt. Excess healing fuels a shield that protects the holder against up to @ShieldMax@ damage. <TFTRadiantItemBonus>The holder also heals their lowest health ally for the same amount.</TFTRadiantItemBonus><br><br><TFTRadiantItemBonus>Radiant Bonus: +@BonusAP@ Ability Power.</TFTRadiantItemBonus>",
+      "id": 2013,
+      "name": "Hextech Lifeblade",
+      "isUnique": false
+    },
+    {
+      "description": "Every third attack from the holder unleashes a chain lightning that bounces to <TFTRadiantItemBonus>@1StarBounces@</TFTRadiantItemBonus> enemies, dealing <TFTRadiantItemBonus>@Damage@</TFTRadiantItemBonus> magic damage and reducing their Magic Resist by @MRShred@% for @MRShredDuration@ seconds.",
+      "id": 2024,
+      "name": "Statikk's Favor",
+      "isUnique": false
+    },
+    {
+      "description": "When combat begins, the holder and all allies within @HexRange@ hex in the same row gain %i:scaleAP% <TFTRadiantItemBonus>@BonusAP@</TFTRadiantItemBonus> Ability Power  <TFTRadiantItemBonus>and @Spellvamp@% Spellvamp</TFTRadiantItemBonus> for the rest of combat.",
+      "id": 2046,
+      "name": "Chalice of Charity",
+      "isUnique": false
+    },
+    {
+      "description": "Increases the holder's Attack Range by <TFTRadiantItemBonus>@HexRangeIncrease@</TFTRadiantItemBonus> hexes and grants %i:scaleAS% @TooltipBonusAS@% bonus Attack Speed (including components).<br><br>The wearer's attacks can no longer miss.<br><br><TFTRadiantItemBonus>Radiant Bonus: +@RadiantBonusAS@% Attack Speed.</TFTRadiantItemBonus>",
+      "id": 2022,
+      "name": "Rapid Lightcannon",
+      "isUnique": false
+    },
+    {
+      "description": "When combat begins, the holder and all allies within <TFTRadiantItemBonus>@HexRange@</TFTRadiantItemBonus> hexes in the same row gain a shield that blocks <TFTRadiantItemBonus>@1StarShieldValue@/@2StarShieldValue@/@3StarShieldValue@</TFTRadiantItemBonus> %i:star% damage for <TFTRadiantItemBonus>@ShieldDuration@</TFTRadiantItemBonus> seconds.<br><br><TFTRadiantItemBonus>Radiant Bonus: +@BonusAllyHealth@ Health for all allies</TFTRadiantItemBonus> at the start of combat.",
+      "id": 2035,
+      "name": "Locket of Targon Prime",
+      "isUnique": false
+    },
+    {
+      "description": "Grants %i:scaleMR% <TFTRadiantItemBonus>@MagicResist@</TFTRadiantItemBonus> bonus Magic Resist (including components). On being hit by magic or true damage from an Ability, launch a fireball at the Ability's caster that deals magic damage equal to <TFTRadiantItemBonus>@PercentHealthDamage@% of their max Health</TFTRadiantItemBonus> (@ICD@ second cooldown).<br><br><TFTRadiantItemBonus>Radiant Bonus: Regenerate @MaxHealthRegen@% max Health per second.</TFTRadiantItemBonus>",
+      "id": 2066,
+      "name": "Dragon's Will",
+      "isUnique": false
+    },
+    {
+      "description": "When the holder inflicts a critical hit, the target's Armor is reduced by @ArmorReductionPercent@% for <TFTRadiantItemBonus>the rest of combat.</TFTRadiantItemBonus> This effect does not stack.<br><br><TFTRadiantItemBonus>Radiant Bonus: +@BonusCritChance@% Critical Strike Chance.</TFTRadiantItemBonus><br><br><tftitemrules>[Unique - only one per champion]</tftitemrules>",
+      "id": 2029,
+      "name": "Eternal Whisper",
+      "isUnique": true
+    },
+    {
+      "description": "At the beginning of each planning phase, the holder gains <TFTRadiantItemBonus>both of the following</TFTRadiantItemBonus>:<li>+@BonusAD@ Attack Damage and +@BonusSP@ Ability Power.</li> <li>Attacks and Abilities heal for @TraitMultiplier@% of damage dealt.</li>",
+      "id": 2049,
+      "name": "Fist of Fairness",
+      "isUnique": false
+    },
+    {
+      "description": "When combat begins, the wearer summons a whirlwind on the opposite side of the arena that removes the closest enemy from combat for <TFTRadiantItemBonus>@BanishDuration@</TFTRadiantItemBonus> seconds. Ignores CC immunity.<br><br><TFTRadiantItemBonus>Radiant Bonus: +@AllyBonusAS@% Attack Speed for all allies</TFTRadiantItemBonus> at the start of combat.<br><br><tftitemrules>[Unique - only one per champion]</tftitemrules>",
+      "id": 2067,
+      "name": "Mistral",
+      "isUnique": true
+    },
+    {
+      "description": "Reduces the Attack Speed of enemies within @HexRadius@ hexes by <TFTRadiantItemBonus>@AttackSpeedSlow@%</TFTRadiantItemBonus>.<br><br><TFTRadiantItemBonus>Radiant Bonus: +@BonusMana@ Starting Mana.</TFTRadiantItemBonus><br><br><tftitemrules>[Unique - only one per champion]</tftitemrules>",
+      "id": 2045,
+      "name": "Frozen Heart Of Gold",
+      "isUnique": true
+    },
+    {
+      "description": "At the beginning of each planning phase, the holder equips 2 temporary <TFTRadiantItemBonus>Radiant items.</TFTRadiantItemBonus><br><br><tftitemrules>[Consumes Three Item Slots]</tftitemrules>",
+      "id": 2099,
+      "name": "Rascal's Gloves",
+      "isUnique": false
+    },
+    {
+      "description": "Grants %i:scaleAP% <TFTRadiantItemBonus>@AP@</TFTRadiantItemBonus> bonus Ability Power (including components).",
+      "id": 2033,
+      "name": "Rabadon's Ascended Deathcap",
+      "isUnique": false
+    },
+    {
+      "description": "Each time the holder casts their Ability, they gain bonus Ability Power equal to <TFTRadiantItemBonus>@ManaRatio@%</TFTRadiantItemBonus> of their maximum Mana (this bonus applies to that Ability cast).<br><br><TFTRadiantItemBonus>Radiant Bonus: +@BonusMana@ Starting Mana.</TFTRadiantItemBonus>",
+      "id": 2034,
+      "name": "Urf-Angel's Staff",
+      "isUnique": false
+    },
+    {
+      "description": "The holder's Abilities and attacks do <TFTRadiantItemBonus>@SmallBonusPct@%</TFTRadiantItemBonus> bonus damage. If the target has more than <TFTRadiantItemBonus>@HealthThreshold@ maximum Health</TFTRadiantItemBonus>, the bonus increases to <TFTRadiantItemBonus>@LargeBonusPct@%</TFTRadiantItemBonus>.",
+      "id": 2012,
+      "name": "Demonslayer",
+      "isUnique": false
+    },
+    {
+      "description": "Attacks grant <TFTRadiantItemBonus>+@AttackSpeedPerStack@%</TFTRadiantItemBonus> bonus Attack Speed for the rest of combat.<br><br>This effect can stack any number of times.<br><br><TFTRadiantItemBonus>Radiant Bonus: +@RadiantBonusAS@% Attack Speed.</TFTRadiantItemBonus>",
+      "id": 2023,
+      "name": "Guinsoo's Reckoning",
+      "isUnique": false
+    },
+    {
+      "description": "The holder's magic and true damage from their Ability can critically strike. The holder gains <TFTRadiantItemBonus>@CritDamageAmp@%</TFTRadiantItemBonus> bonus Critical Strike Damage.",
+      "id": 2039,
+      "name": "Glamorous Gauntlet",
+      "isUnique": false
+    },
+    {
+      "description": "<TFTRadiantItemBonus>At the start of combat, a Radiant Voidmother with bonus Health and Attack Damage</TFTRadiantItemBonus> arises and taunts enemies within <TFTRadiantItemBonus>@HexRadius@</TFTRadiantItemBonus> hexes. Radiant Voidmothers that arise from summoned units are @SummonedStatReduction@% effective.",
+      "id": 2027,
+      "name": "Zz'Rots Invitation",
+      "isUnique": false
+    },
+    {
+      "description": "Contributing to a kill grants the holder %i:scaleAD% <TFTRadiantItemBonus>@ADPerStack@</TFTRadiantItemBonus> Attack Damage for the rest of combat. This effect can stack any number of times (starting at @StartingStacks@).",
+      "id": 2011,
+      "name": "Luminous Deathblade",
+      "isUnique": false
+    },
+    {
+      "description": "When combat begins, the holder and all allies within @HexRange@ hexes in the same row gain %i:scaleAS% <TFTRadiantItemBonus>@AttackSpeed@%</TFTRadiantItemBonus> Attack Speed <TFTRadiantItemBonus>and @Lifesteal@% Lifesteal</TFTRadiantItemBonus> for the rest of combat.",
+      "id": 2017,
+      "name": "Zeke's Harmony",
+      "isUnique": false
+    },
+    {
+      "description": "Mercenary units have a @Chance@% chance to drop @Gold@ gold when they kill an enemy.",
+      "id": 693,
+      "name": "Pirates",
+      "isUnique": false
+    },
+    {
+      "description": "Gain a Scholar Emblem and a Heimerdinger.",
+      "id": 706,
+      "name": "Scholar Crest",
+      "isUnique": false
+    },
+    {
+      "description": "TFT6_Augment_BrawlerHPVeteran_Description",
+      "id": 88,
+      "name": "TFT6_Augment_BrawlerHPVeteran_Name",
+      "isUnique": false
+    },
+    {
+      "description": "Gain 2 Syndicate Emblems.",
+      "id": 726,
+      "name": "Syndicate Crown",
+      "isUnique": false
+    },
+    {
+      "description": "Arcanists start combat with a shield equal to @APShield@% of their Ability Power for @ShieldDuration@ seconds.",
+      "id": 605,
+      "name": "Runic Shield II",
+      "isUnique": false
+    },
+    {
+      "description": "TFT6_Augment_AcademyLunchBreak1_Description",
+      "id": 88,
+      "name": "TFT6_Augment_AcademyLunchBreak1_Name",
+      "isUnique": false
+    },
+    {
+      "description": "Arcanists start combat with a shield equal to @APShield@% of their Ability Power for @ShieldDuration@ seconds.",
+      "id": 606,
+      "name": "Runic Shield III",
+      "isUnique": false
+    },
+    {
+      "description": "TFT6_Augment_AcademyLunchBreak2_Description",
+      "id": 88,
+      "name": "TFT6_Augment_AcademyLunchBreak2_Name",
+      "isUnique": false
+    },
+    {
+      "description": "TFT6_Augment_AcademyLunchBreak3_Description",
+      "id": 88,
+      "name": "TFT6_Augment_AcademyLunchBreak3_Name",
+      "isUnique": false
+    },
+    {
+      "description": "Arcanists start combat with a shield equal to @APShield@% of their Ability Power for @ShieldDuration@ seconds.",
+      "id": 604,
+      "name": "Runic Shield I",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 1 additional Protector. Gain a Blitzcrank.",
+      "id": 701,
+      "name": "Protector Heart",
+      "isUnique": false
+    },
+    {
+      "description": "Your units gain @Resists@ Attack Damage and Ability Power per Trait active across your army.",
+      "id": 649,
+      "name": "Stand United I",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 2 additional Academics.",
+      "id": 603,
+      "name": "Academy Soul",
+      "isUnique": false
+    },
+    {
+      "description": "Your units gain @Resists@ Attack Damage and Ability Power per Trait active across your army.",
+      "id": 650,
+      "name": "Stand United II",
+      "isUnique": false
+    },
+    {
+      "description": "Your units gain @Resists@ Attack Damage and Ability Power per Trait active across your army.",
+      "id": 651,
+      "name": "Stand United III",
+      "isUnique": false
+    },
+    {
+      "description": "Your units that start combat with no adjacent allies gain a @MaxHealthShield@% maximum Health shield for @ShieldDuration@ seconds.",
+      "id": 648,
+      "name": "Exiles III",
+      "isUnique": false
+    },
+    {
+      "description": "Gain @NumDummies@ Target Dummies.",
+      "id": 731,
+      "name": "Phony Frontline",
+      "isUnique": false
+    },
+    {
+      "description": "Your units that start combat with no adjacent allies gain a @MaxHealthShield@% maximum Health shield for @ShieldDuration@ seconds.",
+      "id": 647,
+      "name": "Exiles II",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 2 additional Enforcers. Gain @Gold@ gold.",
+      "id": 657,
+      "name": "Enforcer Soul",
+      "isUnique": false
+    },
+    {
+      "description": "Your units heal @MissingHPHeal@ Health on kill.",
+      "id": 735,
+      "name": "Thrill of the Hunt III",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 1 additional Assassin. Gain a Talon.",
+      "id": 614,
+      "name": "Assassin Heart",
+      "isUnique": false
+    },
+    {
+      "description": "The first time an Assassin drops to @HealthThreshold@% health, they briefly enter stealth, becoming untargetable and shedding all negative effects. Any excess damage is reduced by @DamageReduction@%.",
+      "id": 613,
+      "name": "Smoke Bomb",
+      "isUnique": false
+    },
+    {
+      "description": "Your units heal @MissingHPHeal@ Health on kill.",
+      "id": 734,
+      "name": "Thrill of the Hunt II",
+      "isUnique": false
+    },
+    {
+      "description": "Your units heal @MissingHPHeal@ Health on kill.",
+      "id": 733,
+      "name": "Thrill of the Hunt I",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 2 additional Socialites.",
+      "id": 724,
+      "name": "Socialite Soul",
+      "isUnique": false
+    },
+    {
+      "description": "tft_item_description_TFT6_Augment_Academy_ForAllUnits",
+      "id": 88,
+      "name": "tft_item_name_TFT6_Augment_ForAllUnits",
+      "isUnique": false
+    },
+    {
+      "description": "TFT6_Augment_ExperimentalChallenger_Desc",
+      "id": 88,
+      "name": "TFT6_Augment_ExperimentalChallenger_Name",
+      "isUnique": false
+    },
+    {
+      "description": "Colossus become invulnerable for @InvulnDuration@ seconds when their Health drops to 60% and 30%.",
+      "id": 642,
+      "name": "Armor Plating",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 2 additional Twinshots. Gain @Gold@ gold.",
+      "id": 743,
+      "name": "Twinshot Soul",
+      "isUnique": false
+    },
+    {
+      "description": "After @Delay@ seconds of combat, your units deal @DamageAmp@% more damage.",
+      "id": 610,
+      "name": "Ascension",
+      "isUnique": false
+    },
+    {
+      "description": "TFT6_Augment_ChallengerForAllUnits_Description",
+      "id": 88,
+      "name": "TFT6_Augment_ChallengerForAllUnits_Name",
+      "isUnique": false
+    },
+    {
+      "description": "After casting their first Ability, Academics restore @ManaRestorePercent@% of their maximum Mana.",
+      "id": 600,
+      "name": "Cram Session",
+      "isUnique": false
+    },
+    {
+      "description": "Double the hex range of your <b>ranged</b> units, and their attacks cannot miss.",
+      "id": 703,
+      "name": "Scoped Weapons",
+      "isUnique": false
+    },
+    {
+      "description": "Gain @Exp@ bonus experience points per round. You can no longer use gold to level up.",
+      "id": 715,
+      "name": "March of Progress",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 1 additional Innovator.",
+      "id": 680,
+      "name": "Innovator Heart",
+      "isUnique": false
+    },
+    {
+      "description": "Gain 2 Sniper Emblems.",
+      "id": 716,
+      "name": "Sniper Crown",
+      "isUnique": false
+    },
+    {
+      "description": "Gain a random component. At the start of each round, items on your bench are randomized (excluding Tactician's Crown, Spatula, and consumables).",
+      "id": 698,
+      "name": "Pandora's Items",
+      "isUnique": false
+    },
+    {
+      "description": "Gain @NumItems@ random completed item.",
+      "id": 682,
+      "name": "Item Grab Bag I",
+      "isUnique": false
+    },
+    {
+      "description": "Gain @NumItems@ random completed items and a Reforger.",
+      "id": 683,
+      "name": "Item Grab Bag II",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 1 additional Enforcer. Gain a Vi.",
+      "id": 656,
+      "name": "Enforcer Heart",
+      "isUnique": false
+    },
+    {
+      "description": "TFT6_Augment_CriticalThinking_Description",
+      "id": 88,
+      "name": "TFT6_Augment_CriticalThinking_Name",
+      "isUnique": false
+    },
+    {
+      "description": "Gain +@MaxArmySizeIncrease@ maximum team size.",
+      "id": 665,
+      "name": "New Recruit",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 1 additional Academic. Gain a Katarina.",
+      "id": 602,
+      "name": "Academy Heart",
+      "isUnique": false
+    },
+    {
+      "description": "Gain 2 Mutant Emblems.",
+      "id": 658,
+      "name": "Mutant Crown",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 1 additional Imperial. Gain a Swain.",
+      "id": 676,
+      "name": "Imperial Heart",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 2 additional Mutants.",
+      "id": 660,
+      "name": "Mutant Soul",
+      "isUnique": false
+    },
+    {
+      "description": "Yordles gain @DodgeIncrease@% Dodge Chance.",
+      "id": 748,
+      "name": "So Small",
+      "isUnique": false
+    },
+    {
+      "description": "When you buy experience points, gain an additional @XP@. You can now reach level 10.",
+      "id": 687,
+      "name": "Level Up!",
+      "isUnique": false
+    },
+    {
+      "description": "Gain a Clockwork Emblem and a Zilean.",
+      "id": 639,
+      "name": "Clockwork Crest",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 2 additional Arcanists.",
+      "id": 609,
+      "name": "Arcanist Soul",
+      "isUnique": false
+    },
+    {
+      "description": "Each time your Shop is refreshed, you have a @RerollPercent@% chance to gain a free refresh.",
+      "id": 666,
+      "name": "Golden Ticket",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 2 additional Scraps. Gain @Gold@ gold.",
+      "id": 714,
+      "name": "Scrap Soul",
+      "isUnique": false
+    },
+    {
+      "description": "TFT6_Augment_ColossusPummel_Description",
+      "id": 88,
+      "name": "TFT6_Augment_ColossusPummel_Name",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 2 additional Scholars. Gain @Gold@ gold.",
+      "id": 709,
+      "name": "Scholar Soul",
+      "isUnique": false
+    },
+    {
+      "description": "Your units with no items gain @Resists@ Armor and Magic Resist.",
+      "id": 685,
+      "name": "Makeshift Armor II",
+      "isUnique": false
+    },
+    {
+      "description": "Your units with no items gain @Resists@ Armor and Magic Resist.",
+      "id": 686,
+      "name": "Makeshift Armor III",
+      "isUnique": false
+    },
+    {
+      "description": "Gain 2 Academy Emblems.",
+      "id": 601,
+      "name": "Academy Crown",
+      "isUnique": false
+    },
+    {
+      "description": "Twinshot's ranged attacks and Abilities can bounce once, dealing @BounceReduction@% less damage.",
+      "id": 718,
+      "name": "Sharpshooter",
+      "isUnique": false
+    },
+    {
+      "description": "Gain gold based on the number of augments you have now.<br>0 = @Augment1Gold@g, 1 = @Augment2Gold@g, 2 = @Augment3Gold@g",
+      "id": 746,
+      "name": "Windfall",
+      "isUnique": false
+    },
+    {
+      "description": "Your units with no items gain @Resists@ Armor and Magic Resist.",
+      "id": 684,
+      "name": "Makeshift Armor I",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 1 additional Mutant. Gain a Kog'Maw.",
+      "id": 659,
+      "name": "Mutant Heart",
+      "isUnique": false
+    },
+    {
+      "description": "Gain a Challenger Emblem and a Quinn.",
+      "id": 626,
+      "name": "Challenger Crest",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 1 additional Scrap. Gain a Blitzcrank.",
+      "id": 713,
+      "name": "Scrap Heart",
+      "isUnique": false
+    },
+    {
+      "description": "Gain @NumGloves@ Thief's Gloves.",
+      "id": 616,
+      "name": "Band of Thieves",
+      "isUnique": false
+    },
+    {
+      "description": "Gain 2 Chemtech Emblems.",
+      "id": 630,
+      "name": "Chemtech Crown",
+      "isUnique": false
+    },
+    {
+      "description": "Your units with more than @HealthThreshold@ maximum Health gain Attack Damage equal to @HealthPercent*100@% of their maximum Health.",
+      "id": 736,
+      "name": "Titanic Force",
+      "isUnique": false
+    },
+    {
+      "description": "The first time an enemy is attacked by a Challenger, they are Disarmed for @DisarmDuration@ seconds.",
+      "id": 627,
+      "name": "En Garde",
+      "isUnique": false
+    },
+    {
+      "description": "Gain 2 Imperial Emblems.",
+      "id": 675,
+      "name": "Imperial Crown",
+      "isUnique": false
+    },
+    {
+      "description": "TFT6_Augment_SyndicateForAllUnits_Description",
+      "id": 88,
+      "name": "TFT6_Augment_SyndicateForAllUnits_Name",
+      "isUnique": false
+    },
+    {
+      "description": "When an ally dies, they grant the Imperial Tyrant @MaxHealth@% of their maximum Health.",
+      "id": 88,
+      "name": "All For One",
+      "isUnique": false
+    },
+    {
+      "description": "Gain a Magnetic Remover or Reforger every @Combats@ combat round(s) with the Scrap trait active.",
+      "id": 712,
+      "name": "Tinker",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 1 additional Challenger. Gain a Quinn.",
+      "id": 628,
+      "name": "Challenger Heart",
+      "isUnique": false
+    },
+    {
+      "description": "Mercenaries deal @PercentDamage*100@% more damage per @GoldIncrement@ gold you have. (Maximum +@DamageCap@%)",
+      "id": 692,
+      "name": "Gold Reserves",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 2 additional Bodyguards.",
+      "id": 671,
+      "name": "Bodyguard Soul",
+      "isUnique": false
+    },
+    {
+      "description": "Gain a Syndicate Emblem and a Zyra.",
+      "id": 726,
+      "name": "Syndicate Crest",
+      "isUnique": false
+    },
+    {
+      "description": "@Delay@ seconds into combat, all enemies and non-Clockwork units are frozen in time for @StunDuration@ seconds.",
+      "id": 638,
+      "name": "Broken Stopwatch",
+      "isUnique": false
+    },
+    {
+      "description": "Gain a Sniper Emblem and a Tristana.",
+      "id": 716,
+      "name": "Sniper Crest",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 2 additional Syndicates.",
+      "id": 730,
+      "name": "Syndicate Soul",
+      "isUnique": false
+    },
+    {
+      "description": "Gain a Mercenary Emblem and @Gold@ gold.",
+      "id": 691,
+      "name": "Mercenary Crest",
+      "isUnique": false
+    },
+    {
+      "description": "At the start of combat, your highest Health Champion creates a @CloneHealth@ Health copy of themself (excluding items).",
+      "id": 747,
+      "name": "Woodland Charm",
+      "isUnique": false
+    },
+    {
+      "description": "Your units heal for @Omnivamp@% of the damage dealt by attacks and Abilities. Excess healing is converted to a shield up to @MaxShield@ Health.",
+      "id": 624,
+      "name": "Celestial Blessing II",
+      "isUnique": false
+    },
+    {
+      "description": "Your 1 and 2 cost champions gain @AttackSpeed@% Attack Speed and Move Speed.",
+      "id": 663,
+      "name": "Featherweights III",
+      "isUnique": false
+    },
+    {
+      "description": "Your units heal for @Omnivamp@% of the damage dealt by attacks and Abilities. Excess healing is converted to a shield up to @MaxShield@ Health.",
+      "id": 625,
+      "name": "Celestial Blessing III",
+      "isUnique": false
+    },
+    {
+      "description": "Your 1 and 2 cost champions gain @AttackSpeed@% Attack Speed and Move Speed.",
+      "id": 662,
+      "name": "Featherweights II",
+      "isUnique": false
+    },
+    {
+      "description": "Your 1 and 2 cost champions gain @AttackSpeed@% Attack Speed and Move Speed.",
+      "id": 661,
+      "name": "Featherweights I",
+      "isUnique": false
+    },
+    {
+      "description": "Your units heal for @Omnivamp@% of the damage dealt by attacks and Abilities. Excess healing is converted to a shield up to @MaxShield@ Health.",
+      "id": 623,
+      "name": "Celestial Blessing I",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 1 additional Sniper. Gain a Tristana.",
+      "id": 719,
+      "name": "Sniper Heart",
+      "isUnique": false
+    },
+    {
+      "description": "Snipers gain +@DamageAmp@% damage for each round fought from the same starting hex. (Maximum +@MaxAmp@%)",
+      "id": 717,
+      "name": "Sniper's Nest",
+      "isUnique": false
+    },
+    {
+      "description": "Champions appear in your Shop as if you were 1 level higher.",
+      "id": 672,
+      "name": "High End Shopping",
+      "isUnique": false
+    },
+    {
+      "description": "Your units with no Traits active gain @HP@ Health and @AS@% Attack Speed.",
+      "id": 739,
+      "name": "Built Different I",
+      "isUnique": false
+    },
+    {
+      "description": "TFT6_Augment_FuturePeepers_Description",
+      "id": 88,
+      "name": "TFT6_Augment_FuturePeepers_Name",
+      "isUnique": false
+    },
+    {
+      "description": "Your units with no Traits active gain @HP@ Health and @AS@% Attack Speed.",
+      "id": 740,
+      "name": "Built Different II",
+      "isUnique": false
+    },
+    {
+      "description": "Allies adjacent to a spotlight at the start of combat gain @PercentStats@% of its bonuses.",
+      "id": 722,
+      "name": "Share the Spotlight",
+      "isUnique": false
+    },
+    {
+      "description": "Bodyguards' Armor bonus is increased by @DefenseBonus@%. At the start of combat, Bodyguards grant @DefensePercent@% of their Armor bonus to non-Bodyguard allies directly behind them (does not stack).",
+      "id": 669,
+      "name": "Stand Behind Me",
+      "isUnique": false
+    },
+    {
+      "description": "Your units with no Traits active gain @HP@ Health and @AS@% Attack Speed.",
+      "id": 741,
+      "name": "Built Different III",
+      "isUnique": false
+    },
+    {
+      "description": "TFT6_Augment_NeekoNeeko_Description",
+      "id": 88,
+      "name": "TFT6_Augment_NeekoNeeko_Name",
+      "isUnique": false
+    },
+    {
+      "description": "Gain @Gold@ gold. When you refresh your Shop, gain @XP@ experience point(s).",
+      "id": 732,
+      "name": "Wise Spending",
+      "isUnique": false
+    },
+    {
+      "description": "If you have less than @ThresholdGold@ gold at the end of a round, gain @Gold@ gold.",
+      "id": 673,
+      "name": "Hyper Roll",
+      "isUnique": false
+    },
+    {
+      "description": "When your Syndicates die, they grant your other Syndicates @Stats@ Attack Damage and Ability Power.",
+      "id": 727,
+      "name": "One For All",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 1 additional Mercenary.",
+      "id": 694,
+      "name": "Mercenary Heart",
+      "isUnique": false
+    },
+    {
+      "description": "Gain an Arcanist Emblem and a Swain.",
+      "id": 604,
+      "name": "Arcane Crest",
+      "isUnique": false
+    },
+    {
+      "description": "Allies healed or shielded by Enchanters gain @AS@% stacking Attack Speed for the rest of combat (maximum once every @CD@ seconds).",
+      "id": 653,
+      "name": "Ardent Censer",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 1 additional Syndicate. Gain a Zyra.",
+      "id": 729,
+      "name": "Syndicate Heart",
+      "isUnique": false
+    },
+    {
+      "description": "Your champions equipped with 2 items temporarily gain a random completed item at the start of combat.",
+      "id": 617,
+      "name": "Binary Airdrop",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 2 additional Assassins.",
+      "id": 615,
+      "name": "Assassin Soul",
+      "isUnique": false
+    },
+    {
+      "description": "Gain @NumDice@ Loaded Dice and @Gold@ gold.",
+      "id": 667,
+      "name": "High Roller",
+      "isUnique": false
+    },
+    {
+      "description": "Gain an Academy Emblem and a Garen.",
+      "id": 601,
+      "name": "Academy Crest",
+      "isUnique": false
+    },
+    {
+      "description": "Gain 2 Protector Emblems.",
+      "id": 700,
+      "name": "Protector Crown",
+      "isUnique": false
+    },
+    {
+      "description": "Gain a Chemtech Emblem and a Warwick.",
+      "id": 630,
+      "name": "Chemtech Crest",
+      "isUnique": false
+    },
+    {
+      "description": "Gain @NumTomes@ Tome of Traits.",
+      "id": 737,
+      "name": "Ancient Archives",
+      "isUnique": false
+    },
+    {
+      "description": "Chemtechs now additionally trigger their bonuses at the start of combat.",
+      "id": 631,
+      "name": "Instant Injection",
+      "isUnique": false
+    },
+    {
+      "description": "Gain 2 Assassin Emblems.",
+      "id": 612,
+      "name": "Assassin Crown",
+      "isUnique": false
+    },
+    {
+      "description": "Your Tactician moves faster and heals @Heal@ Health after a PvP round.",
+      "id": 696,
+      "name": "Metabolic Accelerator",
+      "isUnique": false
+    },
+    {
+      "description": "After winning your combat, gain @BonusGold@ bonus gold for each surviving Syndicate.",
+      "id": 728,
+      "name": "Payday",
+      "isUnique": false
+    },
+    {
+      "description": "Chemtechs explode on death, dealing @HP@% of their max Health as magic damage to enemies within 2 hexes.",
+      "id": 632,
+      "name": "Chemical Overload I",
+      "isUnique": false
+    },
+    {
+      "description": "Chemtechs explode on death, dealing @HP@% of their max Health as magic damage to enemies within 2 hexes.",
+      "id": 633,
+      "name": "Chemical Overload II",
+      "isUnique": false
+    },
+    {
+      "description": "Chemtechs explode on death, dealing @HP@% of their max Health as magic damage to enemies within 2 hexes.",
+      "id": 634,
+      "name": "Chemical Overload III",
+      "isUnique": false
+    },
+    {
+      "description": "After casting their Ability, Arcanists' next attack deals bonus magic damage equal to @PercentAbilityPower@% of their Ability Power. Spell Blade's damage is considered Ability damage.",
+      "id": 607,
+      "name": "Spell Blade",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 2 additional Mercenaries.",
+      "id": 695,
+      "name": "Mercenary Soul",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 2 additional Protectors.",
+      "id": 702,
+      "name": "Protector Soul",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 2 additional Clockworks. Gain @Gold@ gold.",
+      "id": 641,
+      "name": "Clockwork Soul",
+      "isUnique": false
+    },
+    {
+      "description": "Your units' attacks ignore @ArmorPenPercent@% of the target's Armor and reduce healing received by @HealReductionPercent@% for @Duration@ seconds.",
+      "id": 745,
+      "name": "Weakspot",
+      "isUnique": false
+    },
+    {
+      "description": "TFT6_Augment_Overclock_Description",
+      "id": 88,
+      "name": "TFT6_Augment_Overclock_Name",
+      "isUnique": false
+    },
+    {
+      "description": "TFT6_Augment_Overclock_Description",
+      "id": 88,
+      "name": "TFT6_Augment_Overclock_Name",
+      "isUnique": false
+    },
+    {
+      "description": "Gain a random component every @Combats@ combat rounds with the Scrap Trait active.",
+      "id": 710,
+      "name": "Junkyard",
+      "isUnique": false
+    },
+    {
+      "description": "TFT6_Augment_Overclock_Description",
+      "id": 88,
+      "name": "TFT6_Augment_Overclock_Name",
+      "isUnique": false
+    },
+    {
+      "description": "When the Innovation dies, it will become untargetable and repair itself if an Innovator is still alive.",
+      "id": 679,
+      "name": "Self Repair",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 1 additional Scholar. Gain a Zyra.",
+      "id": 708,
+      "name": "Scholar Heart",
+      "isUnique": false
+    },
+    {
+      "description": "Your units that start combat in the front 2 rows gain @ADPerStarLevel@ Attack Damage.",
+      "id": 688,
+      "name": "Knife's Edge I",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 1 additional Chemtech. Gain a Warwick.",
+      "id": 635,
+      "name": "Chemtech Heart",
+      "isUnique": false
+    },
+    {
+      "description": "Your units that start combat in the front 2 rows gain @ADPerStarLevel@ Attack Damage.",
+      "id": 690,
+      "name": "Knife's Edge III",
+      "isUnique": false
+    },
+    {
+      "description": "Your units that start combat in the front 2 rows gain @ADPerStarLevel@ Attack Damage.",
+      "id": 689,
+      "name": "Knife's Edge II",
+      "isUnique": false
+    },
+    {
+      "description": "At the start of combat, burn all enemies for @TotalBurnPercent@% of their maximum Health over @Duration@ seconds and reduce healing received by @GrievousWoundsPercent@%.",
+      "id": 725,
+      "name": "Sunfire Board",
+      "isUnique": false
+    },
+    {
+      "description": "Gain a Bodyguard Emblem and a Darius.",
+      "id": 668,
+      "name": "Bodyguard Crest",
+      "isUnique": false
+    },
+    {
+      "description": "Assassins Mana Reave the first unit they attack, increasing their maximum Mana by @ManaReavePercent@% until they cast.",
+      "id": 611,
+      "name": "Cutthroat",
+      "isUnique": false
+    },
+    {
+      "description": "Gain @Gold@ gold. Your maximum interest is increased to @InterestCap@.",
+      "id": 704,
+      "name": "Rich Get Richer",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 1 additional Enchanter. Gain a Taric.",
+      "id": 654,
+      "name": "Enchanter Heart",
+      "isUnique": false
+    },
+    {
+      "description": "Scholars permanently gain @AP@ Ability Power after each combat, and an additional @BonusAP@ if they survived.",
+      "id": 707,
+      "name": "Lifelong Learning",
+      "isUnique": false
+    },
+    {
+      "description": "Gain a Bruiser Emblem and a Trundle.",
+      "id": 619,
+      "name": "Bruiser Crest",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 2 additional Imperials.",
+      "id": 678,
+      "name": "Imperial Soul",
+      "isUnique": false
+    },
+    {
+      "description": "Gain a Mutant Emblem and a Kassadin.",
+      "id": 658,
+      "name": "Mutant Crest",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 1 additional Socialite. ",
+      "id": 723,
+      "name": "Socialite Heart",
+      "isUnique": false
+    },
+    {
+      "description": "There are now @Tyrants@ Imperial Tyrants.",
+      "id": 674,
+      "name": "Dual Rule",
+      "isUnique": false
+    },
+    {
+      "description": "Open an Armory and choose 1 of 3 unique Artifacts crafted by Ornn.",
+      "id": 699,
+      "name": "Portable Forge",
+      "isUnique": false
+    },
+    {
+      "description": "Gain an Assassin Emblem and a Talon.",
+      "id": 612,
+      "name": "Assassin Crest",
+      "isUnique": false
+    },
+    {
+      "description": "Gain 2 Challenger Emblems.",
+      "id": 626,
+      "name": "Challenger Crown",
+      "isUnique": false
+    },
+    {
+      "description": "Gain a Scrap Emblem and a Blitzcrank.",
+      "id": 711,
+      "name": "Scrap Crest",
+      "isUnique": false
+    },
+    {
+      "description": "Gain 2 Bodyguard Emblems.",
+      "id": 668,
+      "name": "Bodyguard Crown",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 2 additional Innovators.",
+      "id": 681,
+      "name": "Innovator Soul",
+      "isUnique": false
+    },
+    {
+      "description": "After losing your combat, gain @Gold@ gold and a free Shop refresh.",
+      "id": 622,
+      "name": "Calculated Loss",
+      "isUnique": false
+    },
+    {
+      "description": "Gain 2 Bruiser Emblems.",
+      "id": 619,
+      "name": "Bruiser Crown",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 2 additional Bruisers.",
+      "id": 621,
+      "name": "Bruiser Soul",
+      "isUnique": false
+    },
+    {
+      "description": "Gain a Protector Emblem and a Garen.",
+      "id": 700,
+      "name": "Protector Crest",
+      "isUnique": false
+    },
+    {
+      "description": "All healing and shielding on your units is increased by @HealShieldIncrease*100@%.",
+      "id": 664,
+      "name": "First Aid Kit",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 2 additional Chemtechs.",
+      "id": 636,
+      "name": "Chemtech Soul",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 1 additional Twinshot. Gain a Kog'Maw.",
+      "id": 742,
+      "name": "Twinshot Heart",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 2 additional Enchanters. Gain @Gold@ gold.",
+      "id": 655,
+      "name": "Enchanter Soul",
+      "isUnique": false
+    },
+    {
+      "description": "Your champions holding an item gain @HP@ Health and @AD@ Attack Damage.",
+      "id": 645,
+      "name": "Cybernetic Implants III",
+      "isUnique": false
+    },
+    {
+      "description": "Whenever your team has fewer units alive than your opponent, your units regenerate @MissingHeal@% Health each second (maximum: @HealCap@).",
+      "id": 744,
+      "name": "Underdogs",
+      "isUnique": false
+    },
+    {
+      "description": "Your champions holding an item gain @HP@ Health and @AD@ Attack Damage.",
+      "id": 644,
+      "name": "Cybernetic Implants II",
+      "isUnique": false
+    },
+    {
+      "description": "Your champions holding an item gain @HP@ Health and @AD@ Attack Damage.",
+      "id": 643,
+      "name": "Cybernetic Implants I",
+      "isUnique": false
+    },
+    {
+      "description": "After winning your player combat, gain @Gold@ bonus gold for every @PerSurvivingUnit@ surviving units.",
+      "id": 652,
+      "name": "Dominance",
+      "isUnique": false
+    },
+    {
+      "description": "Your units that start combat with no adjacent allies gain a @MaxHealthShield@% maximum Health shield for @ShieldDuration@ seconds.",
+      "id": 646,
+      "name": "Exiles",
+      "isUnique": false
+    },
+    {
+      "description": "Mutants randomly gain one of the following when they reach 2 star: @BonusHP@ Health, @BonusAS@% Attack Speed, @BonusAD@ Attack Damage, or @BonusAP@ Ability Power. These bonuses stack.",
+      "id": 697,
+      "name": "Unstable Evolution",
+      "isUnique": false
+    },
+    {
+      "description": "Bruisers regenerate @RegenPerTick@% of their maximum Health each second.",
+      "id": 618,
+      "name": "Shrug It Off",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 1 additional Clockwork. Gain a Zilean.",
+      "id": 640,
+      "name": "Clockwork Heart",
+      "isUnique": false
+    },
+    {
+      "description": "tft_item_description_TFT6_Augment_ForAllUnits",
+      "id": 88,
+      "name": "tft_item_name_TFT6_Augment_AssassinForAllUnits",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 2 additional Snipers.",
+      "id": 720,
+      "name": "Sniper Soul",
+      "isUnique": false
+    },
+    {
+      "description": "Gain a free Shop refresh each round.",
+      "id": 738,
+      "name": "Trade Sector",
+      "isUnique": false
+    },
+    {
+      "description": "Gain 2 Arcanist Emblems.",
+      "id": 604,
+      "name": "Arcanist Crown",
+      "isUnique": false
+    },
+    {
+      "description": "Summon 1 additional Socialite spotlight. Spotlighted units gain @BonusHealth@ Health.",
+      "id": 721,
+      "name": "Duet",
+      "isUnique": false
+    },
+    {
+      "description": "Gain a random completed item. Selling champions breaks apart their full items into components (excluding Tactician's Crown).",
+      "id": 705,
+      "name": "Salvage Bin",
+      "isUnique": false
+    },
+    {
+      "description": "TFT6_Augment_ChemtechForAllUnits_Description",
+      "id": 88,
+      "name": "TFT6_Augment_ChemtechForAllUnits_Name",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 1 additional Bruiser. Gain a Trundle.",
+      "id": 620,
+      "name": "Bruiser Heart",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 1 additional Bodyguard. Gain a Blitzcrank.",
+      "id": 670,
+      "name": "Bodyguard Heart",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 2 additional Challengers.",
+      "id": 629,
+      "name": "Challenger Soul",
+      "isUnique": false
+    },
+    {
+      "description": "TFT6_Augment_InfinityCane_Description",
+      "id": 88,
+      "name": "TFT6_Augment_InfinityCane_Name",
+      "isUnique": false
+    },
+    {
+      "description": "Your team counts as having 1 additional Arcanist. Gain a Swain.",
+      "id": 608,
+      "name": "Arcanist Heart",
+      "isUnique": false
+    },
+    {
+      "description": "If you have no champions on your bench at the end of a round, gain @XP@ experience points.",
+      "id": 637,
+      "name": "Clear Mind",
+      "isUnique": false
+    },
+    {
+      "description": "Gain an Imperial Emblem and a Swain.",
+      "id": 675,
+      "name": "Imperial Crest",
+      "isUnique": false
+    },
+    {
+      "description": "tft_item_description_Mercenary_Dice",
+      "id": 403,
+      "name": "tft_item_name_Mercenary_Book",
+      "isUnique": false
+    },
+    {
+      "description": "tft_item_description_Mercenary_Dice",
+      "id": 403,
+      "name": "tft_item_name_Mercenary_Bag",
+      "isUnique": false
+    },
+    {
+      "description": "tft_item_description_Mercenary_Dice",
+      "id": 403,
+      "name": "tft_item_name_Mercenary_Spatula",
+      "isUnique": false
+    },
+    {
+      "description": "tft_item_description_Mercenary_Dice",
+      "id": 403,
+      "name": "tft_item_name_Mercenary_Fish",
+      "isUnique": false
+    },
+    {
+      "description": "tft_item_description_Mercenary_Dice",
+      "id": 403,
+      "name": "tft_item_name_Mercenary_Chest",
+      "isUnique": false
+    },
+    {
+      "description": "tft_item_description_Mercenary_Dice",
+      "id": 403,
+      "name": "tft_item_name_Mercenary_Sword",
+      "isUnique": false
+    },
+    {
+      "description": "tft_item_description_Mercenary_Dice",
+      "id": 403,
+      "name": "tft_item_name_Mercenary_X",
+      "isUnique": false
+    },
+    {
+      "description": "tft_item_description_Mercenary_Dice",
+      "id": 403,
+      "name": "tft_item_name_Mercenary_Shell",
+      "isUnique": false
+    },
+    {
+      "description": "tft_item_description_Mercenary_Dice",
+      "id": 403,
+      "name": "tft_item_name_Mercenary_Kraken",
+      "isUnique": false
+    },
+    {
+      "description": "tft_item_description_Mercenary_Dice",
+      "id": 403,
+      "name": "tft_item_name_Mercenary_X",
+      "isUnique": false
+    },
+    {
+      "description": "tft_item_description_Mercenary_Dice",
+      "id": 403,
+      "name": "tft_item_name_Mercenary_Ship",
+      "isUnique": false
+    },
+    {
+      "description": "tft_item_description_Mercenary_Dice",
+      "id": 403,
+      "name": "tft_item_name_Mercenary_Coin",
+      "isUnique": false
+    },
+    {
+      "description": "tft_item_description_Mercenary_Dice",
+      "id": 403,
+      "name": "tft_item_name_Mercenary_Soldier",
+      "isUnique": false
+    },
+    {
+      "description": "1 gold has been added to your chest.",
+      "id": 406,
+      "name": "Small Prize",
+      "isUnique": false
+    },
+    {
+      "description": "50 gold has been added to your chest.",
+      "id": 406,
+      "name": "Large Prize",
+      "isUnique": false
+    },
+    {
+      "description": "Gain a Thief's Gloves. ",
+      "id": 406,
+      "name": "Golden Chest",
+      "isUnique": false
+    },
+    {
+      "description": "6 gold has been added to your chest.",
+      "id": 406,
+      "name": "Small Prize",
+      "isUnique": false
+    },
+    {
+      "description": "Gain a Tome of Traits.",
+      "id": 406,
+      "name": "Golden Book",
+      "isUnique": false
+    },
+    {
+      "description": "3 4-cost champions are placed in your chest.",
+      "id": 406,
+      "name": "Large Prize",
+      "isUnique": false
+    },
+    {
+      "description": "Gain 1 5-cost champion and 2 gold.",
+      "id": 406,
+      "name": "Golden Sword",
+      "isUnique": false
+    },
+    {
+      "description": "5 gold has been added to your chest.",
+      "id": 406,
+      "name": "Small Prize",
+      "isUnique": false
+    },
+    {
+      "description": "1 Chalice of Power, 1 Zeke's Herald, and 10 gold are placed in your chest.",
+      "id": 406,
+      "name": "Large Prize",
+      "isUnique": false
+    },
+    {
+      "description": "1 Spatula has been added to your chest.",
+      "id": 406,
+      "name": "Large Prize",
+      "isUnique": false
+    },
+    {
+      "description": "6 gold has been added to your chest.",
+      "id": 406,
+      "name": "Small Prize",
+      "isUnique": false
+    },
+    {
+      "description": "A Loaded Dice and 2 gold are placed in your chest.",
+      "id": 406,
+      "name": "Large Prize",
+      "isUnique": false
+    },
+    {
+      "description": "4 gold has been added to your chest.",
+      "id": 406,
+      "name": "Small Prize",
+      "isUnique": false
+    },
+    {
+      "description": "1 Loaded Dice has been added to your chest. ",
+      "id": 406,
+      "name": "Large Prize",
+      "isUnique": false
+    },
+    {
+      "description": "A defensive component and 2 gold has been added to your chest.",
+      "id": 406,
+      "name": "Large Prize",
+      "isUnique": false
+    },
+    {
+      "description": "Gain 1 item.",
+      "id": 406,
+      "name": "Golden Bag",
+      "isUnique": false
+    },
+    {
+      "description": "Gain 2 5-cost champions.",
+      "id": 406,
+      "name": "Golden Soldier",
+      "isUnique": false
+    },
+    {
+      "description": "A Thief's Gloves has been added to your chest.",
+      "id": 406,
+      "name": "JACKPOT",
+      "isUnique": false
+    },
+    {
+      "description": "2 5-cost champions are placed in your chest.",
+      "id": 406,
+      "name": "JACKPOT",
+      "isUnique": false
+    },
+    {
+      "description": "1 utility component and 1 Neeko's Help has been added to your chest.",
+      "id": 406,
+      "name": "Large Prize",
+      "isUnique": false
+    },
+    {
+      "description": "1 defensive component and 1 Neeko's Help has been added to your chest.",
+      "id": 406,
+      "name": "Large Prize",
+      "isUnique": false
+    },
+    {
+      "description": "8 gold has been added to your chest.",
+      "id": 406,
+      "name": "JACKPOT",
+      "isUnique": false
+    },
+    {
+      "description": "A 4-cost champion has been added to your chest. ",
+      "id": 406,
+      "name": "Small Prize",
+      "isUnique": false
+    },
+    {
+      "description": "3 3-cost champions are placed in your chest. ",
+      "id": 406,
+      "name": "Large Prize",
+      "isUnique": false
+    },
+    {
+      "description": "A 4-cost champion and 3 gold has been added to your chest.",
+      "id": 406,
+      "name": "Large Prize",
+      "isUnique": false
+    },
+    {
+      "description": "1 Dragon's Claw, 1 Bramblevest, and 10 gold are placed in your chest.",
+      "id": 406,
+      "name": "Large Prize",
+      "isUnique": false
+    },
+    {
+      "description": "A 2-star 5-cost has been added to your chest.",
+      "id": 406,
+      "name": "JACKPOT",
+      "isUnique": false
+    },
+    {
+      "description": "4 gold has been added to your chest.",
+      "id": 406,
+      "name": "JACKPOT",
+      "isUnique": false
+    },
+    {
+      "description": "Gain 3 item components.",
+      "id": 406,
+      "name": "Golden Ship",
+      "isUnique": false
+    },
+    {
+      "description": "1 Neeko's Help has been added to your chest.",
+      "id": 406,
+      "name": "Large Prize",
+      "isUnique": false
+    },
+    {
+      "description": "1 offensive component and 1 Neeko's Help has been added to your chest.",
+      "id": 406,
+      "name": "Large Prize",
+      "isUnique": false
+    },
+    {
+      "description": "10 gold has been added to your chest.",
+      "id": 406,
+      "name": "Small Prize",
+      "isUnique": false
+    },
+    {
+      "description": "2 Loaded Dice and a 2-star 4-cost are placed in your chest.",
+      "id": 406,
+      "name": "JACKPOT",
+      "isUnique": false
+    },
+    {
+      "description": "6 gold has been added to your chest.",
+      "id": 406,
+      "name": "Small Prize",
+      "isUnique": false
+    },
+    {
+      "description": "Yarr!!! You got nothing. Try again next round. ",
+      "id": 406,
+      "name": "No Prize",
+      "isUnique": false
+    },
+    {
+      "description": "1 Neeko's Help and 2 gold has been added to your chest.",
+      "id": 406,
+      "name": "Large Prize",
+      "isUnique": false
+    },
+    {
+      "description": "2 2-cost champions are placed in your chest. ",
+      "id": 406,
+      "name": "Small Prize",
+      "isUnique": false
+    },
+    {
+      "description": "25 gold has been added to your chest.",
+      "id": 406,
+      "name": "Large Prize",
+      "isUnique": false
+    },
+    {
+      "description": "10 gold has been added to your chest.",
+      "id": 406,
+      "name": "Small Prize",
+      "isUnique": false
+    },
+    {
+      "description": "1 item component and 1 Neeko's Help has been added to your chest.",
+      "id": 406,
+      "name": "JACKPOT",
+      "isUnique": false
+    },
+    {
+      "description": "2 4-cost champions are placed in your chest.",
+      "id": 406,
+      "name": "Large Prize",
+      "isUnique": false
+    },
+    {
+      "description": "Gain 1 Neeko's Help and 3 gold.",
+      "id": 406,
+      "name": "Golden Kraken",
+      "isUnique": false
+    },
+    {
+      "description": "10 gold has been added to your chest.",
+      "id": 406,
+      "name": "Large Prize",
+      "isUnique": false
+    },
+    {
+      "description": "1 offensive item component has been added to your chest. ",
+      "id": 406,
+      "name": "Large Prize",
+      "isUnique": false
+    },
+    {
+      "description": "3 gold has been added to your chest.",
+      "id": 406,
+      "name": "Small Prize",
+      "isUnique": false
+    },
+    {
+      "description": "A Tome of Traits has been added to your chest.",
+      "id": 406,
+      "name": "JACKPOT",
+      "isUnique": false
+    },
+    {
+      "description": "A utility item component has been added to your chest.",
+      "id": 406,
+      "name": "Large Prize",
+      "isUnique": false
+    },
+    {
+      "description": "1 Neeko's Help and 5 gold has been added to your chest.",
+      "id": 406,
+      "name": "Large Prize",
+      "isUnique": false
+    },
+    {
+      "description": "4 gold has been added to your chest.",
+      "id": 406,
+      "name": "Small Prize",
+      "isUnique": false
+    },
+    {
+      "description": "A 5-cost champion and 10 gold has been added to your chest.",
+      "id": 406,
+      "name": "Large Prize",
+      "isUnique": false
+    },
+    {
+      "description": "2 gold has been added to your chest.",
+      "id": 406,
+      "name": "Small Prize",
+      "isUnique": false
+    },
+    {
+      "description": "A 4-cost champion and 10 gold has been added to your chest.",
+      "id": 406,
+      "name": "Large Prize",
+      "isUnique": false
+    },
+    {
+      "description": "1 item component has been added to your chest.",
+      "id": 406,
+      "name": "JACKPOT",
+      "isUnique": false
+    },
+    {
+      "description": "2 Thief's Gloves and 10 gold are placed in your chest.",
+      "id": 406,
+      "name": "JACKPOT",
+      "isUnique": false
+    },
+    {
+      "description": "1 random full item and 2 components are placed in your chest.",
+      "id": 406,
+      "name": "Large Prize",
+      "isUnique": false
+    },
+    {
+      "description": "A Tactician's Crown has been added to your chest.",
+      "id": 406,
+      "name": "JACKPOT",
+      "isUnique": false
+    },
+    {
+      "description": "A Spatula has been added to your chest.",
+      "id": 406,
+      "name": "JACKPOT",
+      "isUnique": false
+    },
+    {
+      "description": "An offensive component and 2 gold has been added to your chest.",
+      "id": 406,
+      "name": "Large Prize",
+      "isUnique": false
+    },
+    {
+      "description": "A defensive item component has been added to your chest.",
+      "id": 406,
+      "name": "Large Prize",
+      "isUnique": false
+    },
+    {
+      "description": "7 gold has been added to your chest.",
+      "id": 406,
+      "name": "Small Prize",
+      "isUnique": false
+    },
+    {
+      "description": "8 gold has been added to your chest.",
+      "id": 406,
+      "name": "Small Prize",
+      "isUnique": false
+    },
+    {
+      "description": "3 gold has been added to your chest.",
+      "id": 406,
+      "name": "Small Prize",
+      "isUnique": false
+    },
+    {
+      "description": "2 4-cost champions are placed in your chest.",
+      "id": 406,
+      "name": "JACKPOT",
+      "isUnique": false
+    },
+    {
+      "description": "2 item components are placed in your chest.",
+      "id": 406,
+      "name": "JACKPOT",
+      "isUnique": false
+    },
+    {
+      "description": "1 full item and 2 Neeko's Help have been added to your chest.",
+      "id": 406,
+      "name": "JACKPOT",
+      "isUnique": false
+    },
+    {
+      "description": "2 4-cost champions are placed in your chest.",
+      "id": 406,
+      "name": "Large Prize",
+      "isUnique": false
+    },
+    {
+      "description": "A 4-cost champion and 10 gold has been added to your chest.",
+      "id": 406,
+      "name": "Large Prize",
+      "isUnique": false
+    },
+    {
+      "description": "A utility component and 2 gold has been added to your chest.",
+      "id": 406,
+      "name": "Large Prize",
+      "isUnique": false
+    },
+    {
+      "description": "2 3-cost champions are placed in your chest.",
+      "id": 406,
+      "name": "Large Prize",
+      "isUnique": false
+    },
+    {
+      "description": "Gain a Tactician's Crown",
+      "id": 406,
+      "name": "Golden Spatula",
+      "isUnique": false
+    },
+    {
+      "description": "A 3-cost champion has been added to your chest.",
+      "id": 406,
+      "name": "Small Prize",
+      "isUnique": false
+    },
+    {
+      "description": "Gain 3 Frozen Hearts.",
+      "id": 406,
+      "name": "Golden Shell",
+      "isUnique": false
+    },
+    {
+      "description": "Grants %i:scaleAP% @AP@ bonus Ability Power (including components).",
+      "id": 33,
+      "name": "Rabadon's Deathcap",
+      "isUnique": false
+    },
+    {
+      "description": "Grants @CritChance@% Critical Strike Chance (including components) and @BonusCritDamage@% Critical Strike Damage. Each point of Critical Strike Chance above 100% becomes +@BonusCritDmgPerCritAbove100@% Critical Strike Damage. <br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
+      "id": 19,
+      "name": "Infinity Edge",
+      "isUnique": true
+    },
+    {
+      "description": "Reduces the Attack Speed of enemies within @HexRadius@ hexes by @AttackSpeedSlow@%.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
+      "id": 45,
+      "name": "Frozen Heart",
+      "isUnique": true
+    },
+    {
+      "description": "The holder gains the Divine trait.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+      "id": 18,
+      "name": "Sword of the Divine",
+      "isUnique": true
+    },
+    {
+      "description": "The holder gains the Enforcer trait.<br><br><tftitemrules>[Unique - only 1 per champion<br>Elusive - cannot be crafted.]</tftitemrules>",
+      "id": 2194,
+      "name": "Enforcer Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "Place on Kayn to free him from Rhaast, permanently improving his Reaping Slash spell to deal bonus damage at the start of combat.<br><br><tftitemrules>[KAYN CONSUMABLE - This item disappears when used and DESTROYS Rhaast's Embrace]</tftitemrules><br><br><tftitemrules>[Can only be used during the Planning Phase]</tftitemrules>",
+      "id": 200,
+      "name": "Kayn's Liberation",
+      "isUnique": false
+    },
+    {
+      "description": "The wearer is also Light.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+      "id": 68,
+      "name": "Talisman of Light",
+      "isUnique": true
+    },
+    {
+      "description": "TFT_item_description_Hush",
+      "id": -46,
+      "name": "tft_item_name_Hush",
+      "isUnique": false
+    },
+    {
+      "description": "When combat begins, the holder shoots a beam straight ahead that delays affected enemies' first cast, increasing their max Mana by @CostIncrease@% until they cast.<br><br><tftitemrules>[Unique - only one per champion]</tftitemrules>",
+      "id": 59,
+      "name": "Shroud of Stillness",
+      "isUnique": true
+    },
+    {
+      "description": "Turns all items on a champion into shadow items when used.<br><br><tftitemrules>[CONSUMABLE - This item disappears when used.]</tftitemrules><br><tftitemrules>This Item cannot transform Force of Nature, which is above corruption.</tftitemrules>",
+      "id": 206,
+      "name": "Shadow Transformer",
+      "isUnique": false
+    },
+    {
+      "description": "tft_item_description_Set5Hellion_RadiantSpat",
+      "id": 2128,
+      "name": "tft_item_name_Set5Hellion_RadiantSpat",
+      "isUnique": true
+    },
+    {
+      "description": "The holder gains the Nightbringer trait.<br><br><tftitemrules>[Unique - only one per champion.<br>Elusive - cannot be crafted.]</tftitemrules>",
+      "id": 1178,
+      "name": "Nightbringer Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "Every @HealTickRate@ seconds, the holder radiates an aura to allies within @HexRadius@ hex, healing them for @MissingHealthHeal@% of their missing Health. Affected allies take @AoEDamageReduction@% reduced damage from multi-target abilities and attacks for @HealTickRate@ seconds.",
+      "id": 47,
+      "name": "Redemption",
+      "isUnique": false
+    },
+    {
+      "description": "The wearer is also a Warden.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+      "id": 58,
+      "name": "Warden's Mail",
+      "isUnique": true
+    },
+    {
+      "description": "When combat begins, the holder summons a whirlwind on the opposite side of the arena that removes the closest enemy from combat for @BanishDuration@ seconds. Ignores crowd control immunity.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
+      "id": 67,
+      "name": "Zephyr",
+      "isUnique": true
+    },
+    {
+      "description": "tft_item_description_OceanHexBuff",
+      "id": 10203,
+      "name": "tft_item_name_OceanHexBuff",
+      "isUnique": false
+    },
+    {
+      "description": "The holder gains the Dragonslayer trait.<br><br><tftitemrules>[Unique - only one per champion]</tftitemrules>",
+      "id": 1138,
+      "name": "Dragonslayer Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "tft_item_description_SteelSphere",
+      "id": 48,
+      "name": "tft_item_name_SteelSphere",
+      "isUnique": true
+    },
+    {
+      "description": "The holder gains the Clockwork trait.<br><br><tftitemrules>[Unique - only 1 per champion<br>Elusive - cannot be crafted.]</tftitemrules>",
+      "id": 2191,
+      "name": "Clockwork Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "After the wearer casts their spell for the first time each combat, they restore %i:scaleMana% @ManaRestore@ Mana over @ManaDuration@ seconds.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
+      "id": 9005,
+      "name": "Manazane",
+      "isUnique": true
+    },
+    {
+      "description": "The holder gains the Ranger trait.<br><br><tftitemrules>[Unique - only one per champion.<br>Elusive - cannot be crafted.]</tftitemrules>",
+      "id": 1190,
+      "name": "Ranger Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "tft_item_description_Set5Nightbringer_RadiantSpat",
+      "id": 2178,
+      "name": "tft_item_name_Set5Nightbringer_RadiantSpat",
+      "isUnique": true
+    },
+    {
+      "description": "Use on a champion to unequip all items and randomly transform them into different new ones. <br><br><tftitemrules> [SAME QUALITY: Reforging an item will grant a new item of a similar type and quality.<br> Cannot be used on board champions in combat, or on Tactician's Crown.<br> CONSUMABLE - This item disappears when used.]</tftitemrules>",
+      "id": 202,
+      "name": "Reforger",
+      "isUnique": false
+    },
+    {
+      "description": "The holder gains the Knight trait.<br><br><tftitemrules>[Unique - only one per champion.<br>Elusive - cannot be crafted.]</tftitemrules>",
+      "id": 1196,
+      "name": "Knight Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "TFT_item_description_BladeOfTheRuinedKing",
+      "id": -28,
+      "name": "TFT_item_name_BladeOfTheRuinedKing",
+      "isUnique": true
+    },
+    {
+      "description": "When combat begins, the holder and all allies within @HexRange@ hexes in the same row gain %i:scaleAS% @AttackSpeed@% Attack Speed for the rest of combat.",
+      "id": 17,
+      "name": "Zeke's Herald",
+      "isUnique": false
+    },
+    {
+      "description": "At the beginning of each planning phase, the holder equips 2 temporary items. Temporary items increase in power based on your player level.<br><br><tftitemrules>[Consumes 3 item slots.]</tftitemrules>",
+      "id": 99,
+      "name": "Thief's Gloves",
+      "isUnique": false
+    },
+    {
+      "description": "One 3+ Cost Unit",
+      "id": 2203,
+      "name": "One 3+ Cost Unit",
+      "isUnique": false
+    },
+    {
+      "description": "tft_item_description_Set5Redeemed_RadiantSpat",
+      "id": 568,
+      "name": "tft_item_name_Set5Redeemed_RadiantSpat",
+      "isUnique": true
+    },
+    {
+      "description": "Attacks grant +@AttackSpeedPerStack@% bonus Attack Speed for the rest of combat. This effect can stack any number of times.",
+      "id": 23,
+      "name": "Guinsoo's Rageblade",
+      "isUnique": false
+    },
+    {
+      "description": "The holder gains the Duelist trait.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+      "id": 28,
+      "name": "Duelist's Zeal",
+      "isUnique": true
+    },
+    {
+      "description": "Enemies within @HexRange@ hexes have their Magic Resist reduced by @MRShred@%. When they cast an Ability, they are zapped taking magic damage equal to @ManaRatio@% of their maximum Mana.",
+      "id": 36,
+      "name": "Ionic Spark",
+      "isUnique": false
+    },
+    {
+      "description": "The holder gains the Invoker trait.<br><br><tftitemrules>[Unique - only one per champion.<br>Elusive - cannot be crafted.]</tftitemrules>",
+      "id": 1192,
+      "name": "Invoker Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "Grants %i:scaleMR% @MagicResist@ bonus Magic Resist (including components). On being hit by magic or true damage from a casted Ability, launch a fireball at the Ability's caster that deals magic damage equal to @PercentHealthDamage@% of their maximum Health (@ICD@ second cooldown).",
+      "id": 66,
+      "name": "Dragon's Claw",
+      "isUnique": false
+    },
+    {
+      "description": "Use on a champion to unequip all items. <br><br><tftitemrules> [Cannot be used on board champions in combat.]<br>[CONSUMABLE - This item disappears when used.]</tftitemrules>",
+      "id": 203,
+      "name": "Magnetic Remover",
+      "isUnique": false
+    },
+    {
+      "description": "The holder gains the Redeemed trait.<br><br><tftitemrules>[Unique - only one per champion]</tftitemrules>",
+      "id": 68,
+      "name": "Redeemed Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "TFT_item_description_PhantomDancer",
+      "id": -25,
+      "name": "TFT_item_name_PhantomDancer",
+      "isUnique": true
+    },
+    {
+      "description": "When combat begins, the holder and all allies within @HexRange@ hex(es) in the same row gain a shield that blocks the damage and effects of the first enemy Ability, up to 600 damage. <br>",
+      "id": 79,
+      "name": "Banshee's Claw",
+      "isUnique": false
+    },
+    {
+      "description": "The holder gains the Mercenary trait.<br><br><tftitemrules>[Unique - only 1 per champion<br>Elusive - cannot be crafted.]</tftitemrules>",
+      "id": 2192,
+      "name": "Mercenary Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "Two 1-Cost & One 2-Cost Units",
+      "id": 2201,
+      "name": "Two 1-Cost & One 2-Cost Units",
+      "isUnique": false
+    },
+    {
+      "description": "The holder gains the Cannoneer trait.<br><br><tftitemrules>[Unique - only one per champion.<br>Elusive - cannot be crafted.]</tftitemrules>",
+      "id": 1195,
+      "name": "Cannoneer Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "The holder gains the Draconic trait.<br><br><tftitemrules>[Unique - only one per champion.<br>Elusive - cannot be crafted.]</tftitemrules>",
+      "id": 1191,
+      "name": "Draconic Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "Loot goes here",
+      "id": 10006,
+      "name": "Loot Bag",
+      "isUnique": false
+    },
+    {
+      "description": "Turns all items on a champion into standard items when used.<br><br><tftitemrules>[CONSUMABLE - This item disappears when used.]</tftitemrules><br><tftitemrules>This Item cannot transform Force of Darkness, which is beyond redemption.</tftitemrules>",
+      "id": 206,
+      "name": "Light Transformer",
+      "isUnique": false
+    },
+    {
+      "description": "Place on Kayn to force Rhaast to overtake him, permanently improving his Reaping Slash spell to heal him.<br><br><tftitemrules>[KAYN CONSUMABLE - This item disappears when used and DESTROYS Kayn's Liberation]</tftitemrules><br><br><tftitemrules>[Can only be used during the Planning Phase]</tftitemrules>",
+      "id": 200,
+      "name": "Rhaast's Embrace",
+      "isUnique": false
+    },
+    {
+      "description": "tft_item_description_Set5Skirmisher_RadiantSpat",
+      "id": 518,
+      "name": "tft_item_name_Set5Skirmisher_RadiantSpat",
+      "isUnique": true
+    },
+    {
+      "description": "The holder gains the Bodyguard trait.<br><br><tftitemrules>[Unique - only 1 per champion <br>Elusive - cannot be crafted.]</tftitemrules>",
+      "id": 58,
+      "name": "Bodyguard Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "Place on a champion to create a one-star copy of them.<br><br><tftitemrules>[CONSUMABLE - This item disappears when used.]</tftitemrules>",
+      "id": 200,
+      "name": "Neeko's Help",
+      "isUnique": false
+    },
+    {
+      "description": "The holder gains %i:scaleMana% @Mana@ Starting Mana (including components). After casting their Ability, the holder gains %i:scaleMana% @ManaRestore@ mana.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
+      "id": 44,
+      "name": "Blue Buff",
+      "isUnique": true
+    },
+    {
+      "description": "%i:scaleArmor% +@Armor@ Armor",
+      "id": 5,
+      "name": "Chain Vest",
+      "isUnique": false
+    },
+    {
+      "description": "%i:scaleAD% +@AD@ Attack Damage",
+      "id": 1,
+      "name": "B.F. Sword",
+      "isUnique": false
+    },
+    {
+      "description": "Prevents the holder's first death, placing them in stasis instead. After @StasisDuration@ seconds, they return with @HealthRestore@ Health and shed all negative effects.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+      "id": 15,
+      "name": "Guardian Angel",
+      "isUnique": true
+    },
+    {
+      "description": "tft_item_description_Thornmail",
+      "id": -55,
+      "name": "game_item_displayname_3075",
+      "isUnique": false
+    },
+    {
+      "description": "tft_item_description_EmblemArmoryConsumable",
+      "id": 305,
+      "name": "tft_item_name_EmblemArmoryConsumable",
+      "isUnique": false
+    },
+    {
+      "description": "8 Gold",
+      "id": 2213,
+      "name": "8 Gold",
+      "isUnique": false
+    },
+    {
+      "description": "tft_item_description_CelestialSpatulaItem",
+      "id": 68,
+      "name": "tft_item_name_CelestialSpatulaItem",
+      "isUnique": true
+    },
+    {
+      "description": "The wearer regenerates @PercentHealthRegen@% of their maximum Health each second.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
+      "id": 9001,
+      "name": "Anima Visage",
+      "isUnique": true
+    },
+    {
+      "description": "The holder gains %i:scaleArmor% @ArmorPerEnemy@ Armor and %i:scaleMR% @MRPerEnemy@ Magic Resist for each enemy targeting them.",
+      "id": 56,
+      "name": "Gargoyle Stoneplate",
+      "isUnique": false
+    },
+    {
+      "description": "Grants %i:scaleArmor% @Armor@ bonus Armor (including components). Negates bonus damage from incoming critical strikes. On being hit by an attack, deal @1StarAoEDamage@/@2StarAoEDamage@/@3StarAoEDamage@ %i:star% magic damage to all nearby enemies (once every @ICD@ seconds).",
+      "id": 55,
+      "name": "Bramble Vest",
+      "isUnique": false
+    },
+    {
+      "description": "The holder gains the Hellion trait.<br><br><tftitemrules>[Unique - only one per champion]</tftitemrules>",
+      "id": 1128,
+      "name": "Hellion Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "%i:scaleArmor% +@Armor@ Armor",
+      "id": 5,
+      "name": "Chain Vest",
+      "isUnique": false
+    },
+    {
+      "description": "The holder gains the Skirmisher trait.<br><br><tftitemrules>[Unique - only one per champion]</tftitemrules>",
+      "id": 18,
+      "name": "Skirmisher Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "At the start of combat, the holder pulls the farthest enemy into melee range, stunning them for @StunDuration@ seconds. Allies within range will prioritize attacking that enemy.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
+      "id": 9008,
+      "name": "Rocket-Propelled Fist",
+      "isUnique": true
+    },
+    {
+      "description": "The wearer gains the Assassin trait.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+      "id": 89,
+      "name": "Youmuu's Ghostblade",
+      "isUnique": true
+    },
+    {
+      "description": "tft_item_description_FrozenFist",
+      "id": -59,
+      "name": "tft_item_name_FrozenFist",
+      "isUnique": false
+    },
+    {
+      "description": "tft_item_description_Set5Revenant_RadiantSpat",
+      "id": 2168,
+      "name": "tft_item_name_Set5Revenant_RadiantSpat",
+      "isUnique": true
+    },
+    {
+      "description": "tft_item_description_SpellThiefsEdge",
+      "id": 529,
+      "name": "tft_item_name_SpellThiefsEdge",
+      "isUnique": false
+    },
+    {
+      "description": "5 Gold",
+      "id": 2210,
+      "name": "5 Gold",
+      "isUnique": false
+    },
+    {
+      "description": "6 Gold",
+      "id": 2211,
+      "name": "6 Gold",
+      "isUnique": false
+    },
+    {
+      "description": "7 Gold",
+      "id": 2212,
+      "name": "7 Gold",
+      "isUnique": false
+    },
+    {
+      "description": "Enemies who damage the holder have their Attack Speed slowed by @AttackSpeedSlowPercent@% for @SlowDuration@ seconds. After being slowed this way @NumApplications@ times, the attacker is Frozen for the duration instead. An enemy can only be Frozen once every @FreezeCooldown@ seconds.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
+      "id": 9003,
+      "name": "Eternal Winter",
+      "isUnique": true
+    },
+    {
+      "description": "The holder gains the Mage trait.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+      "id": 48,
+      "name": "Mage's Hat",
+      "isUnique": true
+    },
+    {
+      "description": "The holder gains the Protector trait.<br><br><tftitemrules>[Unique - only 1 per champion<br>Elusive - cannot be crafted.]</tftitemrules>",
+      "id": 2196,
+      "name": "Protector Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "The holder gains the Innovator trait.<br><br><tftitemrules>[Unique - only 1 per champion<br>Elusive - cannot be crafted.]</tftitemrules>",
+      "id": 2198,
+      "name": "Innovator Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "TFT_item_description_Catalyst",
+      "id": 149,
+      "name": "TFT_item_name_Catalyst",
+      "isUnique": false
+    },
+    {
+      "description": "The holder is also an Assassin.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
+      "id": 18,
+      "name": "Youmuu's Ghostblade",
+      "isUnique": true
+    },
+    {
+      "description": "tft_item_description_WindHexBuff",
+      "id": 10204,
+      "name": "tft_item_name_WindHexBuff",
+      "isUnique": false
+    },
+    {
+      "description": "The holder gains the Vanguard trait.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+      "id": 58,
+      "name": "Vanguard's Cuirass",
+      "isUnique": true
+    },
+    {
+      "description": "tft_item_description_DemolitionistSpatulaItem",
+      "id": -38,
+      "name": "tft_item_name_DemolitionistSpatulaItem",
+      "isUnique": true
+    },
+    {
+      "description": "The holder gains the Scholar trait.<br><br><tftitemrules>[Unique - only 1 per champion<br>Elusive - cannot be crafted.]</tftitemrules>",
+      "id": 2200,
+      "name": "Scholar Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "%i:scaleAS% +@AS@ Attack Speed",
+      "id": 2,
+      "name": "Recurve Bow",
+      "isUnique": false
+    },
+    {
+      "description": "The holder's Abilities and attacks do @SmallBonusPct@% bonus damage. If the target has more than @HealthThreshold@ maximum Health, the bonus increases to @LargeBonusPct@%.",
+      "id": 12,
+      "name": "Giant Slayer",
+      "isUnique": false
+    },
+    {
+      "description": "The holder gains the Elderwood trait.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+      "id": 68,
+      "name": "Elderwood Sprout",
+      "isUnique": true
+    },
+    {
+      "description": "tft_item_description_InfernoHex",
+      "id": 10201,
+      "name": "tft_item_name_InfernoHexBuff",
+      "isUnique": false
+    },
+    {
+      "description": "The wearer's attacks and spell damage shred enemy Armor and Magic Resistance by 70% for @Duration@ seconds.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
+      "id": 9006,
+      "name": "Obsidian Cleaver",
+      "isUnique": true
+    },
+    {
+      "description": "Every @ICD@ seconds, a random enemy within @HexRange@ hexes is burned for @BurnPercent@% of their maximum Health as true damage over @BurnDuration@ seconds. Any healing they receive is reduced by @GrievousWoundsPercent@%.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
+      "id": 57,
+      "name": "Sunfire Cape",
+      "isUnique": true
+    },
+    {
+      "description": "tft_item_description_Set5Ironclad_RadiantSpat",
+      "id": 558,
+      "name": "tft_item_name_Set5Ironclad_RadiantSpat",
+      "isUnique": true
+    },
+    {
+      "description": "Random Component",
+      "id": 2220,
+      "name": "Random Component",
+      "isUnique": false
+    },
+    {
+      "description": "Two 3+Cost Units",
+      "id": 2204,
+      "name": "Two 3+Cost Units",
+      "isUnique": false
+    },
+    {
+      "description": "The holder gains the Imperial trait.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
+      "id": 18,
+      "name": "Imperial Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "Use on a champion to break apart all items into components and unequip them.<br><br><tftitemrules> [Cannot be used on board champions in combat.]<br>[CONSUMABLE - This item disappears when used.]</tftitemrules>",
+      "id": 205,
+      "name": "Divine Dissolver",
+      "isUnique": false
+    },
+    {
+      "description": "tft_item_description_SwordOfTheDivine2",
+      "id": -100,
+      "name": "tft_item_name_SwordOfTheDivine2",
+      "isUnique": false
+    },
+    {
+      "description": "The holder gains both of the following:<li>+@BaseAD@ Attack Damage and +@BaseSP@ Ability Power.</li> <li>Attacks and Abilities heal for @BaseHeal@% of damage dealt.</li><br><br>At the beginning of each planning phase, one of these buffs is increased to @TooltipBonus@(%).<br>",
+      "id": 49,
+      "name": "Hand Of Justice",
+      "isUnique": false
+    },
+    {
+      "description": "TFT_item_description_CursedBlade",
+      "id": -26,
+      "name": "tft_item_name_CursedBlade",
+      "isUnique": false
+    },
+    {
+      "description": "Prevents the holder's first death, placing them in stasis instead. After @StasisDuration@ seconds, they return with @HealthRestore@ Health and shed all negative effects.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
+      "id": 15,
+      "name": "Guardian Angel",
+      "isUnique": true
+    },
+    {
+      "description": "The holder gains %i:scaleMana% @Mana@ Starting Mana (including components). After casting their Ability, the holder gains %i:scaleMana% @ManaRestore@ mana.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
+      "id": 44,
+      "name": "Blue Buff",
+      "isUnique": true
+    },
+    {
+      "description": "%i:scaleMana% +@Mana@ Mana",
+      "id": 4,
+      "name": "Tear of the Goddess",
+      "isUnique": false
+    },
+    {
+      "description": "The holder gains %i:scaleAD% @Tooltip1StarBonusAD@/@Tooltip2StarBonusAD@/@Tooltip3StarBonusAD@ %i:star% bonus Attack Damage (including components).",
+      "id": 10004,
+      "name": "Deathblade",
+      "isUnique": false
+    },
+    {
+      "description": "The holder gains the Cavalier trait.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
+      "id": 1158,
+      "name": "Cavalier Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "The first instance of damage that would reduce the wearer below @PercentHealthThreshold@% Health is prevented, causing them to become invulnerable for @InvulnDuration@ seconds.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
+      "id": 9010,
+      "name": "Zhonya's Paradox",
+      "isUnique": true
+    },
+    {
+      "description": "%i:scaleMR% +@MagicResist@ Magic Resist",
+      "id": 6,
+      "name": "Negatron Cloak",
+      "isUnique": false
+    },
+    {
+      "description": "The holder gains the Bruiser trait.<br><br><tftitemrules>[Unique - only 1 per champion<br>Elusive - cannot be crafted.]</tftitemrules>",
+      "id": 2197,
+      "name": "Bruiser Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "When the holder attacks or takes damage, they gain @StackingAD@ Attack Damage and Ability Power. <br><br>This stacks up to @StackCap@ times, at which point the holder gains @BonusResistsAtStackCap@ Armor and Magic Resist.",
+      "id": 25,
+      "name": "Titan's Resolve",
+      "isUnique": false
+    },
+    {
+      "description": "tft_item_description_DarkStarSpatulaItem",
+      "id": 89,
+      "name": "tft_item_name_DarkStarSpatulaItem",
+      "isUnique": true
+    },
+    {
+      "description": "The holder gains the Socialite trait.<br><br><tftitemrules>[Unique - only 1 per champion<br>Elusive - cannot be crafted.]</tftitemrules>",
+      "id": 2193,
+      "name": "Socialite Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "The holder gains the Protector trait.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
+      "id": 78,
+      "name": "Protector's Chestguard",
+      "isUnique": true
+    },
+    {
+      "description": "TFT_item_description_FrozenMallet",
+      "id": 78,
+      "name": "TFT_item_name_FrozenMallet",
+      "isUnique": true
+    },
+    {
+      "description": "The holder gains the Mutant trait.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
+      "id": 2190,
+      "name": "Mutant Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "The holder gains %i:scaleAD% @AD@ Attack Damage. The holder's attacks fire a bolt at another nearby enemy, dealing @MultiplierForDamage@% of the holder's Attack Damage as physical damage.",
+      "id": 26,
+      "name": "Runaan's Hurricane",
+      "isUnique": false
+    },
+    {
+      "description": "The holder gains the Sentinel trait.<br><br><tftitemrules>[Unique - only one per champion.<br>Elusive - cannot be crafted.]</tftitemrules>",
+      "id": 1194,
+      "name": "Sentinel Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "tft_item_description_IsYordle",
+      "id": -89,
+      "name": "tft_item_name_Mittens",
+      "isUnique": true
+    },
+    {
+      "description": "tft_item_description_InfiltratorSpatulaItem",
+      "id": 28,
+      "name": "tft_item_name_InfiltratorSpatulaItem",
+      "isUnique": true
+    },
+    {
+      "description": "%i:scaleAD% +@AD@ Attack Damage",
+      "id": 10003,
+      "name": "B.F. Sword",
+      "isUnique": false
+    },
+    {
+      "description": "+@CritChance@ Critical Strike Chance<br>+@DodgeChance@ Dodge Chance",
+      "id": 9,
+      "name": "Sparring Gloves",
+      "isUnique": false
+    },
+    {
+      "description": "Physical damage heals the holder for @Lifesteal@% of the damage dealt. Upon falling below @HealthThreshold@% Health, the holder gains a @ShieldHealthPercent@% maximum Health shield that lasts up to @ShieldDuration@ seconds.",
+      "id": 16,
+      "name": "Bloodthirster",
+      "isUnique": false
+    },
+    {
+      "description": "10 Gold",
+      "id": 2214,
+      "name": "10 Gold",
+      "isUnique": false
+    },
+    {
+      "description": "During combat, the holder gains %i:scaleAP% @APPerInterval@ Ability Power every @IntervalSeconds@ seconds.",
+      "id": 34,
+      "name": "Archangel's Staff",
+      "isUnique": false
+    },
+    {
+      "description": "The holder gains the Scrap trait.<br><br><tftitemrules>[Unique - only 1 per champion<br>Elusive - cannot be crafted.]</tftitemrules>",
+      "id": 2195,
+      "name": "Scrap Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "Extra %i:scaleArmor% +@Armor@<br>Holder is also a Knight<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
+      "id": -58,
+      "name": "Knight's Vow",
+      "isUnique": true
+    },
+    {
+      "description": "The holder gains the Arcanist trait.<br><br><tftitemrules>[Unique - only 1 per champion</tftitemrules>",
+      "id": 38,
+      "name": "Arcanist Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "TFT_item_description_FrozenMallet",
+      "id": -78,
+      "name": "TFT_item_name_FrozenMallet",
+      "isUnique": true
+    },
+    {
+      "description": "The holder gains the Challenger trait.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
+      "id": 28,
+      "name": "Challenger Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "The wearer is also an Inferno.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+      "id": 38,
+      "name": "Inferno's Cinder",
+      "isUnique": true
+    },
+    {
+      "description": "Place on a champion to transfer that champion to your partner, along with all items the champion has equipped.<br><br><tftitemrules>[Cannot be used in combat.] <br>[CONSUMABLE - This item disappears when used.]</tftitemrules>",
+      "id": 2222,
+      "name": "Rune of Allegiance",
+      "isUnique": false
+    },
+    {
+      "description": "At the start of combat, the holder taunts enemies within @HexRadius@ hexes. <br><br>When the holder dies, a Voidspawn arises taunting nearby enemies. Voidspawns that arise from summoned units are @SummonedStatReduction@% effective.",
+      "id": 27,
+      "name": "Zz'Rot Portal",
+      "isUnique": false
+    },
+    {
+      "description": "tft_item_description_HextechChestguard",
+      "id": -1,
+      "name": "tft_item_name_HextechChestguard",
+      "isUnique": false
+    },
+    {
+      "description": "The holder gains the Legionnaire trait.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
+      "id": 28,
+      "name": "Legionnaire Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "tft_item_description_Set5Assassin_RadiantSpat",
+      "id": 589,
+      "name": "tft_item_name_Set5Assassin_RadiantSpat",
+      "isUnique": true
+    },
+    {
+      "description": "The holder gains the Ironclad trait.<br><br><tftitemrules>[Unique - only one per champion.<br>Elusive - cannot be crafted.]</tftitemrules>",
+      "id": 58,
+      "name": "Ironclad Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "The wearer is also a Berserker.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+      "id": 89,
+      "name": "Berserker's Axe",
+      "isUnique": true
+    },
+    {
+      "description": "TFT6_Item_Description_EliteSpotlight",
+      "id": 9100,
+      "name": "TFT6_Item_Name_EliteSpotlight",
+      "isUnique": true
+    },
+    {
+      "description": "@IgnorePainPercent@% of the damage the holder receives is instead dealt over @BleedDuration@ seconds as non-lethal damage. The holder's Attacks and Abilities also heal for @BaseHeal@% of damage dealt.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
+      "id": 9002,
+      "name": "Death's Defiance",
+      "isUnique": true
+    },
+    {
+      "description": "tft_item_description_Darkin",
+      "id": -48,
+      "name": "tft_item_name_Darkin",
+      "isUnique": true
+    },
+    {
+      "description": "tft_item_description_Set5Coven_RadiantSpat",
+      "id": 2148,
+      "name": "tft_item_name_Set5Coven_RadiantSpat",
+      "isUnique": true
+    },
+    {
+      "description": "The holder's attacks restore %i:scaleMana% @FlatManaRestore@ additional Mana. ",
+      "id": 14,
+      "name": "Spear of Shojin",
+      "isUnique": false
+    },
+    {
+      "description": "The holder is also an Assassin.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
+      "id": -18,
+      "name": "Youmuu's Ghostblade",
+      "isUnique": true
+    },
+    {
+      "description": "It must do <i>something</i>...",
+      "id": 8,
+      "name": "Spatula",
+      "isUnique": false
+    },
+    {
+      "description": "The holder gains the Syndicate trait.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
+      "id": 68,
+      "name": "Syndicate Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "The wearer gains the Battlecast trait.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+      "id": 38,
+      "name": "Battlecast Plating",
+      "isUnique": true
+    },
+    {
+      "description": "tft_item_description_RebelSpatulaItem",
+      "id": 58,
+      "name": "tft_item_name_RebelSpatulaItem",
+      "isUnique": true
+    },
+    {
+      "description": "The holder gains the Sniper trait.<br><br><tftitemrules>[Unique - only 1 per champion<br>Elusive - cannot be crafted.]</tftitemrules>",
+      "id": 2199,
+      "name": "Sniper Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "<tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
+      "id": 9004,
+      "name": "Infinity Force",
+      "isUnique": true
+    },
+    {
+      "description": "When combat begins, the holder and all allies within @HexRange@ hexes in the same row gain a shield that blocks @1StarShieldValue@/@2StarShieldValue@/@3StarShieldValue@ %i:star% damage for @ShieldDuration@ seconds.",
+      "id": 35,
+      "name": "Locket of the Iron Solari",
+      "isUnique": false
+    },
+    {
+      "description": "The holder gains the Forgotten trait.<br><br><tftitemrules>[Unique - only one per champion.<br>Elusive - cannot be crafted.]</tftitemrules>",
+      "id": 1118,
+      "name": "Forgotten Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "TFT_item_description_Yuumi",
+      "id": -38,
+      "name": "TFT_item_name_Yuumi",
+      "isUnique": true
+    },
+    {
+      "description": "When the holder deals magic or true damage with their Ability, they burn the target, dealing @BurnPercent@% of the target's maximum Health as true damage over @BurnDuration@ seconds, and reducing healing by @GrievousWoundsPercent@% for the duration of the burn.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
+      "id": 37,
+      "name": "Morellonomicon",
+      "isUnique": true
+    },
+    {
+      "description": "The holder gains the Revenant trait.<br><br><tftitemrules>[Unique - only one per champion.<br>Elusive - cannot be crafted.]</tftitemrules>",
+      "id": 1168,
+      "name": "Revenant Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "Increases the holder's Attack Range by @HexRangeIncrease@ hex and grants %i:scaleAS% @TooltipBonusAS@% bonus Attack Speed (including components). The holder's attacks can no longer miss.",
+      "id": 22,
+      "name": "Rapid Firecannon",
+      "isUnique": false
+    },
+    {
+      "description": "Use on a champion to spawn a movable target dummy nearby. <br><br><tftitemrules> [Cannot be used in combat. <br>CONSUMABLE - This item disappears when used.]</tftitemrules>",
+      "id": 204,
+      "name": "Target Dummy",
+      "isUnique": false
+    },
+    {
+      "description": "The holder gains the Brawler trait.<br><br><tftitemrules>[Unique - only one per champion.<br>Elusive - cannot be crafted.]</tftitemrules>",
+      "id": 1193,
+      "name": "Brawler Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "%i:scaleAD% +@AD@ Attack Damage",
+      "id": 1,
+      "name": "B.F. Sword",
+      "isUnique": false
+    },
+    {
+      "description": "The holder gains the Dragonsoul trait.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+      "id": 38,
+      "name": "Spirit of the Dragon",
+      "isUnique": true
+    },
+    {
+      "description": "Use on a champion to reroll a special Shop that contains only champions sharing a Trait with the source champion. <br><br><tftitemrules>[CONSUMABLE - This item disappears when used.]</tftitemrules>",
+      "id": 201,
+      "name": "Loaded Dice",
+      "isUnique": false
+    },
+    {
+      "description": "On falling below @HealthPercent@% Health, become untargetable, invulnerable, but unable to move for @StasisDuration@ seconds.",
+      "id": -35,
+      "name": "Zhonya's Hourglass",
+      "isUnique": false
+    },
+    {
+      "description": "TFT_item_description_BladeOfTheRuinedKing",
+      "id": 28,
+      "name": "TFT_item_name_BladeOfTheRuinedKing",
+      "isUnique": true
+    },
+    {
+      "description": "tft_item_description_Set5Legionnaire_RadiantSpat",
+      "id": 528,
+      "name": "tft_item_name_Set5Legionnaire_RadiantSpat",
+      "isUnique": true
+    },
+    {
+      "description": "tft_item_description_StarGuardianSpatulaItem",
+      "id": 48,
+      "name": "tft_item_name_StarGuardianSpatulaItem",
+      "isUnique": true
+    },
+    {
+      "description": "The wearer gains the Warlord trait.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+      "id": 78,
+      "name": "Warlord's Banner",
+      "isUnique": true
+    },
+    {
+      "description": "When the holder inflicts a critical hit, the target's Armor is reduced by @ArmorReductionPercent@% for @ArmorBreakDuration@ seconds. This effect does not stack.<br><br><tftitemrules>[Unique - only one per champion]</tftitemrules>",
+      "id": 29,
+      "name": "Last Whisper",
+      "isUnique": true
+    },
+    {
+      "description": "The holder gains the Renewer trait.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
+      "id": 48,
+      "name": "Renewer Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "The holder gains the Assassin trait.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
+      "id": 89,
+      "name": "Assassin Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "The holder's magic and true damage from their Ability can critically strike. The holder gains @CritDamageAmp@% bonus Critical Strike Damage and %i:scaleAP% @TooltipBonusAP@ bonus Ability Power.",
+      "id": 39,
+      "name": "Jeweled Gauntlet",
+      "isUnique": false
+    },
+    {
+      "description": "%i:scaleHealth% +@Health@ Health",
+      "id": 7,
+      "name": "Giant's Belt",
+      "isUnique": false
+    },
+    {
+      "description": "tft_item_description_Set5Abomination_RadiantSpat",
+      "id": 2189,
+      "name": "tft_item_name_Set5Abomination_RadiantSpat",
+      "isUnique": true
+    },
+    {
+      "description": "The holder gains the Coven trait.<br><br><tftitemrules>[Unique - only one per champion]</tftitemrules>",
+      "id": 1148,
+      "name": "Coven Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "It must do <i>something</i>...",
+      "id": 100,
+      "name": "Spatula",
+      "isUnique": false
+    },
+    {
+      "description": "Item temporarily disabled",
+      "id": 10002,
+      "name": "Jammed!",
+      "isUnique": false
+    },
+    {
+      "description": "Loot goes here",
+      "id": 10001,
+      "name": "Loot Bag",
+      "isUnique": false
+    },
+    {
+      "description": "The holder gains the Dusk trait.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+      "id": -38,
+      "name": "Aspect of Dusk",
+      "isUnique": true
+    },
+    {
+      "description": "Three 2-Cost Units",
+      "id": 2202,
+      "name": "Three 2-Cost Units",
+      "isUnique": false
+    },
+    {
+      "description": "%i:scaleAP% +@AP@ Ability Power",
+      "id": 3,
+      "name": "Needlessly Large Rod",
+      "isUnique": false
+    },
+    {
+      "description": "TFT_item_description_MortalReminder",
+      "id": 541,
+      "name": "Mortal Reminder",
+      "isUnique": false
+    },
+    {
+      "description": "At the start of combat, all allies adjacent to the wearer gain %i:scaleArmor% @BonusDefense@ Armor and %i:scaleMR% @BonusDefense@ Magic Resistance for the rest of combat.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
+      "id": 9007,
+      "name": "Randuin's Sanctum",
+      "isUnique": true
+    },
+    {
+      "description": "tft_item_description_SwordOfTheDivine2",
+      "id": 10005,
+      "name": "tft_item_name_SwordOfTheDivine2",
+      "isUnique": true
+    },
+    {
+      "description": "tft_item_description_SwordOfTheDivine2",
+      "id": -29,
+      "name": "tft_item_name_SwordOfTheDivine2",
+      "isUnique": true
+    },
+    {
+      "description": "The holder's team gains +@MaxArmySizeIncrease@ maximum team size.",
+      "id": 88,
+      "name": "Tactician's Crown",
+      "isUnique": false
+    },
+    {
+      "description": "The holder gains the Academy trait.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
+      "id": 48,
+      "name": "Academy Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "The holder gains the Dawnbringer trait.<br><br><tftitemrules>[Unique - only one per champion]</tftitemrules>",
+      "id": 78,
+      "name": "Dawnbringer Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "The holder gains %i:scaleAS% @AS@% bonus Attack Speed. The holder is immune to crowd control in combat for @SpellShieldDuration@ seconds.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
+      "id": 69,
+      "name": "Quicksilver",
+      "isUnique": true
+    },
+    {
+      "description": "The holder gains %i:scaleAD% @Tooltip1StarBonusAD@/@Tooltip2StarBonusAD@/@Tooltip3StarBonusAD@ %i:star% bonus Attack Damage (including components).",
+      "id": 11,
+      "name": "Deathblade",
+      "isUnique": false
+    },
+    {
+      "description": "tft_item_description_Set5Spellweaver_RadiantSpat",
+      "id": 538,
+      "name": "tft_item_name_Set5Spellweaver_RadiantSpat",
+      "isUnique": true
+    },
+    {
+      "description": "tft_item_description_Set5Cavalier_RadiantSpat",
+      "id": 2158,
+      "name": "tft_item_name_Set5Cavalier_RadiantSpat",
+      "isUnique": true
+    },
+    {
+      "description": "tft_item_description_Set5Dawnbringer_RadiantSpat",
+      "id": 578,
+      "name": "tft_item_name_Set5Dawnbringer_RadiantSpat",
+      "isUnique": true
+    },
+    {
+      "description": "The holder gains the Spellweaver trait.<br><br><tftitemrules>[Unique - only one per champion]</tftitemrules>",
+      "id": 38,
+      "name": "Spellweaver Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "The holder gains the Mystic trait.<br><br><tftitemrules>[Unique - only one per champion.<br>Elusive - cannot be crafted.]</tftitemrules>",
+      "id": 1197,
+      "name": "Mystic Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "When combat begins, the holder and all allies within @HexRange@ hex in the same row gain %i:scaleAP% @BonusAP@ Ability Power for the rest of combat.",
+      "id": 46,
+      "name": "Chalice of Power",
+      "isUnique": false
+    },
+    {
+      "description": "The holder gains the Assassin trait.<br><br><tftitemrules>[Unique - only one per champion]</tftitemrules>",
+      "id": 89,
+      "name": "Assassin Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "Grants %i:scaleHealth% @Health@ bonus Health (including components).",
+      "id": 77,
+      "name": "Warmog's Armor",
+      "isUnique": false
+    },
+    {
+      "description": "The holder gains the Chemtech trait.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
+      "id": 78,
+      "name": "Chemtech Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "The holder gains %i:scaleAS% @BonusAS@% bonus Attack Speed. Every 3rd attack from the holder unleashes a chain lightning that bounces to @1StarBounces@ enemies, dealing @Damage@ magic damage and reducing their Magic Resist by @MRShred@% for @MRShredDuration@ seconds. ",
+      "id": 24,
+      "name": "Statikk Shiv",
+      "isUnique": false
+    },
+    {
+      "description": "tft_item_description_SlicerSpatulaItem",
+      "id": 18,
+      "name": "tft_item_name_UmbralGlaive",
+      "isUnique": true
+    },
+    {
+      "description": "tft_item_description_Set5Renewer_RadiantSpat",
+      "id": 548,
+      "name": "tft_item_name_Set5Renewer_RadiantSpat",
+      "isUnique": true
+    },
+    {
+      "description": "The holder executes enemies below @ExecutePercent@% on hit. Executions have a @GoldChance@% chance to generate 1 gold.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
+      "id": 9009,
+      "name": "Gold Collector",
+      "isUnique": true
+    },
+    {
+      "description": "Special Item + 4 Gold",
+      "id": 2221,
+      "name": "Special Item + 4 Gold",
+      "isUnique": false
+    },
+    {
+      "description": "This slot can't hold an item.",
+      "id": 999,
+      "name": "Unusable Slot",
+      "isUnique": false
+    },
+    {
+      "description": "The holder's magic and true damage from Abilities heal them for @OmniVamp@% of the damage dealt. The holder also heals their lowest Health ally for the same amount.",
+      "id": 13,
+      "name": "Hextech Gunblade",
+      "isUnique": false
+    },
+    {
+      "description": "tft_item_description_MountainHexBuff",
+      "id": 10202,
+      "name": "tft_item_name_MountainHexBuff",
+      "isUnique": false
+    },
+    {
+      "description": "tft_item_description_Set5Forgotten_RadiantSpat",
+      "id": 2118,
+      "name": "tft_item_name_Set5Forgotten_RadiantSpat",
+      "isUnique": true
+    },
+    {
+      "description": "The holder gains the Abomination trait.<br><br><tftitemrules>[Unique - only one per champion.<br>Elusive - cannot be crafted.]</tftitemrules>",
+      "id": 1189,
+      "name": "Abomination Emblem",
+      "isUnique": true
+    },
+    {
+      "description": "Three 3+Cost Units",
+      "id": 2205,
+      "name": "Three 3+Cost Units",
+      "isUnique": false
+    }
+  ]
