@@ -6,6 +6,14 @@ This document list all patchs from previous sets added to this repository. For p
 ## List of all patchs added from previous sets
 The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Here's a list of all patchs included in this repository so far (current set excluded) :
 
+- (June 13th, 2026) 14.5
+- (June 13th, 2026) 14.4
+- (June 13th, 2026) 14.3
+- (June 13th, 2026) 14.2
+- (June 13th, 2026) 14.1
+- (June 13th, 2026) 13.24
+- (June 13th, 2026) 13.23 - Set 10 (Remix Rumble)
+
 - (June 13th, 2026) 13.22
 - (June 13th, 2026) 13.21
 - (June 13th, 2026) 13.20
