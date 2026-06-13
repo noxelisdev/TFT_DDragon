@@ -1,578 +1,671 @@
 [
     {
-        "key": "Set6_Syndicate",
-        "description": "Certain allies are cloaked in shadows, gaining @Armor@ Armor, @MagicResist@ Magic Resist and @PercentOmnivamp@% Omnivamp (healing for a percentage of all damage dealt.)<br><br><row>(@MinUnits@) The Syndicate champion with the lowest percent Health</row><br><row>(@MinUnits@) All Syndicate champions</row><br><row>(@MinUnits@) Your whole team, and the effects are increased by @SyndicateIncrease*100@%</row><br>",
+        "key": "Set7_Cannoneer",
+        "name": "Cannoneer",
+        "description": "Every 5th attack fires a cannon shot that explodes for physical damage around the target.\u003Cbr\u003E\u003Cbr\u003E\u003CexpandRow\u003E(@MinUnits@) @AttackPercent*100@% Attack Damage\u003C\/expandRow\u003E",
+        "type": "class",
         "sets": [
             {
-                "max": 4,
-                "min": 3,
-                "style": 1
-            },
-            {
-                "max": 6,
-                "min": 5,
-                "style": 3
-            },
-            {
-                "max": 25000,
-                "min": 7,
-                "style": 4
-            }
-        ],
-        "name": "Syndicate"
-    },
-    {
-        "key": "Set6_Sister",
-        "description": "(@MinUnits@) Sisters gain empowered skills to compete with each other. <br>Vi's Ability range increases by 2 hexes.<br><br>Jinx gains @JinxEmpoweredAS*100@% Attack Speed for @JinxASDuration@ seconds after scoring a takedown.",
-        "sets": [
-            {
-                "max": 25000,
+                "style": "bronze",
                 "min": 2,
-                "style": 3
-            }
-        ],
-        "name": "Sister"
-    },
-    {
-        "key": "Set6_Yordle",
-        "description": "<row>(@MinUnits@) After each player combat, a random Yordle is added to your bench for free.</row><br><row>(@MinUnits@) And Yordles' Abilities cost @PercentManaReduction@% less to cast.</row><br>",
-        "sets": [
+                "max": 2
+            },
             {
-                "max": 5,
+                "style": "silver",
                 "min": 3,
-                "style": 1
+                "max": 3
             },
             {
-                "max": 25000,
-                "min": 6,
-                "style": 3
-            }
-        ],
-        "name": "Yordle"
-    },
-    {
-        "key": "Set6_Academy",
-        "description": "Academics have bonus Attack Damage and Ability Power. They also learn from their allies, gaining an additional bonus whenever an ally casts their Ability.<br><br><expandRow>(@MinUnits@) @ADAPBase@ Attack Damage and Ability Power; @ADAPPerCast@ from allies' casts</expandRow>",
-        "sets": [
-            {
-                "max": 3,
-                "min": 2,
-                "style": 1
-            },
-            {
-                "max": 5,
+                "style": "gold",
                 "min": 4,
-                "style": 2
+                "max": 4
             },
             {
-                "max": 7,
+                "style": "chromatic",
+                "min": 5,
+                "max": 25000
+            }
+        ]
+    },
+    {
+        "key": "Set7_Tempest",
+        "name": "Tempest",
+        "description": "After @DelayTime@ seconds, lightning strikes the battlefield. Enemies are stunned for @StunDuration@ second and take a percent of their maximum Health as true damage. Then, Tempest champions gain Attack Speed.\u003Cbr\u003E\u003Cbr\u003E\u003CexpandRow\u003E(@MinUnits@) @PercentHealthDamage@% damage, @AttackSpeed*100@% Attack Speed\u003C\/expandRow\u003E",
+        "type": "origin",
+        "sets": [
+            {
+                "style": "bronze",
+                "min": 2,
+                "max": 3
+            },
+            {
+                "style": "silver",
+                "min": 4,
+                "max": 5
+            },
+            {
+                "style": "gold",
                 "min": 6,
-                "style": 3
+                "max": 7
             },
             {
-                "max": 25000,
+                "style": "chromatic",
                 "min": 8,
-                "style": 4
+                "max": 25000
             }
-        ],
-        "name": "Academy"
+        ]
     },
     {
-        "key": "Set6_Protector",
-        "description": "Protectors shield themselves for @Duration@ seconds whenever they cast an Ability. This shield doesn't stack.<br><br><expandRow> (@MinUnits@) @ShieldPercent@% maximum Health shield</expandRow>",
+        "key": "Set7_Assassin",
+        "name": "Assassin",
+        "description": "Innate: Leap to the enemy backline when combat starts.\u003Cbr\u003E\u003Cbr\u003EAssassins\u0027 Abilities can critically strike and they gain bonus Critical Strike Chance and bonus Critical Strike Damage.\u003Cbr\u003E\u003Cbr\u003E\u003CexpandRow\u003E(@MinUnits@) +@CritChanceAmpPercent@% Crit Chance and +@CritAmpPercent@% Crit Damage\u003C\/expandRow\u003E",
+        "type": "class",
         "sets": [
             {
-                "max": 2,
+                "style": "bronze",
                 "min": 2,
-                "style": 1
+                "max": 3
             },
             {
-                "max": 3,
-                "min": 3,
-                "style": 2
-            },
-            {
-                "max": 4,
+                "style": "gold",
                 "min": 4,
-                "style": 3
+                "max": 5
             },
             {
-                "max": 25000,
-                "min": 5,
-                "style": 4
-            }
-        ],
-        "name": "Protector"
-    },
-    {
-        "key": "Set6_Scrap",
-        "description": "At the start of combat, components held by Scrap champions turn into full items for the rest of combat. Also, your team gains a shield for each component equipped by your team, including those that are part of a full item.<br><br><row>(@MinUnits@) @NumComponents@ component, @HPShieldAmount@ shield</row><br><row>(@MinUnits@) @NumComponents@ components, @HPShieldAmount@ shield</row><br><row>(@MinUnits@) All components, @HPShieldAmount@ shield</row>",
-        "sets": [
-            {
-                "max": 3,
-                "min": 2,
-                "style": 1
-            },
-            {
-                "max": 5,
-                "min": 4,
-                "style": 2
-            },
-            {
-                "max": 25000,
+                "style": "chromatic",
                 "min": 6,
-                "style": 3
+                "max": 25000
             }
-        ],
-        "name": "Scrap"
+        ]
     },
     {
-        "key": "Set6_Challenger",
-        "description": "Challengers get bonus Attack Speed. Upon scoring a takedown, Challengers dash to a new target and double this bonus for @BurstDuration@ seconds.<br><expandRow>(@MinUnits@) @BonusAS@% Attack Speed</expandRow>",
+        "key": "Set7_Dragon",
+        "name": "Dragon",
+        "description": "Innate: Require 2 team slots. \u003Cbr\u003E\u003Cbr\u003E(@MinUnits@) Dragons provide +3 to the marked trait, and gain @BonusHealth@ bonus Health. This is only active with exactly 1 Dragon champion.",
+        "type": "origin",
         "sets": [
             {
-                "max": 3,
-                "min": 2,
-                "style": 1
-            },
-            {
-                "max": 5,
-                "min": 4,
-                "style": 2
-            },
-            {
-                "max": 7,
-                "min": 6,
-                "style": 3
-            },
-            {
-                "max": 9999,
-                "min": 8,
-                "style": 4
-            }
-        ],
-        "name": "Challenger"
-    },
-    {
-        "key": "Set6_Enchanter",
-        "description": "Your team has bonus Magic Resist. Enchanters gain bonus healing and shielding.<br><expandRow>(@MinUnits@) +@MagicResistance@ Magic Resist; @HealShieldBoost*100@% healing and shielding</expandRow><br>",
-        "sets": [
-            {
-                "max": 2,
-                "min": 2,
-                "style": 1
-            },
-            {
-                "max": 3,
-                "min": 3,
-                "style": 2
-            },
-            {
-                "max": 4,
-                "min": 4,
-                "style": 3
-            },
-            {
-                "max": 9999,
-                "min": 5,
-                "style": 4
-            }
-        ],
-        "name": "Enchanter"
-    },
-    {
-        "key": "Set6_Cuddly",
-        "description": "At the start of combat, Yuumi attaches herself to the nearest ally, or to the lowest Health ally after being unattached for @AttachCooldown@ seconds. Attaching to an ally grants them a shield equal to @ShieldPercent@% of Yuumi's maximum Health. Yuumi detaches if the shield breaks.<br><br>While attached, Yuumi is untargetable and cannot attack, but gains @ManaPerSecond@ Mana per second, and @ManaPerAllyAttack@ Mana whenever the ally attacks.",
-        "sets": [
-            {
-                "max": 25000,
+                "style": "gold",
                 "min": 1,
-                "style": 3
-            }
-        ],
-        "name": "Cuddly"
-    },
-    {
-        "key": "Set6_YordleLord",
-        "description": "(1) Benefits from the Yordle trait.<br><br>Veigar is summoned from a Yordle Portal when every Yordle is 3-star.<br><br>",
-        "sets": [
+                "max": 1
+            },
             {
-                "max": 25000,
+                "style": "chromatic",
                 "min": 1,
-                "style": 4
+                "max": 25000
             }
-        ],
-        "name": "Yordle-Lord"
+        ]
     },
     {
-        "key": "Set6_Bodyguard",
-        "description": "Bodyguards have increased Armor. Shortly after combat begins, Bodyguards gain a Shield and taunt adjacent enemies, forcing them to attack the Bodyguard.<br><br><expandRow>(@MinUnits@) @BonusArmor@ Armor, @ShieldAmount@ Shield</expandRow>",
+        "key": "Set7_Ragewing",
+        "name": "Ragewing",
+        "description": "Innate: Convert Mana to Rage; attacks generate 15 Rage. After casting an Ability, enrage for 4 seconds: +25% Attack Speed but can\u0027t gain Rage.\u003Cbr\u003E\u003Cbr\u003EGain bonus stats when enraged:\u003Cbr\u003E\u003Cbr\u003E\u003Crow\u003E(@MinUnits@) +@AttackSpeedPercent@% Attack Speed and +@Omnivamp@% Omnivamp (healing for a percentage of damage dealt)\u003C\/row\u003E\u003Cbr\u003E\u003Crow\u003E(@MinUnits@) +@AttackSpeedPercent@% Attack Speed and +@Omnivamp@% Omnivamp\u003C\/row\u003E\u003Cbr\u003E\u003Crow\u003E(@MinUnits@) +@AttackSpeedPercent@% Attack Speed and +@Omnivamp@% Omnivamp\u003C\/row\u003E",
+        "type": "origin",
         "sets": [
             {
-                "max": 3,
-                "min": 2,
-                "style": 1
-            },
-            {
-                "max": 5,
-                "min": 4,
-                "style": 2
-            },
-            {
-                "max": 7,
-                "min": 6,
-                "style": 3
-            },
-            {
-                "max": 9999,
-                "min": 8,
-                "style": 4
-            }
-        ],
-        "name": "Bodyguard"
-    },
-    {
-        "key": "Set6_Socialite",
-        "description": "Socialites reveal a spotlight on the battlefield. The unit standing in the spotlight at the start of combat gains unique bonuses.<br><br><row>(@MinUnits@) @DamagePercent*100@% bonus damage</row><br><row>(@MinUnits@) and @ManaPerSecond@ Mana per second</row><br><row>(@MinUnits@) and heal for @OmnivampPercent*100@% of all damage they deal</row>",
-        "sets": [
-            {
-                "max": 1,
-                "min": 1,
-                "style": 1
-            },
-            {
-                "max": 2,
-                "min": 2,
-                "style": 2
-            },
-            {
-                "max": 25000,
+                "style": "bronze",
                 "min": 3,
-                "style": 3
-            }
-        ],
-        "name": "Socialite"
-    },
-    {
-        "key": "Set6_Mutant",
-        "description": "Mutants gain a different Trait bonus from game to game.<br><br><tftstrong>Cybernetic Enhancement</tftstrong> grants bonus stats to Mutants with at least 1 item.<br><tftstrong>Voracious Appetite</tftstrong> strengthens Mutants on each ally's death.<br><tftstrong>Voidborne</tftstrong> executes targets below a Health threshold and deals true damage. <br><tftstrong>Hyper-Adrenal Glands</tftstrong> give a chance for Mutants to deal additional attacks.<br><tftstrong>Synaptic Web</tftstrong> reduces the Mana cost of Mutants' Abilities.<br><tftstrong>Bio-Leeching</tftstrong> grants Omnivamp (healing for a percentage of damage dealt) to your team.<br><tftstrong>Metamorphosis</tftstrong> grants stacking bonuses to Mutants at regular intervals.",
-        "sets": [
-            {
-                "max": 4,
-                "min": 3,
-                "style": 1
+                "max": 5
             },
             {
-                "max": 25000,
-                "min": 5,
-                "style": 3
-            }
-        ],
-        "name": "Mutant"
-    },
-    {
-        "key": "Set6_Mercenary",
-        "description": "Gain a treasure chest that opens when you win combat against a player. At the start of each planning phase vs a player, dice rolls add loot to the chest. The longer you've gone without opening the chest, the luckier the dice.<br><br><row>(@MinUnits@) Roll 2 dice </row><br><row>(@MinUnits@) The dice are even luckier! </row><br><row>(@MinUnits@) Upon winning, roll a 3rd die that grants bonus loot. </row>",
-        "sets": [
-            {
-                "max": 4,
-                "min": 3,
-                "style": 1
-            },
-            {
-                "max": 6,
-                "min": 5,
-                "style": 3
-            },
-            {
-                "max": 25000,
-                "min": 7,
-                "style": 4
-            }
-        ],
-        "name": "Mercenary"
-    },
-    {
-        "key": "Set6_Glutton",
-        "description": "An ally from the bench can be fed to Tahm Kench once per planning phase, permanently granting him either Ability Power, Health, Armor, or Magic Resist.<br><br><tftitemrules>To feed, hold an ally from the bench over Tahm Kench until his mouth opens, then release.</tftitemrules>",
-        "sets": [
-            {
-                "max": 25000,
-                "min": 1,
-                "style": 3
-            }
-        ],
-        "name": "Glutton"
-    },
-    {
-        "key": "Set6_Innovator",
-        "description": "Innovators build a mechanical companion to join the battle. The companion receives bonus Health and Attack Damage based on allied Innovators' star levels. <br><br><row>(@MinUnits@) Mechanical Scarab </row><br><row>(@MinUnits@) Mechanical Bear</row><br><row>(@MinUnits@) Mechanical Dragon </row>",
-        "sets": [
-            {
-                "max": 4,
-                "min": 3,
-                "style": 1
-            },
-            {
-                "max": 6,
-                "min": 5,
-                "style": 3
-            },
-            {
-                "max": 25000,
-                "min": 7,
-                "style": 4
-            }
-        ],
-        "name": "Innovator"
-    },
-    {
-        "key": "Set6_Scholar",
-        "description": "Your team gains Mana every @TickRate@ seconds.<br><br><expandRow>(@MinUnits@) @ManaPerTick@ Mana</expandRow>",
-        "sets": [
-            {
-                "max": 3,
-                "min": 2,
-                "style": 1
-            },
-            {
-                "max": 5,
-                "min": 4,
-                "style": 3
-            },
-            {
-                "max": 25000,
+                "style": "silver",
                 "min": 6,
-                "style": 4
-            }
-        ],
-        "name": "Scholar"
-    },
-    {
-        "key": "Set6_Twinshot",
-        "description": "Twinshots gain bonus Attack Damage. When a Twinshot attacks, they have a chance to attack twice instead.<br><br><expandRow>(@MinUnits@) @BonusAD@ Attack Damage, @ProcChance@% chance</expandRow><br>",
-        "sets": [
-            {
-                "max": 3,
-                "min": 2,
-                "style": 1
+                "max": 8
             },
             {
-                "max": 5,
-                "min": 4,
-                "style": 3
-            },
-            {
-                "max": 25000,
-                "min": 6,
-                "style": 4
-            }
-        ],
-        "name": "Twinshot"
-    },
-    {
-        "key": "Set6_Transformer",
-        "description": "Jayce adopts melee form when placed in the front 2 rows, and ranged form in the back 2 rows.",
-        "sets": [
-            {
-                "max": 25000,
-                "min": 1,
-                "style": 3
-            }
-        ],
-        "name": "Transformer"
-    },
-    {
-        "key": "Set6_Bruiser",
-        "description": "Your team gains bonus maximum Health. Bruisers gain double the bonus.<br><expandRow>(@MinUnits@) @BonusHealth@ Health</expandRow>",
-        "sets": [
-            {
-                "max": 3,
-                "min": 2,
-                "style": 1
-            },
-            {
-                "max": 5,
-                "min": 4,
-                "style": 2
-            },
-            {
-                "max": 7,
-                "min": 6,
-                "style": 3
-            },
-            {
-                "max": 25000,
-                "min": 8,
-                "style": 4
-            }
-        ],
-        "name": "Bruiser"
-    },
-    {
-        "key": "Set6_Assassin",
-        "description": "Innate: When combat starts, Assassins leap to the enemy backline.<br><br>Assassins' Abilities can critically strike and they gain bonus Critical Strike Chance and bonus Critical Strike Damage.<br><br><expandRow>(@MinUnits@) +@CritChanceAmpPercent@% Crit Chance and +@CritAmpPercent@% Crit Damage</expandRow><br>",
-        "sets": [
-            {
-                "max": 3,
-                "min": 2,
-                "style": 1
-            },
-            {
-                "max": 5,
-                "min": 4,
-                "style": 2
-            },
-            {
-                "max": 25000,
-                "min": 6,
-                "style": 3
-            }
-        ],
-        "name": "Assassin"
-    },
-    {
-        "key": "Set6_Colossus",
-        "description": "Innate: Colossi are bigger, more powerful, and immune to crowd control effects. However, each Colossus requires 2 team slots.<br><row>(@MinUnits@) Colossus champions take @DamageReduction*100@% less damage</row>",
-        "sets": [
-            {
-                "max": 25000,
-                "min": 2,
-                "style": 3
-            }
-        ],
-        "name": "Colossus"
-    },
-    {
-        "key": "Set6_Arcanist",
-        "description": "Arcanists increase the Ability Power of your team.<br><row>(@MinUnits@) Your team gains @TeamAbilityPower@ Ability Power</row><br><row>(@MinUnits@) Your team gains @TeamAbilityPower@ Ability Power, Arcanists gain an additional @ArcanistAbilityPower@</row><br><row>(@MinUnits@) Your team gains @TeamAbilityPower@ Ability Power, Arcanists gain an additional @ArcanistAbilityPower@</row><br><row>(@MinUnits@) Your team gains @TeamAbilityPower@ Ability Power</row>",
-        "sets": [
-            {
-                "max": 3,
-                "min": 2,
-                "style": 1
-            },
-            {
-                "max": 5,
-                "min": 4,
-                "style": 2
-            },
-            {
-                "max": 7,
-                "min": 6,
-                "style": 3
-            },
-            {
-                "max": 25000,
-                "min": 8,
-                "style": 4
-            }
-        ],
-        "name": "Arcanist"
-    },
-    {
-        "key": "Set6_Sniper",
-        "description": "Innate: Snipers gain @HexRangeIncrease@ hex Attack Range. <br><br>Snipers deal bonus damage for each hex between themselves and their target.<br><expandRow>(@MinUnits@) @PercentDamageIncrease@% bonus damage</expandRow>",
-        "sets": [
-            {
-                "max": 3,
-                "min": 2,
-                "style": 1
-            },
-            {
-                "max": 5,
-                "min": 4,
-                "style": 3
-            },
-            {
-                "max": 25000,
-                "min": 6,
-                "style": 4
-            }
-        ],
-        "name": "Sniper"
-    },
-    {
-        "key": "Set6_Clockwork",
-        "description": "Your team has increased Attack Speed, with an additional increase per augment in the Hexcore.<br><br><expandRow>(@MinUnits@) @AttackSpeedBonus*100@% Attack Speed + @BonusPerAugment*100@% per augment </expandRow><br><br>",
-        "sets": [
-            {
-                "max": 3,
-                "min": 2,
-                "style": 1
-            },
-            {
-                "max": 5,
-                "min": 4,
-                "style": 3
-            },
-            {
-                "max": 25000,
-                "min": 6,
-                "style": 4
-            }
-        ],
-        "name": "Clockwork"
-    },
-    {
-        "key": "Set6_Enforcer",
-        "description": "Enforcers stun enemies at the start of combat. They break free after @DetainDuration@ seconds, or after losing @HPPercent*100@% of their maximum Health. Enforcers will not try to stun enemies who are immune to crowd control effects.<br><br><row>(@MinUnits@) The enemy who has the most Health</row><br><row>(@MinUnits@) And the enemy who dealt the most damage last combat</row>",
-        "sets": [
-            {
-                "max": 3,
-                "min": 2,
-                "style": 1
-            },
-            {
-                "max": 25000,
-                "min": 4,
-                "style": 3
-            }
-        ],
-        "name": "Enforcer"
-    },
-    {
-        "key": "Set6_Imperial",
-        "description": "At the start of combat, the Imperial who dealt the most damage last combat becomes the Tyrant. The Tyrant deals bonus damage. When the Tyrant dies, the Imperial who has dealt the most damage this combat becomes the new Tyrant.<br><br><row>(@MinUnits@) The Tyrant deals @TyrantTooltipBonusDamage@% bonus damage</row><br><row>(@MinUnits@) The Tyrant deals @TyrantTooltipBonusDamage@% bonus damage and the other Imperials deal @ImperialBonusDamage@% bonus damage</row>",
-        "sets": [
-            {
-                "max": 4,
-                "min": 3,
-                "style": 3
-            },
-            {
-                "max": 25000,
-                "min": 5,
-                "style": 4
-            }
-        ],
-        "name": "Imperial"
-    },
-    {
-        "key": "Set6_Chemtech",
-        "description": "After dropping below @HealthThreshold@% Health, Chemtech champions become chem-powered, gaining Attack Speed, @DamageReduction@% damage reduction, and regenerating a percentage of their maximum Health each second for @Duration@ seconds.<br><br><expandRow>(@MinUnits@) @AttackSpeed@% Attack Speed, @HealthRegen@% Health</expandRow>",
-        "sets": [
-            {
-                "max": 4,
-                "min": 3,
-                "style": 1
-            },
-            {
-                "max": 6,
-                "min": 5,
-                "style": 2
-            },
-            {
-                "max": 8,
-                "min": 7,
-                "style": 3
-            },
-            {
-                "max": 25000,
+                "style": "gold",
                 "min": 9,
-                "style": 4
+                "max": 25000
             }
-        ],
-        "name": "Chemtech"
+        ]
+    },
+    {
+        "key": "Set7_Guild",
+        "name": "Guild",
+        "description": "Grant a unique bonus to your team; Guild members gain double the amount. Increases for each Guild member in play!\u003Cbr\u003E\u003Cbr\u003E\u003CTFTGuildActive enabled=TFT7_Trait_Guild_ActiveSejuani alternate=TFTGuildInactive\u003ESejuani: +@SejuaniBonus@ Health\u003C\/TFTGuildActive\u003E\u003Cbr\u003E\u003CTFTGuildActive enabled=TFT7_Trait_Guild_ActiveTwitch alternate=TFTGuildInactive\u003ETwitch: +@TwitchBonus*100@% Attack Speed\u003C\/TFTGuildActive\u003E\u003Cbr\u003E\u003CTFTGuildActive enabled=TFT7_Trait_Guild_ActiveRyze alternate=TFTGuildInactive\u003ERyze: +@RyzeBonus@ Ability Power\u003C\/TFTGuildActive\u003E\u003Cbr\u003E\u003CTFTGuildActive enabled=TFT7_Trait_Guild_ActiveTalon alternate=TFTGuildInactive\u003ETalon: +@TalonBonus@ Attack Damage\u003C\/TFTGuildActive\u003E\u003Cbr\u003E\u003CTFTGuildActive enabled=TFT7_Trait_Guild_ActiveBard alternate=TFTGuildInactive\u003EBard: +@BardBonus@ Mana per attack\u003C\/TFTGuildActive\u003E\u003Cbr\u003E\u003CTFTGuildActive enabled=TFT7_Trait_Guild_ActiveEmblem alternate=TFTGuildInactive\u003EEmblem: +@EmblemBonus*100@% Omnivamp\u003C\/TFTGuildActive\u003E\u003Cbr\u003E\u003Cbr\u003E\u003CexpandRow\u003E(@MinUnits@) @TooltipMultiplier@% Guild bonus\u003C\/expandRow\u003E",
+        "type": "origin",
+        "sets": [
+            {
+                "style": "bronze",
+                "min": 1,
+                "max": 1
+            },
+            {
+                "style": "bronze",
+                "min": 2,
+                "max": 2
+            },
+            {
+                "style": "silver",
+                "min": 3,
+                "max": 3
+            },
+            {
+                "style": "silver",
+                "min": 4,
+                "max": 4
+            },
+            {
+                "style": "gold",
+                "min": 5,
+                "max": 5
+            },
+            {
+                "style": "chromatic",
+                "min": 6,
+                "max": 6
+            },
+            {
+                "style": "chromatic",
+                "min": 7,
+                "max": 25000
+            }
+        ]
+    },
+    {
+        "key": "Set7_Cavalier",
+        "name": "Cavalier",
+        "description": "Innate: Charge quickly towards their target whenever they move.\u003Cbr\u003E\u003Cbr\u003ECavaliers gain Armor and Magic Resist. At the start of combat and after each charge, gain @ChargeIncreasePct@% the amount for @Duration@ seconds. \u003Cbr\u003E\u003Cbr\u003E\u003CexpandRow\u003E(@MinUnits@) @Armor@ Armor, @MagicResist@ Magic Resist\u003C\/expandRow\u003E",
+        "type": "class",
+        "sets": [
+            {
+                "style": "bronze",
+                "min": 2,
+                "max": 2
+            },
+            {
+                "style": "silver",
+                "min": 3,
+                "max": 3
+            },
+            {
+                "style": "gold",
+                "min": 4,
+                "max": 4
+            },
+            {
+                "style": "chromatic",
+                "min": 5,
+                "max": 25000
+            }
+        ]
+    },
+    {
+        "key": "Set7_Mage",
+        "name": "Mage",
+        "description": "Mages cast twice and have modified total Ability Power.\u003Cbr\u003E\u003Cbr\u003E\u003CexpandRow\u003E(@MinUnits@) @APMultiplier*100@% Ability Power\u003C\/expandRow\u003E",
+        "type": "class",
+        "sets": [
+            {
+                "style": "bronze",
+                "min": 3,
+                "max": 4
+            },
+            {
+                "style": "silver",
+                "min": 5,
+                "max": 6
+            },
+            {
+                "style": "gold",
+                "min": 7,
+                "max": 8
+            },
+            {
+                "style": "chromatic",
+                "min": 9,
+                "max": 25000
+            }
+        ]
+    },
+    {
+        "key": "Set7_Evoker",
+        "name": "Evoker",
+        "description": "Evokers gain Mana whenever an ally or enemy casts an Ability.\u003Cbr\u003E\u003Cbr\u003E\u003CexpandRow\u003E(@MinUnits@) @ManaAmount@ Mana\u003C\/expandRow\u003E",
+        "type": "class",
+        "sets": [
+            {
+                "style": "bronze",
+                "min": 2,
+                "max": 3
+            },
+            {
+                "style": "gold",
+                "min": 4,
+                "max": 5
+            },
+            {
+                "style": "chromatic",
+                "min": 6,
+                "max": 25000
+            }
+        ]
+    },
+    {
+        "key": "Set7_Shimmerscale",
+        "name": "Shimmerscale",
+        "description": "Grant exclusive random Shimmerscale items.\u003Cbr\u003E\u003Cbr\u003E\u003Crow\u003E(@MinUnits@) @NumItems@ unique item\u003C\/row\u003E\u003Cbr\u003E\u003Crow\u003E(@MinUnits@) @NumItems@ unique items\u003C\/row\u003E\u003Cbr\u003E\u003Crow\u003E(@MinUnits@) @NumItems@ unique items\u003C\/row\u003E\u003Cbr\u003E\u003Crow\u003E(@MinUnits@) @NumItems@ unique items, which includes Crown of Champions\u003C\/row\u003E\u003Cbr\u003E\u003Cbr\u003E\u003Ctftitemrules\u003EYou can remove Shimmerscale items by benching the holder.\u003C\/tftitemrules\u003E",
+        "type": "origin",
+        "sets": [
+            {
+                "style": "bronze",
+                "min": 3,
+                "max": 4
+            },
+            {
+                "style": "silver",
+                "min": 5,
+                "max": 6
+            },
+            {
+                "style": "gold",
+                "min": 7,
+                "max": 8
+            },
+            {
+                "style": "chromatic",
+                "min": 9,
+                "max": 25000
+            }
+        ]
+    },
+    {
+        "key": "Set7_Dragonmancer",
+        "name": "Dragonmancer",
+        "description": "Use the Dragonmancer Blessing item to choose a Hero. The Hero gains massively increased Health and Ability Power, which increases by @StatIncreasePercent@% per star level of your Dragonmancers.\u003Cbr\u003E\u003Cbr\u003E\u003CexpandRow\u003E(@MinUnits@) +@BonusHealth@ Health, +@BonusAP@ Ability Power \u003C\/expandRow\u003E",
+        "type": "class",
+        "sets": [
+            {
+                "style": "bronze",
+                "min": 3,
+                "max": 5
+            },
+            {
+                "style": "gold",
+                "min": 6,
+                "max": 8
+            },
+            {
+                "style": "chromatic",
+                "min": 9,
+                "max": 25000
+            }
+        ]
+    },
+    {
+        "key": "Set7_Scalescorn",
+        "name": "Scalescorn",
+        "description": "Scalescorns take @PercentDamageReduction@% reduced damage from enemies with more than @HealthThreshold@ Health. If you don\u0027t have a Dragon on your team, they also deal a percent of their damage as additional magic damage.\u003Cbr\u003E\u003Cbr\u003E\u003CexpandRow\u003E(@MinUnits@) @PercentBonusDamage@% magic damage\u003C\/expandRow\u003E",
+        "type": "origin",
+        "sets": [
+            {
+                "style": "bronze",
+                "min": 2,
+                "max": 3
+            },
+            {
+                "style": "gold",
+                "min": 4,
+                "max": 5
+            },
+            {
+                "style": "chromatic",
+                "min": 6,
+                "max": 25000
+            }
+        ]
+    },
+    {
+        "key": "Set7_Whispers",
+        "name": "Whispers",
+        "description": "Whispers damage shrinks enemies, reducing their Armor and Magic Resist by 40% for @Duration@ seconds.\u003Cbr\u003EWhen they damage a shrunken enemy, Whispers gain stacking bonuses:\u003Cbr\u003E\u003Cbr\u003E\u003CexpandRow\u003E(@MinUnits@) +@ADandAP@ Attack Damage and Ability Power\u003C\/expandRow\u003E",
+        "type": "origin",
+        "sets": [
+            {
+                "style": "bronze",
+                "min": 2,
+                "max": 3
+            },
+            {
+                "style": "silver",
+                "min": 4,
+                "max": 5
+            },
+            {
+                "style": "gold",
+                "min": 6,
+                "max": 7
+            },
+            {
+                "style": "chromatic",
+                "min": 8,
+                "max": 25000
+            }
+        ]
+    },
+    {
+        "key": "Set7_Revel",
+        "name": "Revel",
+        "description": "After dealing damage with an Ability, launch a firecracker that deals magic damage to a random enemy.\u003Cbr\u003E\u003Cbr\u003E\u003CexpandRow\u003E(@MinUnits@) @MagicDamage@ magic damage\u003C\/expandRow\u003E",
+        "type": "origin",
+        "sets": [
+            {
+                "style": "bronze",
+                "min": 2,
+                "max": 2
+            },
+            {
+                "style": "silver",
+                "min": 3,
+                "max": 3
+            },
+            {
+                "style": "gold",
+                "min": 4,
+                "max": 4
+            },
+            {
+                "style": "chromatic",
+                "min": 5,
+                "max": 25000
+            }
+        ]
+    },
+    {
+        "key": "Set7_Mirage",
+        "name": "Mirage",
+        "description": "Mirage champions gain a different Trait bonus from game to game.",
+        "type": "origin",
+        "sets": [
+            {
+                "style": "bronze",
+                "min": 2,
+                "max": 3
+            },
+            {
+                "style": "silver",
+                "min": 4,
+                "max": 5
+            },
+            {
+                "style": "gold",
+                "min": 6,
+                "max": 7
+            },
+            {
+                "style": "chromatic",
+                "min": 8,
+                "max": 25000
+            }
+        ]
+    },
+    {
+        "key": "Set7_Trainer",
+        "name": "Trainer",
+        "description": "After combat, each Trainer feeds 1 Snax per star level to Nomsy, adding Health and Ability Power. Nomsy\u0027s star level increases every 25 Snax!\u003Cbr\u003E\u003Cbr\u003E\u003Crow\u003E(@MinUnits@) Summon Nomsy!\u003C\/row\u003E\u003Cbr\u003E\u003Crow\u003E(@MinUnits@) Nomsy\u0027s Ability deals 100% more damage\u003C\/row\u003E",
+        "type": "origin",
+        "sets": [
+            {
+                "style": "bronze",
+                "min": 2,
+                "max": 2
+            },
+            {
+                "style": "gold",
+                "min": 3,
+                "max": 25000
+            }
+        ]
+    },
+    {
+        "key": "Set7_Mystic",
+        "name": "Mystic",
+        "description": "Your team gains Magic Resist. \u003Cbr\u003E\u003Cbr\u003E\u003CexpandRow\u003E(@MinUnits@) @MagicResist@ Magic Resist\u003C\/expandRow\u003E",
+        "type": "class",
+        "sets": [
+            {
+                "style": "bronze",
+                "min": 2,
+                "max": 2
+            },
+            {
+                "style": "silver",
+                "min": 3,
+                "max": 3
+            },
+            {
+                "style": "gold",
+                "min": 4,
+                "max": 4
+            },
+            {
+                "style": "chromatic",
+                "min": 5,
+                "max": 25000
+            }
+        ]
+    },
+    {
+        "key": "Set7_Legend",
+        "name": "Legend",
+        "description": "(3) Each combat: An adjacent ally champion sacrifices their life to the Legend, which gains @StatPercent@% of their Health, Armor, and Magic Resistance, plus @APPercent@% of their Ability Power.",
+        "type": "class",
+        "sets": [
+            {
+                "style": "gold",
+                "min": 3,
+                "max": 25000
+            }
+        ]
+    },
+    {
+        "key": "Set7_Guardian",
+        "name": "Guardian",
+        "description": "Once per combat at @HealthThreshold@% Health, Guardians shield themselves and their closest ally for a percent of their maximum Health. Shields stack!\u003Cbr\u003E\u003Cbr\u003E\u003CexpandRow\u003E (@MinUnits@) @ShieldPercentAmount@% of max health shield\u003C\/expandRow\u003E",
+        "type": "class",
+        "sets": [
+            {
+                "style": "bronze",
+                "min": 2,
+                "max": 3
+            },
+            {
+                "style": "gold",
+                "min": 4,
+                "max": 5
+            },
+            {
+                "style": "chromatic",
+                "min": 6,
+                "max": 25000
+            }
+        ]
+    },
+    {
+        "key": "Set7_Starcaller",
+        "name": "Starcaller",
+        "description": "(@MinUnits@) The first Starcaller to cast their Ability during player combat heals you for (@Tier1Heal@\/@Tier2Heal@\/@Tier3Heal@), depending on their star level. Excess healing disintegrates an enemy champion.",
+        "type": "origin",
+        "sets": [
+            {
+                "style": "gold",
+                "min": 1,
+                "max": 25000
+            }
+        ]
+    },
+    {
+        "key": "Set7_SpellThief",
+        "name": "Spell Thief",
+        "description": "(@MinUnits@) Zoe nabs a new Ability after each cast and at the start of every round.",
+        "type": "origin",
+        "sets": [
+            {
+                "style": "gold",
+                "min": 1,
+                "max": 25000
+            }
+        ]
+    },
+    {
+        "key": "Set7_Warrior",
+        "name": "Warrior",
+        "description": "Warrior attacks have a @ProcChance@% chance to increase the damage of their next attack.\u003Cbr\u003E\u003Cbr\u003E\u003CexpandRow\u003E(@MinUnits@) +@PercentDamage@% damage\u003C\/expandRow\u003E",
+        "type": "class",
+        "sets": [
+            {
+                "style": "bronze",
+                "min": 2,
+                "max": 3
+            },
+            {
+                "style": "gold",
+                "min": 4,
+                "max": 5
+            },
+            {
+                "style": "chromatic",
+                "min": 6,
+                "max": 25000
+            }
+        ]
+    },
+    {
+        "key": "Set7_Jade",
+        "name": "Jade",
+        "description": "Summon movable Jade Statues that grow in power. \u003Cbr\u003E\u003Cbr\u003EEach combat, allies who start combat adjacent to a statue gain maximum Health healing every @Interval@ seconds and bonus Attack Speed. When a statue is destroyed, it deals @PercentHealth@% of its Health as magic damage to nearby enemies.\u003Cbr\u003E\u003Cbr\u003E\u003Crow\u003E(@MinUnits@) 1 statue, +@HealthRegen@% healing, +@AttackSpeed*100@% Attack Speed\u003C\/row\u003E\u003Cbr\u003E\u003Crow\u003E(@MinUnits@) 2 statues, +@HealthRegen@% healing, +@AttackSpeed*100@% Attack Speed\u003C\/row\u003E\u003Cbr\u003E\u003Crow\u003E(@MinUnits@) 3 statues, +@HealthRegen@% healing, +@AttackSpeed*100@% Attack Speed\u003C\/row\u003E\u003Cbr\u003E\u003Crow\u003E(@MinUnits@) 4 statues, +@HealthRegen@% healing, +@AttackSpeed*100@% Attack Speed\u003C\/row\u003E",
+        "type": "origin",
+        "sets": [
+            {
+                "style": "bronze",
+                "min": 3,
+                "max": 5
+            },
+            {
+                "style": "silver",
+                "min": 6,
+                "max": 8
+            },
+            {
+                "style": "gold",
+                "min": 9,
+                "max": 11
+            },
+            {
+                "style": "chromatic",
+                "min": 12,
+                "max": 25000
+            }
+        ]
+    },
+    {
+        "key": "Set7_Astral",
+        "name": "Astral",
+        "description": "After you\u0027ve fielded an Astral team, every 5th shop has increased odds to show Astral champions, and grants a bonus Astral Orb. The orb\u0027s value comes from the Astral Trait tier you last fielded.\u003Cbr\u003EYour team gains bonus Ability Power. \u003Cbr\u003E\u003Cbr\u003E\u003Crow\u003E(@MinUnits@) @AbilityPower@ Ability Power\u003C\/row\u003E\u003Cbr\u003E\u003Crow\u003E(@MinUnits@) @AbilityPower@ Ability Power; orb value increases\u003C\/row\u003E\u003Cbr\u003E\u003Crow\u003E(@MinUnits@) @AbilityPower@ Ability Power; orbs may contain components\u003C\/row\u003E",
+        "type": "origin",
+        "sets": [
+            {
+                "style": "bronze",
+                "min": 3,
+                "max": 5
+            },
+            {
+                "style": "silver",
+                "min": 6,
+                "max": 8
+            },
+            {
+                "style": "gold",
+                "min": 9,
+                "max": 25000
+            }
+        ]
+    },
+    {
+        "key": "Set7_Swiftshot",
+        "name": "Swiftshot",
+        "description": "Innate: gain 2 hex Attack Range.\u003Cbr\u003E\u003Cbr\u003ESwiftshots gain Attack Speed for each hex between themselves and their target.\u003Cbr\u003E\u003Cbr\u003E\u003CexpandRow\u003E(@MinUnits@) @BonusAS@% Attack Speed\u003C\/expandRow\u003E",
+        "type": "class",
+        "sets": [
+            {
+                "style": "bronze",
+                "min": 2,
+                "max": 3
+            },
+            {
+                "style": "gold",
+                "min": 4,
+                "max": 5
+            },
+            {
+                "style": "chromatic",
+                "min": 6,
+                "max": 999
+            }
+        ]
+    },
+    {
+        "key": "Set7_Bard",
+        "name": "Bard",
+        "description": "(@MinUnits@) Allies that survive player combat have a @DropChancePercent@% chance to create a Doot. Bard always creates a Doot when dancing.\u003Cbr\u003E\u003Cbr\u003EEach Doot you collect increases your Shop odds for higher-tier champions by 1%. ",
+        "type": "class",
+        "sets": [
+            {
+                "style": "gold",
+                "min": 1,
+                "max": 25000
+            }
+        ]
+    },
+    {
+        "key": "Set7_Bruiser",
+        "name": "Bruiser",
+        "description": "Your team gains bonus maximum Health. Bruisers gain double this bonus.\u003Cbr\u003E\u003Cbr\u003E\u003CexpandRow\u003E(@MinUnits@) @BonusHealth@ Health\u003C\/expandRow\u003E",
+        "type": "class",
+        "sets": [
+            {
+                "style": "bronze",
+                "min": 2,
+                "max": 3
+            },
+            {
+                "style": "silver",
+                "min": 4,
+                "max": 5
+            },
+            {
+                "style": "silver",
+                "min": 6,
+                "max": 7
+            },
+            {
+                "style": "gold",
+                "min": 8,
+                "max": 25000
+            }
+        ]
+    },
+    {
+        "key": "Set7_Shapeshifter",
+        "name": "Shapeshifter",
+        "description": "Transforming grants bonus maximum Health.\u003Cbr\u003E\u003Cbr\u003E\u003CexpandRow\u003E(@MinUnits@) @HPPercent@% bonus Health\u003C\/expandRow\u003E",
+        "type": "class",
+        "sets": [
+            {
+                "style": "bronze",
+                "min": 2,
+                "max": 3
+            },
+            {
+                "style": "silver",
+                "min": 4,
+                "max": 5
+            },
+            {
+                "style": "gold",
+                "min": 6,
+                "max": 25000
+            }
+        ]
     }
 ]
