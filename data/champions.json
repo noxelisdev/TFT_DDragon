@@ -1,533 +1,545 @@
 [
   {
+    "name": "Target Dummy",
+    "championId": "TFT_TrainingDummy",
+    "cost": 2,
+    "traits": []
+  },
+  {
     "name": "Aatrox",
-    "championId": "TFT4_Aatrox",
-    "cost": 4,
+    "championId": "TFT5_Aatrox",
+    "cost": 1,
     "traits": [
-      "Cultist",
-      "Set4_Vanguard"
+      "Set5_Redeemed",
+      "Set5_Legionnaire"
     ]
   },
   {
-    "name": "Akali",
-    "championId": "TFT4_Akali",
+    "name": "Aphelios",
+    "championId": "TFT5_Aphelios",
+    "cost": 4,
+    "traits": [
+      "Set5_Nightbringer",
+      "Set5_Ranger"
+    ]
+  },
+  {
+    "name": "Ashe",
+    "championId": "TFT5_Ashe",
     "cost": 3,
     "traits": [
-      "Set4_Ninja",
-      "Set4_Assassin"
-    ]
-  },
-  {
-    "name": "Annie",
-    "championId": "TFT4_Annie",
-    "cost": 2,
-    "traits": [
-      "Fortune",
-      "Set4_Mage"
-    ]
-  },
-  {
-    "name": "Aurelion Sol",
-    "championId": "TFT4_AurelionSol",
-    "cost": 4,
-    "traits": [
-      "Set4_Dragonsoul",
-      "Set4_Mage"
-    ]
-  },
-  {
-    "name": "Azir",
-    "championId": "TFT4_Azir",
-    "cost": 5,
-    "traits": [
-      "Warlord",
-      "Keeper",
-      "Emperor"
+      "Set5_Verdant",
+      "Set5_Draconic",
+      "Set5_Ranger"
     ]
   },
   {
     "name": "Brand",
-    "championId": "TFT4_Brand",
-    "cost": 1,
-    "traits": [
-      "Set4_Dragonsoul",
-      "Set4_Mage"
-    ]
-  },
-  {
-    "name": "Braum",
-    "championId": "TFT4_Braum",
+    "championId": "TFT5_Brand",
     "cost": 2,
     "traits": [
-      "Set4_Dragonsoul",
-      "Set4_Vanguard"
-    ]
-  },
-  {
-    "name": "Cho'Gath",
-    "championId": "TFT4_ChoGath",
-    "cost": 4,
-    "traits": [
-      "Set4_Fabled",
-      "Set4_Brawler"
+      "Set5_Abomination",
+      "Set5_Spellweaver"
     ]
   },
   {
     "name": "Darius",
-    "championId": "TFT4_Darius",
-    "cost": 3,
+    "championId": "TFT5_Darius",
+    "cost": 5,
     "traits": [
-      "Fortune",
-      "Set4_Slayer"
+      "Set5_Nightbringer",
+      "Set5_GodKing",
+      "Set5_Knight"
     ]
   },
   {
     "name": "Diana",
-    "championId": "TFT4_Diana",
-    "cost": 1,
+    "championId": "TFT5_Diana",
+    "cost": 4,
     "traits": [
-      "Set4_Spirit",
-      "Set4_Assassin"
+      "Set5_Dragonslayer",
+      "Set5_Nightbringer",
+      "Set5_Assassin"
     ]
   },
   {
-    "name": "Elise",
-    "championId": "TFT4_Elise",
-    "cost": 1,
+    "name": "Draven",
+    "championId": "TFT5_Draven",
+    "cost": 4,
     "traits": [
-      "Cultist",
-      "Keeper"
-    ]
-  },
-  {
-    "name": "Fiora",
-    "championId": "TFT4_Fiora",
-    "cost": 1,
-    "traits": [
-      "Set4_Enlightened",
-      "Duelist"
+      "Set5_Forgotten",
+      "Set5_Legionnaire"
     ]
   },
   {
     "name": "Garen",
-    "championId": "TFT4_Garen",
+    "championId": "TFT5_Garen",
+    "cost": 5,
+    "traits": [
+      "Set5_Dawnbringer",
+      "Set5_GodKing",
+      "Set5_Knight"
+    ]
+  },
+  {
+    "name": "Gragas",
+    "championId": "TFT5_Gragas",
     "cost": 1,
     "traits": [
-      "Warlord",
-      "Set4_Vanguard"
+      "Set5_Dawnbringer",
+      "Set5_Brawler"
     ]
   },
   {
-    "name": "Irelia",
-    "championId": "TFT4_Irelia",
-    "cost": 3,
-    "traits": [
-      "Set4_Enlightened",
-      "Divine",
-      "Set4_Adept"
-    ]
-  },
-  {
-    "name": "Janna",
-    "championId": "TFT4_Janna",
+    "name": "Hecarim",
+    "championId": "TFT5_Hecarim",
     "cost": 2,
     "traits": [
-      "Set4_Enlightened",
-      "Set4_Mystic"
+      "Set5_Forgotten",
+      "Set5_Cavalier"
     ]
   },
   {
-    "name": "Jarvan IV",
-    "championId": "TFT4_JarvanIV",
-    "cost": 2,
+    "name": "Heimerdinger",
+    "championId": "TFT5_Heimerdinger",
+    "cost": 5,
     "traits": [
-      "Warlord",
-      "Keeper"
+      "Set5_Draconic",
+      "Set5_Renewer",
+      "Set5_Caretaker"
+    ]
+  },
+  {
+    "name": "Ivern",
+    "championId": "TFT5_Ivern",
+    "cost": 4,
+    "traits": [
+      "Set5_Revenant",
+      "Set5_Invoker",
+      "Set5_Renewer"
     ]
   },
   {
     "name": "Jax",
-    "championId": "TFT4_Jax",
-    "cost": 2,
+    "championId": "TFT5_Jax",
+    "cost": 4,
     "traits": [
-      "Divine",
-      "Duelist"
+      "Set5_Ironclad",
+      "Set5_Skirmisher"
     ]
   },
   {
     "name": "Kalista",
-    "championId": "TFT4_Kalista",
-    "cost": 3,
+    "championId": "TFT5_Kalista",
+    "cost": 1,
     "traits": [
-      "Cultist",
-      "Duelist"
+      "Set5_Abomination",
+      "Set5_Legionnaire"
+    ]
+  },
+  {
+    "name": "Karma",
+    "championId": "TFT5_Karma",
+    "cost": 4,
+    "traits": [
+      "Set5_Dawnbringer",
+      "Set5_Invoker"
     ]
   },
   {
     "name": "Katarina",
-    "championId": "TFT4_Katarina",
+    "championId": "TFT5_Katarina",
     "cost": 3,
     "traits": [
-      "Warlord",
-      "Fortune",
-      "Set4_Assassin"
+      "Set5_Forgotten",
+      "Set5_Assassin"
     ]
   },
   {
     "name": "Kayle",
-    "championId": "TFT4_Kayle",
-    "cost": 4,
+    "championId": "TFT5_Kayle",
+    "cost": 5,
     "traits": [
-      "Divine",
-      "Set4_Executioner"
+      "Set5_Redeemed",
+      "Set5_Verdant",
+      "Set5_Legionnaire"
     ]
   },
   {
     "name": "Kennen",
-    "championId": "TFT4_Kennen",
-    "cost": 3,
+    "championId": "TFT5_Kennen",
+    "cost": 2,
     "traits": [
-      "Set4_Ninja",
-      "Keeper"
+      "Set5_Hellion",
+      "Set5_Skirmisher"
+    ]
+  },
+  {
+    "name": "Kha'Zix",
+    "championId": "TFT5_Khazix",
+    "cost": 1,
+    "traits": [
+      "Set5_Dawnbringer",
+      "Set5_Assassin"
     ]
   },
   {
     "name": "Kindred",
-    "championId": "TFT4_Kindred",
-    "cost": 3,
+    "championId": "TFT5_Kindred",
+    "cost": 5,
     "traits": [
-      "Set4_Spirit",
-      "Set4_Executioner"
+      "Set5_Eternal",
+      "Set5_Ranger",
+      "Set5_Mystic"
+    ]
+  },
+
+
+
+  {
+    "name": "Kled",
+    "championId": "TFT5_Kled",
+    "cost": 1,
+    "traits": [
+      "Set5_Hellion",
+      "Set5_Cavalier"
+    ]
+  },
+  {
+    "name": "LeBlanc",
+    "championId": "TFT5_LeBlanc",
+    "cost": 2,
+    "traits": [
+      "Set5_Coven",
+      "Set5_Assassin"
     ]
   },
   {
     "name": "Lee Sin",
-    "championId": "TFT4_LeeSin",
-    "cost": 5,
+    "championId": "TFT5_LeeSin",
+    "cost": 3,
     "traits": [
-      "Divine",
-      "Duelist"
+      "Set5_Nightbringer",
+      "Set5_Skirmisher"
+    ]
+  },
+  {
+    "name": "Leona",
+    "championId": "TFT5_Leona",
+    "cost": 1,
+    "traits": [
+      "Set5_Redeemed",
+      "Set5_Knight"
+    ]
+  },
+  {
+    "name": "Lissandra",
+    "championId": "TFT5_Lissandra",
+    "cost": 1,
+    "traits": [
+      "Set5_Coven",
+      "Set5_Renewer"
     ]
   },
   {
     "name": "Lulu",
-    "championId": "TFT4_Lulu",
-    "cost": 2,
+    "championId": "TFT5_Lulu",
+    "cost": 3,
     "traits": [
-      "Set4_Elderwood",
-      "Set4_Mage"
+      "Set5_Hellion",
+      "Set5_Mystic"
     ]
   },
   {
-    "name": "Maokai",
-    "championId": "TFT4_Maokai",
-    "cost": 1,
+    "name": "Lux",
+    "championId": "TFT5_Lux",
+    "cost": 3,
     "traits": [
-      "Set4_Elderwood",
-      "Set4_Brawler"
+      "Set5_Redeemed",
+      "Set5_Mystic"
+    ]
+  },
+  {
+    "name": "Mordekaiser",
+    "championId": "TFT5_Mordekaiser",
+    "cost": 4,
+    "traits": [
+      "Set5_Dragonslayer",
+      "Set5_Legionnaire"
     ]
   },
   {
     "name": "Morgana",
-    "championId": "TFT4_Morgana",
-    "cost": 4,
+    "championId": "TFT5_Morgana",
+    "cost": 3,
     "traits": [
-      "Set4_Enlightened",
-      "Set4_Syphoner"
-    ]
-  },
-  {
-    "name": "Nasus",
-    "championId": "TFT4_Nasus",
-    "cost": 1,
-    "traits": [
-      "Divine",
-      "Set4_Syphoner"
+      "Set5_Nightbringer",
+      "Set5_Coven",
+      "Set5_Mystic"
     ]
   },
   {
     "name": "Nautilus",
-    "championId": "TFT4_Nautilus",
+    "championId": "TFT5_Nautilus",
     "cost": 2,
     "traits": [
-      "Set4_Fabled",
-      "Set4_Vanguard"
-    ]
-  },
-  {
-    "name": "Neeko",
-    "championId": "TFT4_Neeko",
-    "cost": 3,
-    "traits": [
-      "Set4_Fabled",
-      "Set4_Mystic"
+      "Set5_Ironclad",
+      "Set5_Knight"
     ]
   },
   {
     "name": "Nidalee",
-    "championId": "TFT4_Nidalee",
-    "cost": 1,
-    "traits": [
-      "Warlord",
-      "Sharpshooter"
-    ]
-  },
-  {
-    "name": "Nunu & Willump",
-    "championId": "TFT4_Nunu",
+    "championId": "TFT5_Nidalee",
     "cost": 3,
     "traits": [
-      "Set4_Elderwood",
-      "Set4_Brawler"
+      "Set5_Dawnbringer",
+      "Set5_Skirmisher"
     ]
   },
   {
-    "name": "Olaf",
-    "championId": "TFT4_Olaf",
+    "name": "Nocturne",
+    "championId": "TFT5_Nocturne",
+    "cost": 3,
+    "traits": [
+      "Set5_Revenant",
+      "Set5_Assassin"
+    ]
+  },
+  {
+    "name": "Nunu",
+    "championId": "TFT5_Nunu",
+    "cost": 3,
+    "traits": [
+      "Set5_Abomination",
+      "Set5_Brawler"
+    ]
+  },
+  {
+    "name": "Pantheon",
+    "championId": "TFT5_Pantheon",
+    "cost": 3,
+    "traits": [
+      "Set5_Dragonslayer",
+      "Set5_Skirmisher"
+    ]
+  },
+  {
+    "name": "Poppy",
+    "championId": "TFT5_Poppy",
+    "cost": 1,
+    "traits": [
+      "Set5_Hellion",
+      "Set5_Knight"
+    ]
+  },
+  {
+    "name": "Rell",
+    "championId": "TFT5_Rell",
     "cost": 4,
     "traits": [
-      "Set4_Dragonsoul",
-      "Set4_Slayer"
+      "Set5_Redeemed",
+      "Set5_Ironclad",
+      "Set5_Cavalier"
     ]
   },
   {
-    "name": "Ornn",
-    "championId": "TFT4_Ornn",
-    "cost": 5,
+    "name": "Riven",
+    "championId": "TFT5_Riven",
+    "cost": 3,
     "traits": [
-      "Set4_Elderwood",
-      "Set4_Vanguard",
-      "Set4_Blacksmith"
+      "Set5_Dawnbringer",
+      "Set5_Legionnaire"
     ]
   },
   {
-    "name": "Pyke",
-    "championId": "TFT4_Pyke",
-    "cost": 2,
+    "name": "Ryze",
+    "championId": "TFT5_Ryze",
+    "cost": 4,
     "traits": [
-      "Cultist",
-      "Set4_Assassin",
-      "Set4_Slayer"
-    ]
-  },
-  {
-    "name": "Rakan",
-    "championId": "TFT4_Rakan",
-    "cost": 2,
-    "traits": [
-      "Set4_Elderwood",
-      "Keeper"
-    ]
-  },
-  {
-    "name": "Samira",
-    "championId": "TFT4_Samira",
-    "cost": 5,
-    "traits": [
-      "Set4_Daredevil",
-      "Sharpshooter",
-      "Set4_Slayer"
+      "Set5_Forgotten",
+      "Set5_Abomination"
     ]
   },
   {
     "name": "Sejuani",
-    "championId": "TFT4_Sejuani",
-    "cost": 4,
+    "championId": "TFT5_Sejuani",
+    "cost": 2,
     "traits": [
-      "Fortune",
-      "Set4_Vanguard"
+      "Set5_Nightbringer",
+      "Set5_Cavalier"
     ]
   },
   {
     "name": "Sett",
-    "championId": "TFT4_Sett",
-    "cost": 5,
+    "championId": "TFT5_Sett",
+    "cost": 2,
     "traits": [
-      "Boss",
-      "Set4_Brawler"
+      "Set5_Draconic",
+      "Set5_Brawler"
     ]
   },
   {
-    "name": "Shen",
-    "championId": "TFT4_Shen",
+    "name": "Soraka",
+    "championId": "TFT5_Soraka",
+    "cost": 2,
+    "traits": [
+      "Set5_Dawnbringer",
+      "Set5_Renewer"
+    ]
+  },
+  {
+    "name": "Syndra",
+    "championId": "TFT5_Syndra",
+    "cost": 2,
+    "traits": [
+      "Set5_Redeemed",
+      "Set5_Invoker"
+    ]
+  },
+  {
+    "name": "Taric",
+    "championId": "TFT5_Taric",
     "cost": 4,
     "traits": [
-      "Set4_Ninja",
-      "Set4_Adept",
-      "Set4_Mystic"
-    ]
-  },
-  {
-    "name": "Shyvana",
-    "championId": "TFT4_Shyvana",
-    "cost": 3,
-    "traits": [
-      "Set4_Dragonsoul",
-      "Set4_Brawler"
-    ]
-  },
-  {
-    "name": "Sivir",
-    "championId": "TFT4_Sivir",
-    "cost": 3,
-    "traits": [
-      "Cultist",
-      "Sharpshooter"
-    ]
-  },
-  {
-    "name": "Swain",
-    "championId": "TFT4_Swain",
-    "cost": 5,
-    "traits": [
-      "Set4_Dragonsoul",
-      "Set4_Syphoner"
-    ]
-  },
-  {
-    "name": "Tahm Kench",
-    "championId": "TFT4_TahmKench",
-    "cost": 1,
-    "traits": [
-      "Fortune",
-      "Set4_Brawler"
-    ]
-  },
-  {
-    "name": "Talon",
-    "championId": "TFT4_Talon",
-    "cost": 4,
-    "traits": [
-      "Set4_Enlightened",
-      "Set4_Assassin"
+      "Set5_Verdant",
+      "Set5_Knight"
     ]
   },
   {
     "name": "Teemo",
-    "championId": "TFT4_Teemo",
+    "championId": "TFT5_Teemo",
+    "cost": 5,
+    "traits": [
+      "Set5_Cruel",
+      "Set5_Hellion",
+      "Set5_Invoker"
+    ]
+  },
+  {
+    "name": "Thresh",
+    "championId": "TFT5_Thresh",
     "cost": 2,
     "traits": [
-      "Set4_Spirit",
-      "Sharpshooter"
+      "Set5_Forgotten",
+      "Set5_Knight"
     ]
   },
   {
-    "name": "Tristana",
-    "championId": "TFT4_Tristana",
+    "name": "Trundle",
+    "championId": "TFT5_Trundle",
+    "cost": 2,
+    "traits": [
+      "Set5_Dragonslayer",
+      "Set5_Skirmisher"
+    ]
+  },
+  {
+    "name": "Udyr",
+    "championId": "TFT5_Udyr",
     "cost": 1,
     "traits": [
-      "Set4_Dragonsoul",
-      "Sharpshooter"
+      "Set5_Draconic",
+      "Set5_Skirmisher"
     ]
   },
   {
-    "name": "Tryndamere",
-    "championId": "TFT4_Tryndamere",
+    "name": "Varus",
+    "championId": "TFT5_Varus",
+    "cost": 2,
+    "traits": [
+      "Set5_Redeemed",
+      "Set5_Ranger"
+    ]
+  },
+  {
+    "name": "Vayne",
+    "championId": "TFT5_Vayne",
+    "cost": 1,
+    "traits": [
+      "Set5_Forgotten",
+      "Set5_Ranger"
+    ]
+  },
+  {
+    "name": "Vel'Koz",
+    "championId": "TFT5_Velkoz",
     "cost": 4,
     "traits": [
-      "Warlord",
-      "Set4_Slayer",
-      "Duelist"
+      "Set5_Redeemed",
+      "Set5_Spellweaver"
     ]
   },
   {
-    "name": "Twisted Fate",
-    "championId": "TFT4_TwistedFate",
-    "cost": 1,
+    "name": "Viego",
+    "championId": "TFT5_Viego",
+    "cost": 5,
     "traits": [
-      "Cultist",
-      "Set4_Mage"
+      "Set5_Forgotten",
+      "Set5_Skirmisher",
+      "Set5_Assassin"
     ]
   },
   {
-    "name": "Veigar",
-    "championId": "TFT4_Veigar",
-    "cost": 3,
-    "traits": [
-      "Set4_Elderwood",
-      "Set4_Mage"
-    ]
-  },
-  {
-    "name": "Vi",
-    "championId": "TFT4_Vi",
+    "name": "Viktor",
+    "championId": "TFT5_Viktor",
     "cost": 2,
     "traits": [
-      "Warlord",
-      "Set4_Brawler"
+      "Set5_Forgotten",
+      "Set5_Spellweaver"
     ]
   },
   {
     "name": "Vladimir",
-    "championId": "TFT4_Vladimir",
-    "cost": 2,
-    "traits": [
-      "Cultist",
-      "Set4_Syphoner"
-    ]
-  },
-  {
-    "name": "Wukong",
-    "championId": "TFT4_Wukong",
+    "championId": "TFT5_Vladimir",
     "cost": 1,
     "traits": [
-      "Divine",
-      "Set4_Vanguard"
+      "Set5_Nightbringer",
+      "Set5_Renewer"
     ]
   },
   {
-    "name": "Xayah",
-    "championId": "TFT4_Xayah",
-    "cost": 4,
+    "name": "Volibear",
+    "championId": "TFT5_Volibear",
+    "cost": 5,
     "traits": [
-      "Set4_Elderwood",
-      "Set4_Executioner",
-      "Keeper"
+      "Set5_Revenant",
+      "Set5_Brawler"
+    ]
+  },
+  {
+    "name": "Warwick",
+    "championId": "TFT5_Warwick",
+    "cost": 1,
+    "traits": [
+      "Set5_Forgotten",
+      "Set5_Brawler"
     ]
   },
   {
     "name": "Yasuo",
-    "championId": "TFT4_Yasuo",
-    "cost": 1,
-    "traits": [
-      "Set4_Exile",
-      "Duelist"
-    ]
-  },
-  {
-    "name": "Yone",
-    "championId": "TFT4_Yone",
-    "cost": 5,
-    "traits": [
-      "Set4_Exile",
-      "Set4_Adept"
-    ]
-  },
-  {
-    "name": "Yuumi",
-    "championId": "TFT4_Yuumi",
+    "championId": "TFT5_Yasuo",
     "cost": 3,
     "traits": [
-      "Set4_Spirit",
-      "Set4_Mystic"
+      "Set5_Nightbringer",
+      "Set5_Legionnaire"
     ]
   },
   {
-    "name": "Zed",
-    "championId": "TFT4_Zed",
-    "cost": 2,
+    "name": "Ziggs",
+    "championId": "TFT5_Ziggs",
+    "cost": 1,
     "traits": [
-      "Set4_Ninja",
-      "Set4_Slayer"
+      "Set5_Hellion",
+      "Set5_Spellweaver"
     ]
   },
   {
-    "name": "Zilean",
-    "championId": "TFT4_Zilean",
-    "cost": 5,
+    "name": "Zyra",
+    "championId": "TFT5_Zyra",
+    "cost": 3,
     "traits": [
-      "Cultist",
-      "Set4_Mystic"
+      "Set5_Draconic",
+      "Set5_Spellweaver"
     ]
   }
 ]

@@ -10,13 +10,16 @@ Don't forget that new patchs will be added right after their release on Riot Gam
 Since patch 13.1 of _League of Legends_, data from _Teamfight Tactics_ was included with _League_ ones, in the same DDragon bundle. This repository was stopped when patch 13.12 (and set 9) was released, and only the _LoL_ one was updated since then. On June 12th 2026, Riot Games annonced that [_TFT_ is moving to Unreal Engine](https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/faq-tft-unreal-migration/) with the release of set 18 on August 12th 2026. This repository has been reactivated, and all data from _TFT_ has been moved from the _League_ DDragon to this one, including additional content and past content.
 
 ## Additional contents in this repository
-This repository does not contain any additional content for now.
+This repository contains some additional files, not included in Data Dragon :
+
+- Icons of all turbo badges (used for _Hyper Roll_ game mode)
 
 ## Patchs added to this repository for the current season
 This list contains patchs from actual season. For all previous patchs of all previous seasons, you can check [OLDPATCHS.md](OLDPATCHS.md).
 
 The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Corresponding sets releases will be explicitly written next to the patch number. Here's a list of all patchs of current seasons included in this repository :
 
+- (May 1th, 2021) 11.9 - Set 5 (Reckoning)
 - (January 21th, 2021) 11.2 - Set 4 mid-set (Fates: Festival of Beasts)
 - (December 9th, 2020) 10.19 - Set 4 (Fates)
 - (December 9th, 2020) 10.12 - Set 3 mid-set (Galaxies: Return to the Stars)
