@@ -9,6 +9,8 @@ Don't forget that new patchs will be added right after their release on Riot Gam
 
 Since patch 13.1 of _League of Legends_, data from _Teamfight Tactics_ was included with _League_ ones, in the same DDragon bundle. This repository was stopped when patch 13.12 (and set 9) was released, and only the _LoL_ one was updated since then. On June 12th 2026, Riot Games annonced that [_TFT_ is moving to Unreal Engine](https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/faq-tft-unreal-migration/) with the release of set 18 on August 12th 2026. This repository has been reactivated, and all data from _TFT_ has been moved from the _League_ DDragon to this one, including additional content and past content.
 
+Note that, even if _Teamfight Tactics_ has it own patch naming scheme since the third patch of set 13, this change isn't reflected in this repository before set 16 to avoid any conflict with the _League of Legends_ patch naming scheme.
+
 ## Additional contents in this repository
 This repository contains some additional files, not included in Data Dragon :
 
@@ -20,14 +22,7 @@ This list contains patchs from actual set. For all previous patchs of all previo
 
 The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Corresponding sets releases will be explicitly written next to the patch number. Here's a list of all patchs of current sets included in this repository :
 
-- (June 13th, 2026) 14.22
-- (June 13th, 2026) 14.21
-- (June 13th, 2026) 14.20
-- (June 13th, 2026) 14.19
-- (June 13th, 2026) 14.18
-- (June 13th, 2026) 14.17
-- (June 13th, 2026) 14.16
-- (June 13th, 2026) 14.15 - Set 12 (Magic N' Mayhem)
+- (June 13th, 2026) 14.23 - Set 13 (Into the Arcane)
 
 ## Missing patchs for the current set
 There is currently no missing patch for the current set.
