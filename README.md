@@ -17,5 +17,6 @@ This list contains patchs from actual season. For all previous patchs of all pre
 
 The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Corresponding sets releases will be explicitly written next to the patch number. Here's a list of all patchs of current seasons included in this repository :
 
+- (December 9th, 2020) 10.12 - Set 3 mid-set (Galaxies: Return to the Stars)
 - (December 9th, 2020) 10.6 - Set 3 (Galaxies)
 - (December 9th, 2020) 9.22 - Set 2 (Rise of the Elements)
