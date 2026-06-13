@@ -20,9 +20,10 @@ This list contains patchs from actual set. For all previous patchs of all previo
 
 The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Corresponding sets releases will be explicitly written next to the patch number. Here's a list of all patchs of current sets included in this repository :
 
+- (June 13th, 2026) 14.18
 - (June 13th, 2026) 14.17
 - (June 13th, 2026) 14.16
-- (June 13th, 2026) 14.15 - Set 11 (Magic N' Mayhem)
+- (June 13th, 2026) 14.15 - Set 12 (Magic N' Mayhem)
 
 ## Missing patchs for the current set
 There is currently no missing patch for the current set.
