@@ -1,132 +1,404 @@
 [
   {
-    "name": "Alchemist",
-    "innate": "Alchemists move through other units and never stop moving."
-  },
-  {
-    "name": "Assassin",
-    "innate": "Assassins sneak across the battlefield at the start of combat, placing themselves opposite from where they started.",
-    "description": "Deploying multiple Assassins grant them critical strike chance and increased critical strike damage, increasing with more Assassins.",
-    "sets": [3, 6]
-  },
-  {
-    "name": "Avatar",
-    "description": "An Avatar's element is counted twice for trait bonuses.",
-  },
-  {
-    "name": "Berserker",
-    "innate": "At the start of combat, Berserkers leap to the nearest enemy.",
-    "description": "Deploying multiple Berserkers grants their attacks a chance to deal damage in a cone behind the target. The chance increases with more Berserkers.",
-    "sets": [3, 6]
-  },
-  {
+    "key": "Set3_Blademaster",
     "name": "Blademaster",
-    "description": "Deploying multiple Blademasters grants their attacks a chance to hit extra times, increasing with more Blademasters.",
-    "sets": [2, 4, 6]
+    "description": "Blademasters' Basic Attacks have a chance to trigger two additional attacks against their target. These additional attacks deal damage like Basic Attacks and trigger on-hit effects.",
+    "type": "class",
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 3,
+        "max": 5
+      },
+      {
+        "style": "gold",
+        "min": 6,
+        "max": 8
+      },
+      {
+        "style": "chromatic",
+        "min": 9
+      }
+    ]
   },
   {
-    "name": "Cloud",
-    "description": "Deploying multiple Cloud champions grants your team dodge change. The dodge chance increases if more Cloud champions are deployed.",
-    "sets": [2, 3, 4]
+    "key": "Blaster",
+    "name": "Blaster",
+    "description": "Every fourth Basic Attack from a Blaster fires additional attacks at random enemies. These additional attacks deal damage like Basic Attacks, trigger on-hit effects, and can critically hit.",
+    "type": "class",
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "style": "gold",
+        "min": 4
+      }
+    ]
   },
   {
-    "name": "Crystal",
-    "description": "Deploying multiple Crystal champions grants them a maximum amount of damage they can take from a single attack or ability hit.",
-    "sets": [2, 4]
+    "key": "Set3_Brawler",
+    "name": "Brawler",
+    "description": "Brawlers gain bonus Maximum Health.",
+    "type": "class",
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "style": "gold",
+        "min": 4
+      }
+    ]
   },
   {
-    "name": "Desert",
-    "description": "Deploying multiple Desert champions reduces the enemy team's armor. The reduction increases if more Desert champions are deployed.",
-    "sets": [2, 4]
+    "key": "Set3_Celestial",
+    "name": "Celestial",
+    "description": "All allies heal for some of the damage they deal with spells and attacks.",
+    "type": "origin",
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "style": "silver",
+        "min": 4,
+        "max": 5
+      },
+      {
+        "style": "gold",
+        "min": 6
+      }
+    ]
   },
   {
-    "name": "Druid",
-    "description": "Deploying two Druids grants all Druids health regeneration.",
-    "sets": [2]
+    "key": "Chrono",
+    "name": "Chrono",
+    "description": "All allies gain attack speed every few seconds.",
+    "type": "origin",
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "style": "silver",
+        "min": 4,
+        "max": 5
+      },
+      {
+        "style": "gold",
+        "min": 6
+      }
+    ]
   },
   {
-    "name": "Electric",
-    "description": "Deploying multiple Electric champions causes them to damage adjacent enemies whenever they critically strike or are critically struck.",
-    "sets": [2, 3, 4]
+    "key": "Cybernetic",
+    "name": "Cybernetic",
+    "description": "Cybernetic champions with at least one item gain Health and Attack Damage.",
+    "type": "origin",
+    "sets": [
+      {
+        "style": "silver",
+        "min": 3,
+        "max": 5
+      },
+      {
+        "style": "gold",
+        "min": 6
+      }
+    ]
   },
   {
-    "name": "Glacial",
-    "description": "Deploying multiple Glacial champions grants their attacks a chance to stun their target, increasing with more Glacials.",
-    "sets": [2, 4, 6]
+    "key": "DarkStar",
+    "name": "Dark Star",
+    "description": "When a Dark Star champion dies they give increased damage, plus any previous stacks of this effect, to the nearest ally Dark Star champion.",
+    "type": "origin",
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 3,
+        "max": 5
+      },
+      {
+        "style": "gold",
+        "min": 6,
+        "max": 8
+      },
+      {
+        "style": "chromatic",
+        "min": 9
+      }
+    ]
   },
   {
-    "name": "Inferno",
-    "description": "Deploying multiple Inferno champions causes their abilities to temporarily ignite the ground beneath their targets, damaging enemies standing in the fire. Damage increases with more Inferno champions.",
-    "sets": [3, 6, 9]
+    "key": "Demolitionist",
+    "name": "Demolitionist",
+    "description": "Damage from Demolitionists' spellcasts stuns their targets for a few seconds. (Once per spellcast)",
+    "type": "class",
+    "sets": [
+      {
+        "style": "gold",
+        "min": 2
+      }
+    ]
   },
   {
-    "name": "Light",
-    "description": "Deploying multiple Light champions causes them to, on death, heal other Light champions for a percentage of their max health and grant them attack speed for the remainer of the round (stacking with multiple Light champion deaths). Heal and attack speed increse with more Light champions.",
-    "sets": [3, 6, 9]
+    "key": "Infiltrator",
+    "name": "Infiltrator",
+    "innate": "At the start of combat, Infiltrators move to the enemy's backline.",
+    "description": "Infiltrators gain Attack Speed for a few seconds at the start of combat.",
+    "type": "class",
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "style": "gold",
+        "min": 4,
+        "max": 5
+      },
+      {
+        "style": "chromatic",
+        "min": 6
+      }
+    ]
   },
   {
-    "name": "Lunar",
-    "description": "Deploying multiple Lunar champions grants all allies critical strike chance, critical strike damage, and spell power, increasing over time.",
-    "sets": [2]
+    "key": "ManaReaver",
+    "name": "Mana-Reaver",
+    "description": "Mana-Reavers' Basic Attacks increase the mana cost of their target's next spellcast by a percentage.",
+    "type": "class",
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "style": "gold",
+        "min": 4
+      }
+    ]
   },
   {
-    "name": "Mage",
-    "description": "Deploying multiple Mages grants them a chance after casting an ability to cast it again. This chance increases with more Mages.",
-    "sets": [3, 6]
+    "key": "MechPilot",
+    "name": "Mech-Pilot",
+    "description": "At the start of combat, three random Mech-Pilots are teleported into a Super-Mech. The Super-Mech has the combined Health, Attack Damage, and Traits of its pilots, as well as 3 random items from among them. When the Super-Mech dies the Pilots are ejected, granted Mana, and continue to fight.",
+    "type": "origin",
+    "sets": [
+      {
+        "style": "gold",
+        "min": 3
+      }
+    ]
   },
   {
-    "name": "Mountain",
-    "description": "Deploying multiple Mountain champions grants a massive shield to a random ally at the start of combat.",
-    "sets": [2]
+    "key": "Mercenary",
+    "name": "Mercenary",
+    "innate": "Upgrades for Mercenaries' spells have a chance to appear in the shop.",
+    "type": "class",
+    "sets": [
+      {
+        "style": "gold",
+        "min": 1
+      }
+    ]
   },
   {
+    "key": "Set3_Mystic",
     "name": "Mystic",
-    "description": "Deploying multiple Mystics grants all allies magic resist, increasing with more Mystics.",
-    "sets": [2, 4]
+    "description": "All allies gain Magic Resistance.",
+    "type": "class",
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "style": "gold",
+        "min": 4
+      }
+    ]
   },
   {
-    "name": "Ocean",
-    "description": "Deploying multiple Ocean champions periodically grants allies mana. The amount increases with more Ocean champions.",
-    "sets": [2, 4, 6]
+    "key": "Protector",
+    "name": "Protector",
+    "description": "Protectors shield themselves for a few seconds whenever they cast a spell. This shield doesn't stack.",
+    "type": "class",
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "style": "gold",
+        "min": 4,
+        "max": 5
+      },
+      {
+        "style": "chromatic",
+        "min": 6
+      }
+    ]
   },
   {
-    "name": "Poison",
-    "description": "Deploying mutliple Poison champions causes their damaging attacks and abilities to increase the mana costs of their targets' abilities.",
-    "sets": [3]
+    "key": "Rebel",
+    "name": "Rebel",
+    "description": "At the start of combat, Rebels gain a shield and bonus damage for each adjacent Rebel. The shield lasts for a few seconds.",
+    "type": "origin",
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 3,
+        "max": 5
+      },
+      {
+        "style": "gold",
+        "min": 6,
+        "max": 8
+      },
+      {
+        "style": "chromatic",
+        "min": 9
+      }
+    ]
   },
   {
-    "name": "Predator",
-    "description": "Deploying multiple Predators causes their attacks and abilities to immediately kill low-health enemies.",
-    "sets": [3]
+    "key": "Sniper",
+    "name": "Sniper",
+    "description": "Snipers deal percentage increased damage for each hex between themselves and their target.",
+    "type": "class",
+    "sets": [
+      {
+        "style": "gold",
+        "min": 2
+      }
+    ]
   },
   {
-    "name": "Ranger",
-    "description": "Deploying multiple Rangers periodically grants them a chance to gain a burst of attack speed, increasing with more Rangers.",
-    "sets": [2, 4, 6]
+    "key": "Set3_Sorcerer",
+    "name": "Sorcerer",
+    "description": "All allies have increased Spell Power.",
+    "type": "class",
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "style": "silver",
+        "min": 4,
+        "max": 5
+      },
+      {
+        "style": "gold",
+        "min": 6,
+        "max": 7
+      },
+      {
+        "style": "chromatic",
+        "min": 8
+      }
+    ]
   },
   {
-    "name": "Shadow",
-    "description": "Deploying multiple Shadow champions causes them to deal increased damage for the first few seconds of combat, as well as for a few seconds when they score a takedown. Deploying more Shadow champions causes all of them to deal increased damage when any of them score a takedown.",
-    "sets": [2, 4]
+    "key": "SpacePirate",
+    "name": "Space Pirate",
+    "description": "Whenever a Space Pirate lands a killing blow on a Champion there is a chance to drop extra loot.",
+    "type": "origin",
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "style": "gold",
+        "min": 4
+      }
+    ]
   },
   {
-    "name": "Steel",
-    "description": "Deploying multiple Steel champions causes them to briefly become immune to damage when they drop below 50% health.",
-    "sets": [2, 3, 4]
+    "key": "StarGuardian",
+    "name": "Star Guardian",
+    "description": "Star Guardians' spellcasts grant Mana to other Star Guardians, spread among them.",
+    "type": "origin",
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 3,
+        "max": 5
+      },
+      {
+        "style": "gold",
+        "min": 6
+      }
+    ]
   },
   {
-    "name": "Summoner",
-    "description": "Deploying multiple Summoners increases the health and duration of their spawned allies, increasing with more Summoners. Summoners' pets benefit from Element and Class bonuses, but don't count as additional units toward activiating higher levels of those bonuses.",
-    "sets": [3, 6]
+    "key": "Starship",
+    "name": "Starship",
+    "innate": "Starships gain mana per second, maneuver around the board, and are immune to movement impairing effects, but can't make Basic Attacks.",
+    "type": "class",
+    "sets": [
+      {
+        "style": "gold",
+        "min": 1
+      }
+    ]
   },
   {
-    "name": "Warden",
-    "description": "Deploying multiple Wardens grants them armor, increasing with more Wardens.",
-    "sets": [2, 4, 6]
+    "key": "Valkyrie",
+    "name": "Valkyrie",
+    "description": "Valkyrie attacks and spells always critically hit targets below a percentage health.",
+    "type": "origin",
+    "sets": [
+      {
+        "style": "gold",
+        "min": 2
+      }
+    ]
   },
   {
-    "name": "Woodland",
-    "description": "Deploying multiple Woodland champions causes one of them to randomly create a clone of themselves (including items) at the start of combat.",
-    "sets": [3]
+    "key": "Vanguard",
+    "name": "Vanguard",
+    "description": "Vanguard champions gain bonus Armor.",
+    "type": "class",
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "style": "gold",
+        "min": 4
+      }
+    ]
+  },
+  {
+    "key": "Set3_Void",
+    "name": "Void",
+    "description": "Attacks and spells from Void champions deal true damage.",
+    "type": "origin",
+    "sets": [
+      {
+        "style": "gold",
+        "min": 3
+      }
+    ]
   }
 ]
