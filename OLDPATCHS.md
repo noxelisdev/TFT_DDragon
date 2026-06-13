@@ -6,6 +6,16 @@ This document list all patchs from previous sets added to this repository. For p
 ## List of all patchs added from previous sets
 The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Here's a list of all patchs included in this repository so far (current set excluded) :
 
+- (June 13th, 2026) 14.14
+- (June 13th, 2026) 14.13
+- (June 13th, 2026) 14.12
+- (June 13th, 2026) 14.11
+- (June 13th, 2026) 14.10
+- (June 13th, 2026) 14.9
+- (June 13th, 2026) 14.8
+- (June 13th, 2026) 14.7
+- (June 13th, 2026) 14.6 - Set 11 (Inkborn Fables)
+
 - (June 13th, 2026) 14.5
 - (June 13th, 2026) 14.4
 - (June 13th, 2026) 14.3

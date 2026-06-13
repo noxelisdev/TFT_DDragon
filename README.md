@@ -20,15 +20,7 @@ This list contains patchs from actual set. For all previous patchs of all previo
 
 The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Corresponding sets releases will be explicitly written next to the patch number. Here's a list of all patchs of current sets included in this repository :
 
-- (June 13th, 2026) 14.14
-- (June 13th, 2026) 14.13
-- (June 13th, 2026) 14.12
-- (June 13th, 2026) 14.11
-- (June 13th, 2026) 14.10
-- (June 13th, 2026) 14.9
-- (June 13th, 2026) 14.8
-- (June 13th, 2026) 14.7
-- (June 13th, 2026) 14.6 - Set 11 (Inkborn Fables)
+- (June 13th, 2026) 14.15 - Set 11 (Magic N' Mayhem)
 
 ## Missing patchs for the current set
 There is currently no missing patch for the current set.
