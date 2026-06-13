@@ -22,14 +22,7 @@ This list contains patchs from actual set. For all previous patchs of all previo
 
 The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Corresponding sets releases will be explicitly written next to the patch number. Here's a list of all patchs of current sets included in this repository :
 
-- (June 13th, 2026) 15.14
-- (June 13th, 2026) 15.13
-- (June 13th, 2026) 15.12
-- (June 13th, 2026) 15.11
-- (June 13th, 2026) 15.10
-- (June 13th, 2026) 15.9
-- (June 13th, 2026) 15.8
-- (June 13th, 2026) 15.7 - Set 14 (Cyber City)
+- (June 13th, 2026) 15.15 - Set 15 (K.O. Coliseum)
 
 ## Missing patchs for the current set
 There is currently no missing patch for the current set.
