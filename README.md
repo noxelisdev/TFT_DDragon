@@ -19,6 +19,7 @@ This list contains patchs from actual season. For all previous patchs of all pre
 
 The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Corresponding sets releases will be explicitly written next to the patch number. Here's a list of all patchs of current seasons included in this repository :
 
+- (August 1st, 2021) 11.15 - Set 5 mid-set (Reckoning: Dawn of Heroes)
 - (May 1th, 2021) 11.9 - Set 5 (Reckoning)
 - (January 21th, 2021) 11.2 - Set 4 mid-set (Fates: Festival of Beasts)
 - (December 9th, 2020) 10.19 - Set 4 (Fates)

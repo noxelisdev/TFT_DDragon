@@ -57,7 +57,12 @@
       },
       {
         "style": "gold",
-        "min": 4
+        "min": 4,
+        "max": 5
+      },
+      {
+        "style": "chromatic",
+        "min": 6
       }
     ]
   },
@@ -97,14 +102,24 @@
     ]
   },
   {
-    "key": "Set5_Coven",
-    "name": "Coven",
-    "description": "At the start of combat, the champion nearest to the center of your Coven champions is chosen as the Coven Leader, gaining bonus Ability Power. Each time a Coven champion casts, a percentage of the cost is bestowed upon the Coven Leader as Mana.",
-    "type": "origin",
+    "key": "Set5_Cannoneer",
+    "name": "Cannoneers",
+    "description": "Every 5th Cannoneer attack is replaced with a cannon shot that deals a percent of that attack's damage in an explosion around the target as physical damage.",
+    "type": "class",
     "sets": [
       {
+        "style": "bronze",
+        "min": 2,
+        "max": 3
+      },
+      {
         "style": "gold",
-        "min": 3
+        "min": 4,
+        "max": 5
+      },
+      {
+        "style": "chromatic",
+        "min": 6
       }
     ]
   },
@@ -165,9 +180,9 @@
     ]
   },
   {
-    "key": "Set5_Dragonslayer",
-    "name": "Dragonslayer",
-    "description": "Dragonslayers always gain bonus Ability Power. After the first Dragonslayer ally scores a takedown on an enemy with certain amount of Health, all allies gain additional Ability Power for the rest of combat.",
+    "key": "Set5_Forgotten",
+    "name": "Forgotten",
+    "description": "Forgotten champions have bonus Attack Damage and Ability Power. Each Shadow item held by a Forgotten champion increases these bonuses by a percentage on all Forgotten champions, stacking up several times.",
     "type": "origin",
     "sets": [
       {
@@ -176,54 +191,18 @@
         "max": 3
       },
       {
-        "style": "gold",
-        "min": 4
-      }
-    ]
-  },
-  {
-    "key": "Set5_Eternal",
-    "name": "Eternal",
-    "description": "Wolf separates from Lamb, and can be placed anywhere on the battlefield. Wolf does not count toward your team size, and receives all of Lamb's stat bonuses.",
-    "type": "origin",
-    "sets": [
-      {
-        "style": "gold",
-        "min": 1
-      }
-    ]
-  },
-  {
-    "key": "Set5_Forgotten",
-    "name": "Forgotten",
-    "description": "Forgotten champions have bonus Attack Damage and Ability Power. Each Shadow item held by a Forgotten champion increases these bonuses by a percentage on all Forgotten champions, stacking up several times.",
-    "type": "origin",
-    "sets": [
-      {
-        "style": "bronze",
-        "min": 3,
+        "style": "silver",
+        "min": 4,
         "max": 5
       },
       {
-        "style": "silver",
+        "style": "gold",
         "min": 6,
-        "max": 8
+        "max": 7
       },
       {
-        "style": "gold",
-        "min": 9
-      }
-    ]
-  },
-  {
-    "key": "Set5_GodKing",
-    "name": "God-Kings",
-    "description": "God-Kings deal bonus damage to enemies who have at least one of their Rival Traits. This effect is only active when you have exactly 1 unique God-King. Garen's Rivals: Forgotten, Nightbringer, Coven, Hellion, Dragonslayer, Abomination, Revenant. Darius' Rivals: Redeemed, Dawnbringer, Verdant, Draconic, Ironclad.",
-    "type": "class",
-    "sets": [
-      {
-        "style": "gold",
-        "min": 1
+        "style": "chromatic",
+        "min": 8
       }
     ]
   },
@@ -235,17 +214,34 @@
     "sets": [
       {
         "style": "bronze",
-        "min": 3,
-        "max": 4
+        "min": 2,
+        "max": 3
+      },
+      {
+        "style": "silver",
+        "min": 4,
+        "max": 5
       },
       {
         "style": "gold",
-        "min": 5,
-        "max": 6
+        "min": 6,
+        "max": 7
       },
       {
         "style": "chromatic",
-        "min": 7
+        "min": 8
+      }
+    ]
+  },
+  {
+    "key": "Set5_Inanimate",
+    "name": "Inanimate",
+    "description": "At the start of combat, Inanimate champions summon Harrowing Mist in all adjacent hexes surrounding them for several seconds, granting all allies within damage reduction while they remain within the mist.",
+    "type": "origin",
+    "sets": [
+      {
+        "style": "gold",
+        "min": 1
       }
     ]
   },
@@ -279,7 +275,12 @@
       },
       {
         "style": "gold",
-        "min": 3
+        "min": 3,
+        "max": 3
+      },
+      {
+        "style": "chromatic",
+        "min": 4
       }
     ]
   },
@@ -350,7 +351,12 @@
       },
       {
         "style": "gold",
-        "min": 4
+        "min": 4,
+        "max": 4
+      },
+      {
+        "style": "chromatic",
+        "min": 5
       }
     ]
   },
@@ -394,7 +400,12 @@
       },
       {
         "style": "gold",
-        "min": 4
+        "min": 4,
+        "max": 5
+      },
+      {
+        "style": "chromatic",
+        "min": 6
       }
     ]
   },
@@ -433,7 +444,12 @@
       },
       {
         "style": "gold",
-        "min": 4
+        "min": 4,
+        "max": 5
+      },
+      {
+        "style": "chromatic",
+        "min": 6
       }
     ]
   },
@@ -449,9 +465,40 @@
         "max": 2
       },
       {
-        "style": "gold",
+        "style": "silver",
         "min": 3,
         "max": 3
+      },
+      {
+        "style": "gold",
+        "min": 4,
+        "max": 4
+      },
+      {
+        "style": "chromatic",
+        "min": 5
+      }
+    ]
+  },
+  {
+    "key": "Set5_Sentinel",
+    "name": "Sentinel",
+    "description": "At start of combat, the Sentinel with the highest Health gains a shield that grants Attack Speed each time it is applied. When the shield is destroyed or expires it will pass to the ally with the lowest percent Health.",
+    "type": "origin",
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 3,
+        "max": 5
+      },
+      {
+        "style": "gold",
+        "min": 6,
+        "max": 8
+      },
+      {
+        "style": "chromatic",
+        "min": 9
       }
     ]
   },
@@ -468,7 +515,12 @@
       },
       {
         "style": "gold",
-        "min": 6
+        "min": 6,
+        "max": 8
+      },
+      {
+        "style": "chromatic",
+        "min": 9
       }
     ]
   },
@@ -485,24 +537,24 @@
       },
       {
         "style": "gold",
-        "min": 4
+        "min": 4,
+        "max": 5
+      },
+      {
+        "style": "chromatic",
+        "min": 6
       }
     ]
   },
   {
-    "key": "Set5_Verdant",
-    "name": "Verdant",
-    "description": "Champions that start combat adjacent to at least one Verdant ally are immune to crowd control for a duration.",
+    "key": "Set5_Victorious",
+    "name": "Victorious",
+    "description": "When Victorious champions score a kill, their next attack is empowered to deal a percentage of the target's missing Health as bonus magic damage.",
     "type": "origin",
     "sets": [
       {
-        "style": "bronze",
-        "min": 2,
-        "max": 2
-      },
-      {
         "style": "gold",
-        "min": 3
+        "min": 1
       }
     ]
   }
