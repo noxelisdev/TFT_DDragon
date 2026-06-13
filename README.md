@@ -17,6 +17,7 @@ This list contains patchs from actual season. For all previous patchs of all pre
 
 The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Corresponding sets releases will be explicitly written next to the patch number. Here's a list of all patchs of current seasons included in this repository :
 
+- (January 21th, 2021) 11.2 - Set 4 mid-set (Fates: Festival of Beasts)
 - (December 9th, 2020) 10.19 - Set 4 (Fates)
 - (December 9th, 2020) 10.12 - Set 3 mid-set (Galaxies: Return to the Stars)
 - (December 9th, 2020) 10.6 - Set 3 (Galaxies)
