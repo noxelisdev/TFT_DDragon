@@ -6,6 +6,15 @@ This document list all patchs from previous sets added to this repository. For p
 ## List of all patchs added from previous sets
 The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Here's a list of all patchs included in this repository so far (current set excluded) :
 
+- (July 28th, 2026) 17.8
+- (July 15th, 2026) 17.7
+- (June 23rd, 2026) 17.6
+- (June 13th, 2026) 17.5
+- (June 13th, 2026) 17.4
+- (June 13th, 2026) 17.3
+- (June 13th, 2026) 17.2
+- (June 13th, 2026) 17.1 - Set 17 (Space Gods)
+
 - (June 13th, 2026) 16.8
 - (June 13th, 2026) 16.7
 - (June 13th, 2026) 16.6
