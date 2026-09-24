@@ -22,6 +22,8 @@ This list contains patchs from actual set. For all previous patchs of all previo
 
 The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Corresponding sets releases will be explicitly written next to the patch number. Here's a list of all patchs of current sets included in this repository :
 
+- (September 24th, 2026) 18.3
+- (September 9th, 2026) 18.2
 - (August 25th, 2026) 18.1 - Set 17 (Enchanted Wilds)
 
 ## Missing patchs for the current set
