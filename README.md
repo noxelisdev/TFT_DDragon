@@ -22,6 +22,8 @@ This list contains patchs from actual set. For all previous patchs of all previo
 
 The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Corresponding sets releases will be explicitly written next to the patch number. Here's a list of all patchs of current sets included in this repository :
 
+- (November 17th, 2026) 18.7
+- (November 4th, 2026) 18.6
 - (October 21st, 2026) 18.5
 - (October 7th, 2026) 18.4
 - (September 24th, 2026) 18.3
@@ -46,3 +48,7 @@ There is also some differences between official _Data Dragon_ files and the temp
 - In `items.json`, `isElusive` and `isRadiant` doesn't exists.
 
 Sets 6 and 7 have been recreated, but their corresponding mid-sets will not be available in this repository.
+
+## Note about emotes
+
+TFT emotes are included as images in this repository. There is also data files, in JSON, which includes information about these emotes. You can find these localized files inside [_League of Legends' Data Dragon repository_](https://github.com/noxelisdev/LoL_DDragon), inside `latest/data/[lang_code]` folder.
